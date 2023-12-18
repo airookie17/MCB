@@ -1,0 +1,1913 @@
+2023-04-24 10:00:10,795 - netlog - INFO - ================================================
+2023-04-24 10:00:10,798 - netlog - INFO - Learning Rate: 0.001
+2023-04-24 10:00:10,798 - netlog - INFO - Momentum: 0.9
+2023-04-24 10:00:10,798 - netlog - INFO - Regularization Weight Decay: 0
+2023-04-24 10:00:10,798 - netlog - INFO - Classifier: MobileNetV2
+2023-04-24 10:00:10,798 - netlog - INFO - Dataset: mcb_a
+2023-04-24 10:00:10,798 - netlog - INFO - Nbr of Epochs: 100
+2023-04-24 10:00:10,798 - netlog - INFO - Lamda: 0.05
+2023-04-24 10:00:10,798 - netlog - INFO - Alpha: 5
+2023-04-24 10:00:10,798 - netlog - INFO - ================================================
+2023-04-24 10:00:15,350 - netlog - INFO - Start Training
+2023-04-24 10:00:21,853 - netlog - INFO - ==>>> epoch:0, batch index: 0, loss:2.544246196746826
+2023-04-24 10:00:38,336 - netlog - INFO - ==>>> epoch:0, batch index: 50, loss:2.8739869594573975
+2023-04-24 10:00:54,495 - netlog - INFO - ==>>> epoch:0, batch index: 100, loss:1.928605318069458
+2023-04-24 10:01:08,530 - netlog - INFO - ==>>> epoch:0, batch index: 150, loss:1.5835318565368652
+2023-04-24 10:01:21,579 - netlog - INFO - ==>>> epoch:0, batch index: 200, loss:1.8693617582321167
+2023-04-24 10:01:36,188 - netlog - INFO - ==>>> epoch:0, batch index: 250, loss:1.2956457138061523
+2023-04-24 10:01:49,994 - netlog - INFO - ==>>> epoch:0, batch index: 300, loss:1.7741693258285522
+2023-04-24 10:02:03,767 - netlog - INFO - ==>>> epoch:0, batch index: 350, loss:1.6500385999679565
+2023-04-24 10:02:17,177 - netlog - INFO - ==>>> epoch:0, batch index: 400, loss:1.7135133743286133
+2023-04-24 10:02:30,556 - netlog - INFO - ==>>> epoch:0, batch index: 450, loss:1.2574481964111328
+2023-04-24 10:02:43,737 - netlog - INFO - ==>>> epoch:0, batch index: 500, loss:0.8244510889053345
+2023-04-24 10:02:56,724 - netlog - INFO - ==>>> epoch:0, batch index: 550, loss:0.7399235963821411
+2023-04-24 10:03:10,103 - netlog - INFO - ==>>> epoch:0, batch index: 600, loss:0.8734435439109802
+2023-04-24 10:03:23,487 - netlog - INFO - ==>>> epoch:0, batch index: 650, loss:2.0281286239624023
+2023-04-24 10:03:37,141 - netlog - INFO - ==>>> epoch:0, batch index: 700, loss:1.0228134393692017
+2023-04-24 10:03:49,998 - netlog - INFO - ==>>> epoch:0, batch index: 750, loss:0.8410151600837708
+2023-04-24 10:04:02,093 - netlog - INFO - ==>>> epoch:0, batch index: 800, loss:0.7020351886749268
+2023-04-24 10:04:12,355 - netlog - INFO - Start Validation
+2023-04-24 10:06:18,616 - netlog - INFO - ==>>>test seen_acc:46.95543000627747 unseen_acc:40.02057613168724
+2023-04-24 10:06:20,224 - netlog - INFO - ==>>> epoch:1, batch index: 0, loss:0.6766883134841919
+2023-04-24 10:06:32,991 - netlog - INFO - ==>>> epoch:1, batch index: 50, loss:1.8292526006698608
+2023-04-24 10:06:45,411 - netlog - INFO - ==>>> epoch:1, batch index: 100, loss:1.0310755968093872
+2023-04-24 10:06:58,211 - netlog - INFO - ==>>> epoch:1, batch index: 150, loss:1.4363614320755005
+2023-04-24 10:07:10,879 - netlog - INFO - ==>>> epoch:1, batch index: 200, loss:1.0990686416625977
+2023-04-24 10:07:22,902 - netlog - INFO - ==>>> epoch:1, batch index: 250, loss:0.8741527795791626
+2023-04-24 10:07:35,504 - netlog - INFO - ==>>> epoch:1, batch index: 300, loss:0.8391501307487488
+2023-04-24 10:07:47,767 - netlog - INFO - ==>>> epoch:1, batch index: 350, loss:0.581161618232727
+2023-04-24 10:08:00,400 - netlog - INFO - ==>>> epoch:1, batch index: 400, loss:0.4066897928714752
+2023-04-24 10:08:12,960 - netlog - INFO - ==>>> epoch:1, batch index: 450, loss:0.7917383313179016
+2023-04-24 10:08:24,988 - netlog - INFO - ==>>> epoch:1, batch index: 500, loss:1.973833441734314
+2023-04-24 10:08:37,313 - netlog - INFO - ==>>> epoch:1, batch index: 550, loss:0.6486809849739075
+2023-04-24 10:08:49,457 - netlog - INFO - ==>>> epoch:1, batch index: 600, loss:1.046309471130371
+2023-04-24 10:09:01,566 - netlog - INFO - ==>>> epoch:1, batch index: 650, loss:0.48221147060394287
+2023-04-24 10:09:14,278 - netlog - INFO - ==>>> epoch:1, batch index: 700, loss:1.3880889415740967
+2023-04-24 10:09:26,909 - netlog - INFO - ==>>> epoch:1, batch index: 750, loss:0.9833332300186157
+2023-04-24 10:09:38,663 - netlog - INFO - ==>>> epoch:1, batch index: 800, loss:0.7749491930007935
+2023-04-24 10:09:48,483 - netlog - INFO - Start Validation
+2023-04-24 10:11:46,626 - netlog - INFO - ==>>>test seen_acc:48.94852479598242 unseen_acc:37.03703703703704
+2023-04-24 10:11:48,359 - netlog - INFO - ==>>> epoch:2, batch index: 0, loss:0.512536346912384
+2023-04-24 10:12:00,766 - netlog - INFO - ==>>> epoch:2, batch index: 50, loss:0.6627354621887207
+2023-04-24 10:12:13,250 - netlog - INFO - ==>>> epoch:2, batch index: 100, loss:0.4302331209182739
+2023-04-24 10:12:25,957 - netlog - INFO - ==>>> epoch:2, batch index: 150, loss:0.2096651941537857
+2023-04-24 10:12:39,175 - netlog - INFO - ==>>> epoch:2, batch index: 200, loss:0.5852985382080078
+2023-04-24 10:12:52,287 - netlog - INFO - ==>>> epoch:2, batch index: 250, loss:0.7130091190338135
+2023-04-24 10:13:04,421 - netlog - INFO - ==>>> epoch:2, batch index: 300, loss:0.9613491296768188
+2023-04-24 10:13:16,036 - netlog - INFO - ==>>> epoch:2, batch index: 350, loss:0.40766364336013794
+2023-04-24 10:13:29,078 - netlog - INFO - ==>>> epoch:2, batch index: 400, loss:0.3230425715446472
+2023-04-24 10:13:40,968 - netlog - INFO - ==>>> epoch:2, batch index: 450, loss:0.546880841255188
+2023-04-24 10:13:53,242 - netlog - INFO - ==>>> epoch:2, batch index: 500, loss:0.416361004114151
+2023-04-24 10:14:05,590 - netlog - INFO - ==>>> epoch:2, batch index: 550, loss:0.7633758783340454
+2023-04-24 10:14:18,256 - netlog - INFO - ==>>> epoch:2, batch index: 600, loss:0.2962714433670044
+2023-04-24 10:14:30,717 - netlog - INFO - ==>>> epoch:2, batch index: 650, loss:0.4335929751396179
+2023-04-24 10:14:42,454 - netlog - INFO - ==>>> epoch:2, batch index: 700, loss:0.7009769678115845
+2023-04-24 10:14:55,262 - netlog - INFO - ==>>> epoch:2, batch index: 750, loss:0.6534491777420044
+2023-04-24 10:15:06,901 - netlog - INFO - ==>>> epoch:2, batch index: 800, loss:0.7358189225196838
+2023-04-24 10:15:16,416 - netlog - INFO - Start Validation
+2023-04-24 10:17:11,610 - netlog - INFO - ==>>>test seen_acc:48.885750156936595 unseen_acc:38.68312757201646
+2023-04-24 10:17:12,968 - netlog - INFO - ==>>> epoch:3, batch index: 0, loss:0.6351695656776428
+2023-04-24 10:17:24,981 - netlog - INFO - ==>>> epoch:3, batch index: 50, loss:0.8143444061279297
+2023-04-24 10:17:38,089 - netlog - INFO - ==>>> epoch:3, batch index: 100, loss:0.2645442485809326
+2023-04-24 10:17:49,637 - netlog - INFO - ==>>> epoch:3, batch index: 150, loss:0.5521932244300842
+2023-04-24 10:18:01,482 - netlog - INFO - ==>>> epoch:3, batch index: 200, loss:0.36256104707717896
+2023-04-24 10:18:12,738 - netlog - INFO - ==>>> epoch:3, batch index: 250, loss:0.6002175807952881
+2023-04-24 10:18:24,161 - netlog - INFO - ==>>> epoch:3, batch index: 300, loss:0.9647731781005859
+2023-04-24 10:18:35,558 - netlog - INFO - ==>>> epoch:3, batch index: 350, loss:0.45060980319976807
+2023-04-24 10:18:47,406 - netlog - INFO - ==>>> epoch:3, batch index: 400, loss:1.1209990978240967
+2023-04-24 10:18:58,857 - netlog - INFO - ==>>> epoch:3, batch index: 450, loss:0.6502466201782227
+2023-04-24 10:19:10,484 - netlog - INFO - ==>>> epoch:3, batch index: 500, loss:0.31943583488464355
+2023-04-24 10:19:21,933 - netlog - INFO - ==>>> epoch:3, batch index: 550, loss:0.3113785684108734
+2023-04-24 10:19:34,160 - netlog - INFO - ==>>> epoch:3, batch index: 600, loss:0.6664009690284729
+2023-04-24 10:19:45,671 - netlog - INFO - ==>>> epoch:3, batch index: 650, loss:0.5853628516197205
+2023-04-24 10:19:57,982 - netlog - INFO - ==>>> epoch:3, batch index: 700, loss:0.4539366066455841
+2023-04-24 10:20:09,184 - netlog - INFO - ==>>> epoch:3, batch index: 750, loss:0.4721401333808899
+2023-04-24 10:20:21,218 - netlog - INFO - ==>>> epoch:3, batch index: 800, loss:0.477968692779541
+2023-04-24 10:20:30,327 - netlog - INFO - Start Validation
+2023-04-24 10:22:24,712 - netlog - INFO - ==>>>test seen_acc:49.26239799121155 unseen_acc:38.27160493827161
+2023-04-24 10:22:26,315 - netlog - INFO - ==>>> epoch:4, batch index: 0, loss:0.16542378067970276
+2023-04-24 10:22:38,907 - netlog - INFO - ==>>> epoch:4, batch index: 50, loss:0.5621024370193481
+2023-04-24 10:22:51,588 - netlog - INFO - ==>>> epoch:4, batch index: 100, loss:0.650056779384613
+2023-04-24 10:23:03,815 - netlog - INFO - ==>>> epoch:4, batch index: 150, loss:0.3593596816062927
+2023-04-24 10:23:14,510 - netlog - INFO - ==>>> epoch:4, batch index: 200, loss:0.51211017370224
+2023-04-24 10:23:22,788 - netlog - INFO - ==>>> epoch:4, batch index: 250, loss:0.9853856563568115
+2023-04-24 10:23:31,512 - netlog - INFO - ==>>> epoch:4, batch index: 300, loss:0.47783857583999634
+2023-04-24 10:23:40,051 - netlog - INFO - ==>>> epoch:4, batch index: 350, loss:0.5098626017570496
+2023-04-24 10:23:48,560 - netlog - INFO - ==>>> epoch:4, batch index: 400, loss:0.900547981262207
+2023-04-24 10:23:57,334 - netlog - INFO - ==>>> epoch:4, batch index: 450, loss:0.4328517019748688
+2023-04-24 10:24:05,749 - netlog - INFO - ==>>> epoch:4, batch index: 500, loss:0.6604526042938232
+2023-04-24 10:24:14,487 - netlog - INFO - ==>>> epoch:4, batch index: 550, loss:0.2924427092075348
+2023-04-24 10:24:22,831 - netlog - INFO - ==>>> epoch:4, batch index: 600, loss:0.18180230259895325
+2023-04-24 10:24:31,410 - netlog - INFO - ==>>> epoch:4, batch index: 650, loss:0.3095284402370453
+2023-04-24 10:24:39,663 - netlog - INFO - ==>>> epoch:4, batch index: 700, loss:0.370087206363678
+2023-04-24 10:24:48,521 - netlog - INFO - ==>>> epoch:4, batch index: 750, loss:0.49467945098876953
+2023-04-24 10:24:57,017 - netlog - INFO - ==>>> epoch:4, batch index: 800, loss:0.41948965191841125
+2023-04-24 10:25:04,094 - netlog - INFO - Start Validation
+2023-04-24 10:26:35,955 - netlog - INFO - ==>>>test seen_acc:49.12115505335844 unseen_acc:39.50617283950617
+2023-04-24 10:26:37,176 - netlog - INFO - ==>>> epoch:5, batch index: 0, loss:0.5155473947525024
+2023-04-24 10:26:46,437 - netlog - INFO - ==>>> epoch:5, batch index: 50, loss:0.23499184846878052
+2023-04-24 10:26:55,734 - netlog - INFO - ==>>> epoch:5, batch index: 100, loss:0.6550413966178894
+2023-04-24 10:27:04,734 - netlog - INFO - ==>>> epoch:5, batch index: 150, loss:0.12326127290725708
+2023-04-24 10:27:13,996 - netlog - INFO - ==>>> epoch:5, batch index: 200, loss:0.6606054902076721
+2023-04-24 10:27:22,911 - netlog - INFO - ==>>> epoch:5, batch index: 250, loss:0.1507313996553421
+2023-04-24 10:27:32,005 - netlog - INFO - ==>>> epoch:5, batch index: 300, loss:1.0447958707809448
+2023-04-24 10:27:40,458 - netlog - INFO - ==>>> epoch:5, batch index: 350, loss:0.6327318549156189
+2023-04-24 10:27:49,397 - netlog - INFO - ==>>> epoch:5, batch index: 400, loss:0.5713608860969543
+2023-04-24 10:27:58,142 - netlog - INFO - ==>>> epoch:5, batch index: 450, loss:0.23139336705207825
+2023-04-24 10:28:07,100 - netlog - INFO - ==>>> epoch:5, batch index: 500, loss:0.3261134624481201
+2023-04-24 10:28:15,816 - netlog - INFO - ==>>> epoch:5, batch index: 550, loss:0.27022090554237366
+2023-04-24 10:28:24,623 - netlog - INFO - ==>>> epoch:5, batch index: 600, loss:0.4200834631919861
+2023-04-24 10:28:33,459 - netlog - INFO - ==>>> epoch:5, batch index: 650, loss:0.20405128598213196
+2023-04-24 10:28:42,211 - netlog - INFO - ==>>> epoch:5, batch index: 700, loss:0.4674670994281769
+2023-04-24 10:28:50,871 - netlog - INFO - ==>>> epoch:5, batch index: 750, loss:0.31230640411376953
+2023-04-24 10:28:59,405 - netlog - INFO - ==>>> epoch:5, batch index: 800, loss:0.13823504745960236
+2023-04-24 10:29:06,273 - netlog - INFO - Start Validation
+2023-04-24 10:30:37,137 - netlog - INFO - ==>>>test seen_acc:49.23101067168864 unseen_acc:37.65432098765432
+2023-04-24 10:30:38,315 - netlog - INFO - ==>>> epoch:6, batch index: 0, loss:0.3851102292537689
+2023-04-24 10:30:47,977 - netlog - INFO - ==>>> epoch:6, batch index: 50, loss:0.2623317837715149
+2023-04-24 10:30:57,407 - netlog - INFO - ==>>> epoch:6, batch index: 100, loss:0.4945021867752075
+2023-04-24 10:31:06,037 - netlog - INFO - ==>>> epoch:6, batch index: 150, loss:0.4269079864025116
+2023-04-24 10:31:15,117 - netlog - INFO - ==>>> epoch:6, batch index: 200, loss:0.4809354245662689
+2023-04-24 10:31:23,652 - netlog - INFO - ==>>> epoch:6, batch index: 250, loss:0.2940605878829956
+2023-04-24 10:31:32,477 - netlog - INFO - ==>>> epoch:6, batch index: 300, loss:0.234553724527359
+2023-04-24 10:31:41,010 - netlog - INFO - ==>>> epoch:6, batch index: 350, loss:0.7590434551239014
+2023-04-24 10:31:50,093 - netlog - INFO - ==>>> epoch:6, batch index: 400, loss:0.3513863682746887
+2023-04-24 10:31:58,811 - netlog - INFO - ==>>> epoch:6, batch index: 450, loss:0.37215656042099
+2023-04-24 10:32:07,340 - netlog - INFO - ==>>> epoch:6, batch index: 500, loss:0.39804309606552124
+2023-04-24 10:32:15,914 - netlog - INFO - ==>>> epoch:6, batch index: 550, loss:0.22302797436714172
+2023-04-24 10:32:24,901 - netlog - INFO - ==>>> epoch:6, batch index: 600, loss:0.6129629015922546
+2023-04-24 10:32:33,236 - netlog - INFO - ==>>> epoch:6, batch index: 650, loss:0.24451640248298645
+2023-04-24 10:32:41,853 - netlog - INFO - ==>>> epoch:6, batch index: 700, loss:0.5470526218414307
+2023-04-24 10:32:50,491 - netlog - INFO - ==>>> epoch:6, batch index: 750, loss:0.5353673696517944
+2023-04-24 10:32:59,149 - netlog - INFO - ==>>> epoch:6, batch index: 800, loss:0.1279097944498062
+2023-04-24 10:33:05,810 - netlog - INFO - Start Validation
+2023-04-24 10:34:36,916 - netlog - INFO - ==>>>test seen_acc:49.48210922787194 unseen_acc:40.84362139917695
+2023-04-24 10:34:38,915 - netlog - INFO - ==>>> epoch:7, batch index: 0, loss:0.17775267362594604
+2023-04-24 10:34:47,952 - netlog - INFO - ==>>> epoch:7, batch index: 50, loss:0.32109129428863525
+2023-04-24 10:34:57,122 - netlog - INFO - ==>>> epoch:7, batch index: 100, loss:0.7917126417160034
+2023-04-24 10:35:06,279 - netlog - INFO - ==>>> epoch:7, batch index: 150, loss:0.29652202129364014
+2023-04-24 10:35:15,088 - netlog - INFO - ==>>> epoch:7, batch index: 200, loss:0.17870274186134338
+2023-04-24 10:35:24,096 - netlog - INFO - ==>>> epoch:7, batch index: 250, loss:0.0965852439403534
+2023-04-24 10:35:32,781 - netlog - INFO - ==>>> epoch:7, batch index: 300, loss:0.42950496077537537
+2023-04-24 10:35:41,450 - netlog - INFO - ==>>> epoch:7, batch index: 350, loss:0.6585472822189331
+2023-04-24 10:35:50,114 - netlog - INFO - ==>>> epoch:7, batch index: 400, loss:0.613762378692627
+2023-04-24 10:35:58,732 - netlog - INFO - ==>>> epoch:7, batch index: 450, loss:0.4904179871082306
+2023-04-24 10:36:07,600 - netlog - INFO - ==>>> epoch:7, batch index: 500, loss:0.5055806040763855
+2023-04-24 10:36:16,837 - netlog - INFO - ==>>> epoch:7, batch index: 550, loss:0.14313191175460815
+2023-04-24 10:36:25,560 - netlog - INFO - ==>>> epoch:7, batch index: 600, loss:0.2559186518192291
+2023-04-24 10:36:34,763 - netlog - INFO - ==>>> epoch:7, batch index: 650, loss:0.49873435497283936
+2023-04-24 10:36:43,639 - netlog - INFO - ==>>> epoch:7, batch index: 700, loss:0.647916316986084
+2023-04-24 10:36:52,521 - netlog - INFO - ==>>> epoch:7, batch index: 750, loss:0.13604691624641418
+2023-04-24 10:37:01,221 - netlog - INFO - ==>>> epoch:7, batch index: 800, loss:0.21023240685462952
+2023-04-24 10:37:08,473 - netlog - INFO - Start Validation
+2023-04-24 10:38:40,368 - netlog - INFO - ==>>>test seen_acc:49.41933458882612 unseen_acc:38.065843621399175
+2023-04-24 10:38:41,651 - netlog - INFO - ==>>> epoch:8, batch index: 0, loss:0.2601107358932495
+2023-04-24 10:38:51,141 - netlog - INFO - ==>>> epoch:8, batch index: 50, loss:0.585944652557373
+2023-04-24 10:38:59,765 - netlog - INFO - ==>>> epoch:8, batch index: 100, loss:0.20808961987495422
+2023-04-24 10:39:08,918 - netlog - INFO - ==>>> epoch:8, batch index: 150, loss:0.3764820992946625
+2023-04-24 10:39:17,599 - netlog - INFO - ==>>> epoch:8, batch index: 200, loss:0.3881593942642212
+2023-04-24 10:39:26,484 - netlog - INFO - ==>>> epoch:8, batch index: 250, loss:0.41946977376937866
+2023-04-24 10:39:34,759 - netlog - INFO - ==>>> epoch:8, batch index: 300, loss:0.7385426759719849
+2023-04-24 10:39:43,604 - netlog - INFO - ==>>> epoch:8, batch index: 350, loss:0.34148257970809937
+2023-04-24 10:39:52,427 - netlog - INFO - ==>>> epoch:8, batch index: 400, loss:0.3024643659591675
+2023-04-24 10:40:01,605 - netlog - INFO - ==>>> epoch:8, batch index: 450, loss:0.18065108358860016
+2023-04-24 10:40:10,280 - netlog - INFO - ==>>> epoch:8, batch index: 500, loss:0.2385537028312683
+2023-04-24 10:40:19,137 - netlog - INFO - ==>>> epoch:8, batch index: 550, loss:0.3398979902267456
+2023-04-24 10:40:27,940 - netlog - INFO - ==>>> epoch:8, batch index: 600, loss:0.24400976300239563
+2023-04-24 10:40:36,527 - netlog - INFO - ==>>> epoch:8, batch index: 650, loss:0.2006777971982956
+2023-04-24 10:40:44,962 - netlog - INFO - ==>>> epoch:8, batch index: 700, loss:0.12423000484704971
+2023-04-24 10:40:53,434 - netlog - INFO - ==>>> epoch:8, batch index: 750, loss:0.5704920291900635
+2023-04-24 10:41:02,211 - netlog - INFO - ==>>> epoch:8, batch index: 800, loss:0.4747088849544525
+2023-04-24 10:41:08,672 - netlog - INFO - Start Validation
+2023-04-24 10:42:39,002 - netlog - INFO - ==>>>test seen_acc:50.282485875706215 unseen_acc:39.19753086419753
+2023-04-24 10:42:42,364 - netlog - INFO - ==>>> epoch:9, batch index: 0, loss:0.22047489881515503
+2023-04-24 10:42:51,190 - netlog - INFO - ==>>> epoch:9, batch index: 50, loss:0.12895241379737854
+2023-04-24 10:43:00,685 - netlog - INFO - ==>>> epoch:9, batch index: 100, loss:0.5468571186065674
+2023-04-24 10:43:09,873 - netlog - INFO - ==>>> epoch:9, batch index: 150, loss:0.3071005344390869
+2023-04-24 10:43:18,707 - netlog - INFO - ==>>> epoch:9, batch index: 200, loss:0.22828911244869232
+2023-04-24 10:43:27,281 - netlog - INFO - ==>>> epoch:9, batch index: 250, loss:0.27552610635757446
+2023-04-24 10:43:35,746 - netlog - INFO - ==>>> epoch:9, batch index: 300, loss:0.8938040733337402
+2023-04-24 10:43:44,614 - netlog - INFO - ==>>> epoch:9, batch index: 350, loss:0.2551155984401703
+2023-04-24 10:43:53,484 - netlog - INFO - ==>>> epoch:9, batch index: 400, loss:0.15342384576797485
+2023-04-24 10:44:02,368 - netlog - INFO - ==>>> epoch:9, batch index: 450, loss:0.9184045195579529
+2023-04-24 10:44:11,322 - netlog - INFO - ==>>> epoch:9, batch index: 500, loss:0.13969923555850983
+2023-04-24 10:44:19,674 - netlog - INFO - ==>>> epoch:9, batch index: 550, loss:0.35762298107147217
+2023-04-24 10:44:28,459 - netlog - INFO - ==>>> epoch:9, batch index: 600, loss:0.2535300850868225
+2023-04-24 10:44:37,531 - netlog - INFO - ==>>> epoch:9, batch index: 650, loss:0.43691253662109375
+2023-04-24 10:44:46,024 - netlog - INFO - ==>>> epoch:9, batch index: 700, loss:0.5764240026473999
+2023-04-24 10:44:54,700 - netlog - INFO - ==>>> epoch:9, batch index: 750, loss:0.2756419777870178
+2023-04-24 10:45:03,056 - netlog - INFO - ==>>> epoch:9, batch index: 800, loss:0.3076360821723938
+2023-04-24 10:45:09,868 - netlog - INFO - Start Validation
+2023-04-24 10:46:41,505 - netlog - INFO - ==>>>test seen_acc:50.376647834274955 unseen_acc:40.84362139917695
+2023-04-24 10:46:42,725 - netlog - INFO - ==>>> epoch:10, batch index: 0, loss:0.09321996569633484
+2023-04-24 10:46:52,090 - netlog - INFO - ==>>> epoch:10, batch index: 50, loss:0.18299663066864014
+2023-04-24 10:47:02,290 - netlog - INFO - ==>>> epoch:10, batch index: 100, loss:0.14856062829494476
+2023-04-24 10:47:11,444 - netlog - INFO - ==>>> epoch:10, batch index: 150, loss:0.24999243021011353
+2023-04-24 10:47:20,019 - netlog - INFO - ==>>> epoch:10, batch index: 200, loss:0.4928329586982727
+2023-04-24 10:47:28,746 - netlog - INFO - ==>>> epoch:10, batch index: 250, loss:0.18016818165779114
+2023-04-24 10:47:37,380 - netlog - INFO - ==>>> epoch:10, batch index: 300, loss:0.6018738746643066
+2023-04-24 10:47:46,086 - netlog - INFO - ==>>> epoch:10, batch index: 350, loss:0.08099097013473511
+2023-04-24 10:47:54,613 - netlog - INFO - ==>>> epoch:10, batch index: 400, loss:0.22912079095840454
+2023-04-24 10:48:03,045 - netlog - INFO - ==>>> epoch:10, batch index: 450, loss:0.2706986665725708
+2023-04-24 10:48:11,800 - netlog - INFO - ==>>> epoch:10, batch index: 500, loss:0.290305495262146
+2023-04-24 10:48:20,393 - netlog - INFO - ==>>> epoch:10, batch index: 550, loss:0.5879750847816467
+2023-04-24 10:48:29,273 - netlog - INFO - ==>>> epoch:10, batch index: 600, loss:0.1622440069913864
+2023-04-24 10:48:37,314 - netlog - INFO - ==>>> epoch:10, batch index: 650, loss:0.152602881193161
+2023-04-24 10:48:46,430 - netlog - INFO - ==>>> epoch:10, batch index: 700, loss:0.06961975246667862
+2023-04-24 10:48:54,854 - netlog - INFO - ==>>> epoch:10, batch index: 750, loss:0.5722416043281555
+2023-04-24 10:49:03,356 - netlog - INFO - ==>>> epoch:10, batch index: 800, loss:0.192702978849411
+2023-04-24 10:49:10,228 - netlog - INFO - Start Validation
+2023-04-24 10:50:41,035 - netlog - INFO - ==>>>test seen_acc:49.84306340238544 unseen_acc:41.56378600823045
+2023-04-24 10:50:42,347 - netlog - INFO - ==>>> epoch:11, batch index: 0, loss:0.27685368061065674
+2023-04-24 10:50:51,278 - netlog - INFO - ==>>> epoch:11, batch index: 50, loss:0.2472706437110901
+2023-04-24 10:51:00,394 - netlog - INFO - ==>>> epoch:11, batch index: 100, loss:0.19964924454689026
+2023-04-24 10:51:09,718 - netlog - INFO - ==>>> epoch:11, batch index: 150, loss:0.4252363443374634
+2023-04-24 10:51:18,727 - netlog - INFO - ==>>> epoch:11, batch index: 200, loss:0.1603110432624817
+2023-04-24 10:51:27,429 - netlog - INFO - ==>>> epoch:11, batch index: 250, loss:0.22217914462089539
+2023-04-24 10:51:36,202 - netlog - INFO - ==>>> epoch:11, batch index: 300, loss:0.4606764614582062
+2023-04-24 10:51:44,618 - netlog - INFO - ==>>> epoch:11, batch index: 350, loss:0.4508601427078247
+2023-04-24 10:51:53,605 - netlog - INFO - ==>>> epoch:11, batch index: 400, loss:0.3160197138786316
+2023-04-24 10:52:02,011 - netlog - INFO - ==>>> epoch:11, batch index: 450, loss:0.2114371359348297
+2023-04-24 10:52:10,894 - netlog - INFO - ==>>> epoch:11, batch index: 500, loss:0.3756376802921295
+2023-04-24 10:52:19,450 - netlog - INFO - ==>>> epoch:11, batch index: 550, loss:0.29911431670188904
+2023-04-24 10:52:28,433 - netlog - INFO - ==>>> epoch:11, batch index: 600, loss:0.3917456567287445
+2023-04-24 10:52:36,853 - netlog - INFO - ==>>> epoch:11, batch index: 650, loss:0.884854793548584
+2023-04-24 10:52:45,526 - netlog - INFO - ==>>> epoch:11, batch index: 700, loss:0.19804856181144714
+2023-04-24 10:52:53,851 - netlog - INFO - ==>>> epoch:11, batch index: 750, loss:0.17804491519927979
+2023-04-24 10:53:02,369 - netlog - INFO - ==>>> epoch:11, batch index: 800, loss:0.3291877210140228
+2023-04-24 10:53:08,814 - netlog - INFO - Start Validation
+2023-04-24 10:54:40,219 - netlog - INFO - ==>>>test seen_acc:49.544883866917765 unseen_acc:41.1522633744856
+2023-04-24 10:54:41,452 - netlog - INFO - ==>>> epoch:12, batch index: 0, loss:0.29156649112701416
+2023-04-24 10:54:50,287 - netlog - INFO - ==>>> epoch:12, batch index: 50, loss:0.36560291051864624
+2023-04-24 10:54:59,483 - netlog - INFO - ==>>> epoch:12, batch index: 100, loss:0.20078611373901367
+2023-04-24 10:55:08,379 - netlog - INFO - ==>>> epoch:12, batch index: 150, loss:0.5690270662307739
+2023-04-24 10:55:17,300 - netlog - INFO - ==>>> epoch:12, batch index: 200, loss:0.2912854254245758
+2023-04-24 10:55:25,651 - netlog - INFO - ==>>> epoch:12, batch index: 250, loss:0.24865621328353882
+2023-04-24 10:55:34,187 - netlog - INFO - ==>>> epoch:12, batch index: 300, loss:0.2585265338420868
+2023-04-24 10:55:42,706 - netlog - INFO - ==>>> epoch:12, batch index: 350, loss:0.24453409016132355
+2023-04-24 10:55:51,003 - netlog - INFO - ==>>> epoch:12, batch index: 400, loss:0.14063642919063568
+2023-04-24 10:55:59,160 - netlog - INFO - ==>>> epoch:12, batch index: 450, loss:0.464538037776947
+2023-04-24 10:56:07,488 - netlog - INFO - ==>>> epoch:12, batch index: 500, loss:0.2750493586063385
+2023-04-24 10:56:15,789 - netlog - INFO - ==>>> epoch:12, batch index: 550, loss:0.2266884446144104
+2023-04-24 10:56:24,490 - netlog - INFO - ==>>> epoch:12, batch index: 600, loss:0.46745824813842773
+2023-04-24 10:56:33,044 - netlog - INFO - ==>>> epoch:12, batch index: 650, loss:0.17200036346912384
+2023-04-24 10:56:41,848 - netlog - INFO - ==>>> epoch:12, batch index: 700, loss:0.3169078230857849
+2023-04-24 10:56:50,372 - netlog - INFO - ==>>> epoch:12, batch index: 750, loss:0.7056300044059753
+2023-04-24 10:56:59,217 - netlog - INFO - ==>>> epoch:12, batch index: 800, loss:0.16917923092842102
+2023-04-24 10:57:05,767 - netlog - INFO - Start Validation
+2023-04-24 10:58:37,532 - netlog - INFO - ==>>>test seen_acc:49.67043314500942 unseen_acc:40.123456790123456
+2023-04-24 10:58:38,869 - netlog - INFO - ==>>> epoch:13, batch index: 0, loss:0.11125980317592621
+2023-04-24 10:58:48,296 - netlog - INFO - ==>>> epoch:13, batch index: 50, loss:0.5307621955871582
+2023-04-24 10:58:57,805 - netlog - INFO - ==>>> epoch:13, batch index: 100, loss:0.16701284050941467
+2023-04-24 10:59:06,796 - netlog - INFO - ==>>> epoch:13, batch index: 150, loss:0.32719722390174866
+2023-04-24 10:59:15,982 - netlog - INFO - ==>>> epoch:13, batch index: 200, loss:0.23600351810455322
+2023-04-24 10:59:24,815 - netlog - INFO - ==>>> epoch:13, batch index: 250, loss:0.6813809871673584
+2023-04-24 10:59:33,668 - netlog - INFO - ==>>> epoch:13, batch index: 300, loss:0.12842193245887756
+2023-04-24 10:59:42,552 - netlog - INFO - ==>>> epoch:13, batch index: 350, loss:0.510340690612793
+2023-04-24 10:59:50,824 - netlog - INFO - ==>>> epoch:13, batch index: 400, loss:0.1028672307729721
+2023-04-24 11:00:00,083 - netlog - INFO - ==>>> epoch:13, batch index: 450, loss:0.1893356889486313
+2023-04-24 11:00:08,879 - netlog - INFO - ==>>> epoch:13, batch index: 500, loss:0.21416495740413666
+2023-04-24 11:00:17,572 - netlog - INFO - ==>>> epoch:13, batch index: 550, loss:0.18748165667057037
+2023-04-24 11:00:26,257 - netlog - INFO - ==>>> epoch:13, batch index: 600, loss:0.1444457322359085
+2023-04-24 11:00:34,685 - netlog - INFO - ==>>> epoch:13, batch index: 650, loss:0.20145706832408905
+2023-04-24 11:00:43,394 - netlog - INFO - ==>>> epoch:13, batch index: 700, loss:0.17384423315525055
+2023-04-24 11:00:52,193 - netlog - INFO - ==>>> epoch:13, batch index: 750, loss:0.194957435131073
+2023-04-24 11:01:00,349 - netlog - INFO - ==>>> epoch:13, batch index: 800, loss:0.14290083944797516
+2023-04-24 11:01:07,423 - netlog - INFO - Start Validation
+2023-04-24 11:02:38,544 - netlog - INFO - ==>>>test seen_acc:50.109855618330194 unseen_acc:41.1522633744856
+2023-04-24 11:02:39,804 - netlog - INFO - ==>>> epoch:14, batch index: 0, loss:0.5023917555809021
+2023-04-24 11:02:48,767 - netlog - INFO - ==>>> epoch:14, batch index: 50, loss:0.0893106758594513
+2023-04-24 11:02:58,067 - netlog - INFO - ==>>> epoch:14, batch index: 100, loss:0.10934732854366302
+2023-04-24 11:03:07,136 - netlog - INFO - ==>>> epoch:14, batch index: 150, loss:0.5862411260604858
+2023-04-24 11:03:15,911 - netlog - INFO - ==>>> epoch:14, batch index: 200, loss:0.49670886993408203
+2023-04-24 11:03:24,885 - netlog - INFO - ==>>> epoch:14, batch index: 250, loss:0.2915102541446686
+2023-04-24 11:03:33,215 - netlog - INFO - ==>>> epoch:14, batch index: 300, loss:0.22637394070625305
+2023-04-24 11:03:42,021 - netlog - INFO - ==>>> epoch:14, batch index: 350, loss:0.09285236150026321
+2023-04-24 11:03:50,212 - netlog - INFO - ==>>> epoch:14, batch index: 400, loss:0.9873599410057068
+2023-04-24 11:03:58,998 - netlog - INFO - ==>>> epoch:14, batch index: 450, loss:0.11275351792573929
+2023-04-24 11:04:07,873 - netlog - INFO - ==>>> epoch:14, batch index: 500, loss:0.06060384586453438
+2023-04-24 11:04:16,525 - netlog - INFO - ==>>> epoch:14, batch index: 550, loss:0.29162347316741943
+2023-04-24 11:04:25,253 - netlog - INFO - ==>>> epoch:14, batch index: 600, loss:0.4414852261543274
+2023-04-24 11:04:34,444 - netlog - INFO - ==>>> epoch:14, batch index: 650, loss:0.15340378880500793
+2023-04-24 11:04:43,160 - netlog - INFO - ==>>> epoch:14, batch index: 700, loss:0.3560396730899811
+2023-04-24 11:04:51,964 - netlog - INFO - ==>>> epoch:14, batch index: 750, loss:0.16700850427150726
+2023-04-24 11:05:00,632 - netlog - INFO - ==>>> epoch:14, batch index: 800, loss:0.4193199872970581
+2023-04-24 11:05:07,522 - netlog - INFO - Start Validation
+2023-04-24 11:06:39,932 - netlog - INFO - ==>>>test seen_acc:49.85875706214689 unseen_acc:38.68312757201646
+2023-04-24 11:06:41,154 - netlog - INFO - ==>>> epoch:15, batch index: 0, loss:0.43562042713165283
+2023-04-24 11:06:50,566 - netlog - INFO - ==>>> epoch:15, batch index: 50, loss:0.3284721374511719
+2023-04-24 11:06:59,683 - netlog - INFO - ==>>> epoch:15, batch index: 100, loss:0.20863482356071472
+2023-04-24 11:07:08,790 - netlog - INFO - ==>>> epoch:15, batch index: 150, loss:0.5549014806747437
+2023-04-24 11:07:17,716 - netlog - INFO - ==>>> epoch:15, batch index: 200, loss:0.23863309621810913
+2023-04-24 11:07:26,581 - netlog - INFO - ==>>> epoch:15, batch index: 250, loss:0.2728564441204071
+2023-04-24 11:07:35,750 - netlog - INFO - ==>>> epoch:15, batch index: 300, loss:0.4948093891143799
+2023-04-24 11:07:44,004 - netlog - INFO - ==>>> epoch:15, batch index: 350, loss:0.3908116817474365
+2023-04-24 11:07:52,597 - netlog - INFO - ==>>> epoch:15, batch index: 400, loss:0.23643964529037476
+2023-04-24 11:08:01,087 - netlog - INFO - ==>>> epoch:15, batch index: 450, loss:0.19330105185508728
+2023-04-24 11:08:10,088 - netlog - INFO - ==>>> epoch:15, batch index: 500, loss:0.2533961832523346
+2023-04-24 11:08:19,090 - netlog - INFO - ==>>> epoch:15, batch index: 550, loss:0.3418111801147461
+2023-04-24 11:08:28,387 - netlog - INFO - ==>>> epoch:15, batch index: 600, loss:0.39003077149391174
+2023-04-24 11:08:37,125 - netlog - INFO - ==>>> epoch:15, batch index: 650, loss:0.1519804298877716
+2023-04-24 11:08:45,906 - netlog - INFO - ==>>> epoch:15, batch index: 700, loss:0.21132159233093262
+2023-04-24 11:08:54,864 - netlog - INFO - ==>>> epoch:15, batch index: 750, loss:0.07319802045822144
+2023-04-24 11:09:03,717 - netlog - INFO - ==>>> epoch:15, batch index: 800, loss:0.07510319352149963
+2023-04-24 11:09:10,702 - netlog - INFO - Start Validation
+2023-04-24 11:10:42,171 - netlog - INFO - ==>>>test seen_acc:49.623352165725045 unseen_acc:43.51851851851852
+2023-04-24 11:10:43,355 - netlog - INFO - ==>>> epoch:16, batch index: 0, loss:0.06696644425392151
+2023-04-24 11:10:52,943 - netlog - INFO - ==>>> epoch:16, batch index: 50, loss:0.17091041803359985
+2023-04-24 11:11:02,492 - netlog - INFO - ==>>> epoch:16, batch index: 100, loss:0.18046149611473083
+2023-04-24 11:11:11,277 - netlog - INFO - ==>>> epoch:16, batch index: 150, loss:0.40491610765457153
+2023-04-24 11:11:19,973 - netlog - INFO - ==>>> epoch:16, batch index: 200, loss:0.39133280515670776
+2023-04-24 11:11:28,881 - netlog - INFO - ==>>> epoch:16, batch index: 250, loss:0.1699766218662262
+2023-04-24 11:11:37,255 - netlog - INFO - ==>>> epoch:16, batch index: 300, loss:0.2883058786392212
+2023-04-24 11:11:45,599 - netlog - INFO - ==>>> epoch:16, batch index: 350, loss:0.27287355065345764
+2023-04-24 11:11:54,166 - netlog - INFO - ==>>> epoch:16, batch index: 400, loss:0.15364791452884674
+2023-04-24 11:12:02,900 - netlog - INFO - ==>>> epoch:16, batch index: 450, loss:0.22861263155937195
+2023-04-24 11:12:11,583 - netlog - INFO - ==>>> epoch:16, batch index: 500, loss:0.22936910390853882
+2023-04-24 11:12:20,041 - netlog - INFO - ==>>> epoch:16, batch index: 550, loss:0.10689590871334076
+2023-04-24 11:12:28,620 - netlog - INFO - ==>>> epoch:16, batch index: 600, loss:0.2274019569158554
+2023-04-24 11:12:36,698 - netlog - INFO - ==>>> epoch:16, batch index: 650, loss:0.20705461502075195
+2023-04-24 11:12:45,454 - netlog - INFO - ==>>> epoch:16, batch index: 700, loss:0.08995334059000015
+2023-04-24 11:12:53,832 - netlog - INFO - ==>>> epoch:16, batch index: 750, loss:0.49650201201438904
+2023-04-24 11:13:02,557 - netlog - INFO - ==>>> epoch:16, batch index: 800, loss:0.148779958486557
+2023-04-24 11:13:09,554 - netlog - INFO - Start Validation
+2023-04-24 11:14:40,269 - netlog - INFO - ==>>>test seen_acc:49.96861268047709 unseen_acc:44.34156378600823
+2023-04-24 11:14:41,590 - netlog - INFO - ==>>> epoch:17, batch index: 0, loss:0.34637993574142456
+2023-04-24 11:14:50,747 - netlog - INFO - ==>>> epoch:17, batch index: 50, loss:0.16491834819316864
+2023-04-24 11:15:00,204 - netlog - INFO - ==>>> epoch:17, batch index: 100, loss:0.21891015768051147
+2023-04-24 11:15:09,268 - netlog - INFO - ==>>> epoch:17, batch index: 150, loss:0.16705238819122314
+2023-04-24 11:15:17,953 - netlog - INFO - ==>>> epoch:17, batch index: 200, loss:0.23056404292583466
+2023-04-24 11:15:27,163 - netlog - INFO - ==>>> epoch:17, batch index: 250, loss:0.24702580273151398
+2023-04-24 11:15:36,187 - netlog - INFO - ==>>> epoch:17, batch index: 300, loss:0.5013665556907654
+2023-04-24 11:15:45,259 - netlog - INFO - ==>>> epoch:17, batch index: 350, loss:0.22649383544921875
+2023-04-24 11:15:54,182 - netlog - INFO - ==>>> epoch:17, batch index: 400, loss:0.38007766008377075
+2023-04-24 11:16:03,133 - netlog - INFO - ==>>> epoch:17, batch index: 450, loss:0.5281425714492798
+2023-04-24 11:16:11,681 - netlog - INFO - ==>>> epoch:17, batch index: 500, loss:0.29364168643951416
+2023-04-24 11:16:20,546 - netlog - INFO - ==>>> epoch:17, batch index: 550, loss:0.45152902603149414
+2023-04-24 11:16:30,012 - netlog - INFO - ==>>> epoch:17, batch index: 600, loss:0.1450413167476654
+2023-04-24 11:16:38,422 - netlog - INFO - ==>>> epoch:17, batch index: 650, loss:0.36626869440078735
+2023-04-24 11:16:47,472 - netlog - INFO - ==>>> epoch:17, batch index: 700, loss:0.13288527727127075
+2023-04-24 11:16:56,287 - netlog - INFO - ==>>> epoch:17, batch index: 750, loss:0.25979337096214294
+2023-04-24 11:17:04,819 - netlog - INFO - ==>>> epoch:17, batch index: 800, loss:0.2121422290802002
+2023-04-24 11:17:11,715 - netlog - INFO - Start Validation
+2023-04-24 11:18:43,034 - netlog - INFO - ==>>>test seen_acc:50.23540489642185 unseen_acc:43.20987654320987
+2023-04-24 11:18:44,368 - netlog - INFO - ==>>> epoch:18, batch index: 0, loss:0.4475349485874176
+2023-04-24 11:18:53,655 - netlog - INFO - ==>>> epoch:18, batch index: 50, loss:0.23155899345874786
+2023-04-24 11:19:03,225 - netlog - INFO - ==>>> epoch:18, batch index: 100, loss:0.13868167996406555
+2023-04-24 11:19:12,129 - netlog - INFO - ==>>> epoch:18, batch index: 150, loss:0.19355550408363342
+2023-04-24 11:19:21,032 - netlog - INFO - ==>>> epoch:18, batch index: 200, loss:0.12029023468494415
+2023-04-24 11:19:29,987 - netlog - INFO - ==>>> epoch:18, batch index: 250, loss:0.2814827859401703
+2023-04-24 11:19:39,055 - netlog - INFO - ==>>> epoch:18, batch index: 300, loss:0.21715086698532104
+2023-04-24 11:19:47,623 - netlog - INFO - ==>>> epoch:18, batch index: 350, loss:0.25071585178375244
+2023-04-24 11:19:56,472 - netlog - INFO - ==>>> epoch:18, batch index: 400, loss:0.09198841452598572
+2023-04-24 11:20:05,109 - netlog - INFO - ==>>> epoch:18, batch index: 450, loss:0.3289183974266052
+2023-04-24 11:20:14,134 - netlog - INFO - ==>>> epoch:18, batch index: 500, loss:0.1738843470811844
+2023-04-24 11:20:22,777 - netlog - INFO - ==>>> epoch:18, batch index: 550, loss:0.0772097259759903
+2023-04-24 11:20:31,756 - netlog - INFO - ==>>> epoch:18, batch index: 600, loss:0.14712093770503998
+2023-04-24 11:20:40,266 - netlog - INFO - ==>>> epoch:18, batch index: 650, loss:0.3593898415565491
+2023-04-24 11:20:48,784 - netlog - INFO - ==>>> epoch:18, batch index: 700, loss:0.2089506983757019
+2023-04-24 11:20:57,290 - netlog - INFO - ==>>> epoch:18, batch index: 750, loss:0.04377978667616844
+2023-04-24 11:21:06,072 - netlog - INFO - ==>>> epoch:18, batch index: 800, loss:0.16514000296592712
+2023-04-24 11:21:12,744 - netlog - INFO - Start Validation
+2023-04-24 11:22:44,644 - netlog - INFO - ==>>>test seen_acc:50.06277463904583 unseen_acc:40.4320987654321
+2023-04-24 11:22:45,761 - netlog - INFO - ==>>> epoch:19, batch index: 0, loss:0.43884122371673584
+2023-04-24 11:22:54,746 - netlog - INFO - ==>>> epoch:19, batch index: 50, loss:0.11008523404598236
+2023-04-24 11:23:04,291 - netlog - INFO - ==>>> epoch:19, batch index: 100, loss:0.13052985072135925
+2023-04-24 11:23:13,500 - netlog - INFO - ==>>> epoch:19, batch index: 150, loss:0.1600807011127472
+2023-04-24 11:23:22,030 - netlog - INFO - ==>>> epoch:19, batch index: 200, loss:0.35370001196861267
+2023-04-24 11:23:30,828 - netlog - INFO - ==>>> epoch:19, batch index: 250, loss:0.22820454835891724
+2023-04-24 11:23:39,528 - netlog - INFO - ==>>> epoch:19, batch index: 300, loss:0.565449595451355
+2023-04-24 11:23:48,328 - netlog - INFO - ==>>> epoch:19, batch index: 350, loss:0.2949778437614441
+2023-04-24 11:23:57,411 - netlog - INFO - ==>>> epoch:19, batch index: 400, loss:0.3015279769897461
+2023-04-24 11:24:06,318 - netlog - INFO - ==>>> epoch:19, batch index: 450, loss:0.22891035676002502
+2023-04-24 11:24:15,440 - netlog - INFO - ==>>> epoch:19, batch index: 500, loss:0.3796648681163788
+2023-04-24 11:24:24,486 - netlog - INFO - ==>>> epoch:19, batch index: 550, loss:0.08072195947170258
+2023-04-24 11:24:33,226 - netlog - INFO - ==>>> epoch:19, batch index: 600, loss:0.3120288550853729
+2023-04-24 11:24:41,366 - netlog - INFO - ==>>> epoch:19, batch index: 650, loss:0.09363791346549988
+2023-04-24 11:24:49,973 - netlog - INFO - ==>>> epoch:19, batch index: 700, loss:0.05813625454902649
+2023-04-24 11:24:58,382 - netlog - INFO - ==>>> epoch:19, batch index: 750, loss:0.07679442316293716
+2023-04-24 11:25:06,483 - netlog - INFO - ==>>> epoch:19, batch index: 800, loss:0.13546422123908997
+2023-04-24 11:25:13,147 - netlog - INFO - Start Validation
+2023-04-24 11:26:39,605 - netlog - INFO - ==>>>test seen_acc:50.34526051475204 unseen_acc:40.74074074074074
+2023-04-24 11:26:40,631 - netlog - INFO - ==>>> epoch:20, batch index: 0, loss:0.41217851638793945
+2023-04-24 11:26:49,342 - netlog - INFO - ==>>> epoch:20, batch index: 50, loss:0.3127223551273346
+2023-04-24 11:26:58,103 - netlog - INFO - ==>>> epoch:20, batch index: 100, loss:0.089098259806633
+2023-04-24 11:27:07,219 - netlog - INFO - ==>>> epoch:20, batch index: 150, loss:0.3853667974472046
+2023-04-24 11:27:15,828 - netlog - INFO - ==>>> epoch:20, batch index: 200, loss:0.057856686413288116
+2023-04-24 11:27:24,003 - netlog - INFO - ==>>> epoch:20, batch index: 250, loss:0.27490168809890747
+2023-04-24 11:27:32,604 - netlog - INFO - ==>>> epoch:20, batch index: 300, loss:0.23655183613300323
+2023-04-24 11:27:40,953 - netlog - INFO - ==>>> epoch:20, batch index: 350, loss:0.39399296045303345
+2023-04-24 11:27:49,812 - netlog - INFO - ==>>> epoch:20, batch index: 400, loss:0.15049001574516296
+2023-04-24 11:27:58,712 - netlog - INFO - ==>>> epoch:20, batch index: 450, loss:0.3750661015510559
+2023-04-24 11:28:07,195 - netlog - INFO - ==>>> epoch:20, batch index: 500, loss:0.11838895082473755
+2023-04-24 11:28:15,567 - netlog - INFO - ==>>> epoch:20, batch index: 550, loss:0.3620985746383667
+2023-04-24 11:28:24,487 - netlog - INFO - ==>>> epoch:20, batch index: 600, loss:0.448883056640625
+2023-04-24 11:28:32,929 - netlog - INFO - ==>>> epoch:20, batch index: 650, loss:0.03924761712551117
+2023-04-24 11:28:41,411 - netlog - INFO - ==>>> epoch:20, batch index: 700, loss:0.2615882158279419
+2023-04-24 11:28:49,840 - netlog - INFO - ==>>> epoch:20, batch index: 750, loss:0.28865528106689453
+2023-04-24 11:28:58,660 - netlog - INFO - ==>>> epoch:20, batch index: 800, loss:0.23254548013210297
+2023-04-24 11:29:05,446 - netlog - INFO - Start Validation
+2023-04-24 11:30:33,167 - netlog - INFO - ==>>>test seen_acc:50.64344005021971 unseen_acc:40.22633744855967
+2023-04-24 11:30:34,546 - netlog - INFO - ==>>> epoch:21, batch index: 0, loss:0.20160725712776184
+2023-04-24 11:30:43,369 - netlog - INFO - ==>>> epoch:21, batch index: 50, loss:0.2901502251625061
+2023-04-24 11:30:52,664 - netlog - INFO - ==>>> epoch:21, batch index: 100, loss:0.30217573046684265
+2023-04-24 11:31:01,289 - netlog - INFO - ==>>> epoch:21, batch index: 150, loss:0.19162094593048096
+2023-04-24 11:31:09,494 - netlog - INFO - ==>>> epoch:21, batch index: 200, loss:0.3767320215702057
+2023-04-24 11:31:17,807 - netlog - INFO - ==>>> epoch:21, batch index: 250, loss:0.3912762999534607
+2023-04-24 11:31:26,314 - netlog - INFO - ==>>> epoch:21, batch index: 300, loss:0.44793200492858887
+2023-04-24 11:31:34,830 - netlog - INFO - ==>>> epoch:21, batch index: 350, loss:0.14893411099910736
+2023-04-24 11:31:43,251 - netlog - INFO - ==>>> epoch:21, batch index: 400, loss:0.21884939074516296
+2023-04-24 11:31:51,864 - netlog - INFO - ==>>> epoch:21, batch index: 450, loss:0.22864240407943726
+2023-04-24 11:32:00,013 - netlog - INFO - ==>>> epoch:21, batch index: 500, loss:0.3428041934967041
+2023-04-24 11:32:08,581 - netlog - INFO - ==>>> epoch:21, batch index: 550, loss:0.2189018726348877
+2023-04-24 11:32:16,992 - netlog - INFO - ==>>> epoch:21, batch index: 600, loss:0.29391154646873474
+2023-04-24 11:32:25,596 - netlog - INFO - ==>>> epoch:21, batch index: 650, loss:0.20005932450294495
+2023-04-24 11:32:33,949 - netlog - INFO - ==>>> epoch:21, batch index: 700, loss:0.4385104477405548
+2023-04-24 11:32:42,334 - netlog - INFO - ==>>> epoch:21, batch index: 750, loss:0.2297026515007019
+2023-04-24 11:32:50,586 - netlog - INFO - ==>>> epoch:21, batch index: 800, loss:0.09862075001001358
+2023-04-24 11:32:57,651 - netlog - INFO - Start Validation
+2023-04-24 11:34:26,943 - netlog - INFO - ==>>>test seen_acc:49.7489014438167 unseen_acc:42.38683127572016
+2023-04-24 11:34:28,164 - netlog - INFO - ==>>> epoch:22, batch index: 0, loss:0.49522489309310913
+2023-04-24 11:34:37,018 - netlog - INFO - ==>>> epoch:22, batch index: 50, loss:0.39831072092056274
+2023-04-24 11:34:46,160 - netlog - INFO - ==>>> epoch:22, batch index: 100, loss:0.28124380111694336
+2023-04-24 11:34:54,985 - netlog - INFO - ==>>> epoch:22, batch index: 150, loss:0.48061081767082214
+2023-04-24 11:35:03,504 - netlog - INFO - ==>>> epoch:22, batch index: 200, loss:0.21797485649585724
+2023-04-24 11:35:12,026 - netlog - INFO - ==>>> epoch:22, batch index: 250, loss:0.01981494575738907
+2023-04-24 11:35:20,684 - netlog - INFO - ==>>> epoch:22, batch index: 300, loss:0.566834032535553
+2023-04-24 11:35:29,465 - netlog - INFO - ==>>> epoch:22, batch index: 350, loss:0.04674201458692551
+2023-04-24 11:35:37,795 - netlog - INFO - ==>>> epoch:22, batch index: 400, loss:0.1732654720544815
+2023-04-24 11:35:46,472 - netlog - INFO - ==>>> epoch:22, batch index: 450, loss:0.5209695100784302
+2023-04-24 11:35:54,608 - netlog - INFO - ==>>> epoch:22, batch index: 500, loss:0.39378058910369873
+2023-04-24 11:36:02,943 - netlog - INFO - ==>>> epoch:22, batch index: 550, loss:0.16492696106433868
+2023-04-24 11:36:11,372 - netlog - INFO - ==>>> epoch:22, batch index: 600, loss:0.26516419649124146
+2023-04-24 11:36:19,676 - netlog - INFO - ==>>> epoch:22, batch index: 650, loss:0.16908784210681915
+2023-04-24 11:36:28,330 - netlog - INFO - ==>>> epoch:22, batch index: 700, loss:0.3813883662223816
+2023-04-24 11:36:36,600 - netlog - INFO - ==>>> epoch:22, batch index: 750, loss:0.21115049719810486
+2023-04-24 11:36:45,184 - netlog - INFO - ==>>> epoch:22, batch index: 800, loss:0.12617328763008118
+2023-04-24 11:36:52,021 - netlog - INFO - Start Validation
+2023-04-24 11:38:25,330 - netlog - INFO - ==>>>test seen_acc:50.76898932831136 unseen_acc:41.1522633744856
+2023-04-24 11:38:26,532 - netlog - INFO - ==>>> epoch:23, batch index: 0, loss:0.2107481062412262
+2023-04-24 11:38:36,195 - netlog - INFO - ==>>> epoch:23, batch index: 50, loss:0.34611284732818604
+2023-04-24 11:38:45,143 - netlog - INFO - ==>>> epoch:23, batch index: 100, loss:0.12178708612918854
+2023-04-24 11:38:54,028 - netlog - INFO - ==>>> epoch:23, batch index: 150, loss:0.13636410236358643
+2023-04-24 11:39:03,351 - netlog - INFO - ==>>> epoch:23, batch index: 200, loss:0.33821550011634827
+2023-04-24 11:39:11,980 - netlog - INFO - ==>>> epoch:23, batch index: 250, loss:0.2009185403585434
+2023-04-24 11:39:21,056 - netlog - INFO - ==>>> epoch:23, batch index: 300, loss:0.23513951897621155
+2023-04-24 11:39:29,797 - netlog - INFO - ==>>> epoch:23, batch index: 350, loss:0.08015058189630508
+2023-04-24 11:39:38,723 - netlog - INFO - ==>>> epoch:23, batch index: 400, loss:0.10435152053833008
+2023-04-24 11:39:47,403 - netlog - INFO - ==>>> epoch:23, batch index: 450, loss:0.20845937728881836
+2023-04-24 11:39:56,298 - netlog - INFO - ==>>> epoch:23, batch index: 500, loss:0.5588889122009277
+2023-04-24 11:40:05,123 - netlog - INFO - ==>>> epoch:23, batch index: 550, loss:0.12628845870494843
+2023-04-24 11:40:13,869 - netlog - INFO - ==>>> epoch:23, batch index: 600, loss:0.3134428858757019
+2023-04-24 11:40:23,155 - netlog - INFO - ==>>> epoch:23, batch index: 650, loss:0.08767913281917572
+2023-04-24 11:40:31,409 - netlog - INFO - ==>>> epoch:23, batch index: 700, loss:0.1567375361919403
+2023-04-24 11:40:39,641 - netlog - INFO - ==>>> epoch:23, batch index: 750, loss:0.3722279667854309
+2023-04-24 11:40:48,170 - netlog - INFO - ==>>> epoch:23, batch index: 800, loss:0.1309596598148346
+2023-04-24 11:40:54,903 - netlog - INFO - Start Validation
+2023-04-24 11:42:23,082 - netlog - INFO - ==>>>test seen_acc:50.455116133082235 unseen_acc:38.78600823045267
+2023-04-24 11:42:24,319 - netlog - INFO - ==>>> epoch:24, batch index: 0, loss:0.2747446298599243
+2023-04-24 11:42:33,323 - netlog - INFO - ==>>> epoch:24, batch index: 50, loss:0.21985357999801636
+2023-04-24 11:42:42,731 - netlog - INFO - ==>>> epoch:24, batch index: 100, loss:0.44295910000801086
+2023-04-24 11:42:51,794 - netlog - INFO - ==>>> epoch:24, batch index: 150, loss:0.13718168437480927
+2023-04-24 11:43:00,605 - netlog - INFO - ==>>> epoch:24, batch index: 200, loss:0.12689369916915894
+2023-04-24 11:43:09,143 - netlog - INFO - ==>>> epoch:24, batch index: 250, loss:0.16708612442016602
+2023-04-24 11:43:17,769 - netlog - INFO - ==>>> epoch:24, batch index: 300, loss:0.10961636155843735
+2023-04-24 11:43:26,252 - netlog - INFO - ==>>> epoch:24, batch index: 350, loss:0.20494143664836884
+2023-04-24 11:43:35,111 - netlog - INFO - ==>>> epoch:24, batch index: 400, loss:0.07399792224168777
+2023-04-24 11:43:43,205 - netlog - INFO - ==>>> epoch:24, batch index: 450, loss:0.17258253693580627
+2023-04-24 11:43:51,812 - netlog - INFO - ==>>> epoch:24, batch index: 500, loss:0.1900365948677063
+2023-04-24 11:44:00,689 - netlog - INFO - ==>>> epoch:24, batch index: 550, loss:0.1921820342540741
+2023-04-24 11:44:09,379 - netlog - INFO - ==>>> epoch:24, batch index: 600, loss:0.38079190254211426
+2023-04-24 11:44:17,781 - netlog - INFO - ==>>> epoch:24, batch index: 650, loss:0.0434003584086895
+2023-04-24 11:44:26,400 - netlog - INFO - ==>>> epoch:24, batch index: 700, loss:0.035937897861003876
+2023-04-24 11:44:35,120 - netlog - INFO - ==>>> epoch:24, batch index: 750, loss:0.08415697515010834
+2023-04-24 11:44:43,557 - netlog - INFO - ==>>> epoch:24, batch index: 800, loss:0.3606739342212677
+2023-04-24 11:44:50,523 - netlog - INFO - Start Validation
+2023-04-24 11:46:20,054 - netlog - INFO - ==>>>test seen_acc:50.34526051475204 unseen_acc:39.19753086419753
+2023-04-24 11:46:21,332 - netlog - INFO - ==>>> epoch:25, batch index: 0, loss:0.1903657615184784
+2023-04-24 11:46:30,150 - netlog - INFO - ==>>> epoch:25, batch index: 50, loss:0.26731425523757935
+2023-04-24 11:46:39,360 - netlog - INFO - ==>>> epoch:25, batch index: 100, loss:0.16545143723487854
+2023-04-24 11:46:47,822 - netlog - INFO - ==>>> epoch:25, batch index: 150, loss:0.03975307196378708
+2023-04-24 11:46:56,970 - netlog - INFO - ==>>> epoch:25, batch index: 200, loss:0.4789745807647705
+2023-04-24 11:47:05,550 - netlog - INFO - ==>>> epoch:25, batch index: 250, loss:0.2511170208454132
+2023-04-24 11:47:14,319 - netlog - INFO - ==>>> epoch:25, batch index: 300, loss:0.07889992743730545
+2023-04-24 11:47:22,543 - netlog - INFO - ==>>> epoch:25, batch index: 350, loss:0.06264068186283112
+2023-04-24 11:47:31,345 - netlog - INFO - ==>>> epoch:25, batch index: 400, loss:0.07623477280139923
+2023-04-24 11:47:40,178 - netlog - INFO - ==>>> epoch:25, batch index: 450, loss:0.22272160649299622
+2023-04-24 11:47:48,825 - netlog - INFO - ==>>> epoch:25, batch index: 500, loss:0.277238130569458
+2023-04-24 11:47:57,182 - netlog - INFO - ==>>> epoch:25, batch index: 550, loss:0.2980350852012634
+2023-04-24 11:48:05,783 - netlog - INFO - ==>>> epoch:25, batch index: 600, loss:0.08670534938573837
+2023-04-24 11:48:14,560 - netlog - INFO - ==>>> epoch:25, batch index: 650, loss:0.23485130071640015
+2023-04-24 11:48:23,194 - netlog - INFO - ==>>> epoch:25, batch index: 700, loss:0.10305443406105042
+2023-04-24 11:48:31,724 - netlog - INFO - ==>>> epoch:25, batch index: 750, loss:0.4004884660243988
+2023-04-24 11:48:40,088 - netlog - INFO - ==>>> epoch:25, batch index: 800, loss:0.0993209034204483
+2023-04-24 11:48:46,763 - netlog - INFO - Start Validation
+2023-04-24 11:50:16,033 - netlog - INFO - ==>>>test seen_acc:49.623352165725045 unseen_acc:40.02057613168724
+2023-04-24 11:50:17,157 - netlog - INFO - ==>>> epoch:26, batch index: 0, loss:0.15853524208068848
+2023-04-24 11:50:26,007 - netlog - INFO - ==>>> epoch:26, batch index: 50, loss:0.07269226759672165
+2023-04-24 11:50:35,687 - netlog - INFO - ==>>> epoch:26, batch index: 100, loss:0.17842340469360352
+2023-04-24 11:50:44,904 - netlog - INFO - ==>>> epoch:26, batch index: 150, loss:0.047345973551273346
+2023-04-24 11:50:53,453 - netlog - INFO - ==>>> epoch:26, batch index: 200, loss:0.43349313735961914
+2023-04-24 11:51:02,325 - netlog - INFO - ==>>> epoch:26, batch index: 250, loss:0.11646448820829391
+2023-04-24 11:51:10,878 - netlog - INFO - ==>>> epoch:26, batch index: 300, loss:0.32577404379844666
+2023-04-24 11:51:19,511 - netlog - INFO - ==>>> epoch:26, batch index: 350, loss:0.2972213625907898
+2023-04-24 11:51:28,019 - netlog - INFO - ==>>> epoch:26, batch index: 400, loss:0.25776827335357666
+2023-04-24 11:51:36,643 - netlog - INFO - ==>>> epoch:26, batch index: 450, loss:0.13111110031604767
+2023-04-24 11:51:45,130 - netlog - INFO - ==>>> epoch:26, batch index: 500, loss:0.34384581446647644
+2023-04-24 11:51:53,832 - netlog - INFO - ==>>> epoch:26, batch index: 550, loss:0.16304579377174377
+2023-04-24 11:52:02,486 - netlog - INFO - ==>>> epoch:26, batch index: 600, loss:0.18570572137832642
+2023-04-24 11:52:11,327 - netlog - INFO - ==>>> epoch:26, batch index: 650, loss:0.1297972947359085
+2023-04-24 11:52:20,346 - netlog - INFO - ==>>> epoch:26, batch index: 700, loss:0.08835967630147934
+2023-04-24 11:52:29,069 - netlog - INFO - ==>>> epoch:26, batch index: 750, loss:0.12846919894218445
+2023-04-24 11:52:37,398 - netlog - INFO - ==>>> epoch:26, batch index: 800, loss:0.25659292936325073
+2023-04-24 11:52:44,391 - netlog - INFO - Start Validation
+2023-04-24 11:54:14,374 - netlog - INFO - ==>>>test seen_acc:50.81607030759573 unseen_acc:40.4320987654321
+2023-04-24 11:54:15,813 - netlog - INFO - ==>>> epoch:27, batch index: 0, loss:0.10528836399316788
+2023-04-24 11:54:24,932 - netlog - INFO - ==>>> epoch:27, batch index: 50, loss:0.23501446843147278
+2023-04-24 11:54:34,349 - netlog - INFO - ==>>> epoch:27, batch index: 100, loss:0.12492242455482483
+2023-04-24 11:54:43,189 - netlog - INFO - ==>>> epoch:27, batch index: 150, loss:0.03589380532503128
+2023-04-24 11:54:52,419 - netlog - INFO - ==>>> epoch:27, batch index: 200, loss:0.1258752942085266
+2023-04-24 11:55:01,295 - netlog - INFO - ==>>> epoch:27, batch index: 250, loss:0.08096075057983398
+2023-04-24 11:55:10,369 - netlog - INFO - ==>>> epoch:27, batch index: 300, loss:0.12881305813789368
+2023-04-24 11:55:19,464 - netlog - INFO - ==>>> epoch:27, batch index: 350, loss:0.35278773307800293
+2023-04-24 11:55:28,434 - netlog - INFO - ==>>> epoch:27, batch index: 400, loss:0.09181727468967438
+2023-04-24 11:55:37,002 - netlog - INFO - ==>>> epoch:27, batch index: 450, loss:0.06729014217853546
+2023-04-24 11:55:45,635 - netlog - INFO - ==>>> epoch:27, batch index: 500, loss:0.3667924404144287
+2023-04-24 11:55:54,273 - netlog - INFO - ==>>> epoch:27, batch index: 550, loss:0.09140298515558243
+2023-04-24 11:56:03,125 - netlog - INFO - ==>>> epoch:27, batch index: 600, loss:0.07608161866664886
+2023-04-24 11:56:12,054 - netlog - INFO - ==>>> epoch:27, batch index: 650, loss:0.4252690076828003
+2023-04-24 11:56:20,324 - netlog - INFO - ==>>> epoch:27, batch index: 700, loss:0.16911090910434723
+2023-04-24 11:56:28,588 - netlog - INFO - ==>>> epoch:27, batch index: 750, loss:0.41816744208335876
+2023-04-24 11:56:37,227 - netlog - INFO - ==>>> epoch:27, batch index: 800, loss:0.29099369049072266
+2023-04-24 11:56:43,951 - netlog - INFO - Start Validation
+2023-04-24 11:58:13,512 - netlog - INFO - ==>>>test seen_acc:50.706214689265536 unseen_acc:38.78600823045267
+2023-04-24 11:58:14,569 - netlog - INFO - ==>>> epoch:28, batch index: 0, loss:0.038163378834724426
+2023-04-24 11:58:24,066 - netlog - INFO - ==>>> epoch:28, batch index: 50, loss:0.16350603103637695
+2023-04-24 11:58:33,369 - netlog - INFO - ==>>> epoch:28, batch index: 100, loss:0.3948720097541809
+2023-04-24 11:58:42,288 - netlog - INFO - ==>>> epoch:28, batch index: 150, loss:0.09212805330753326
+2023-04-24 11:58:50,920 - netlog - INFO - ==>>> epoch:28, batch index: 200, loss:0.15311184525489807
+2023-04-24 11:58:59,609 - netlog - INFO - ==>>> epoch:28, batch index: 250, loss:0.11344274878501892
+2023-04-24 11:59:08,451 - netlog - INFO - ==>>> epoch:28, batch index: 300, loss:0.03127061203122139
+2023-04-24 11:59:17,267 - netlog - INFO - ==>>> epoch:28, batch index: 350, loss:0.20519837737083435
+2023-04-24 11:59:25,330 - netlog - INFO - ==>>> epoch:28, batch index: 400, loss:0.2076166272163391
+2023-04-24 11:59:34,343 - netlog - INFO - ==>>> epoch:28, batch index: 450, loss:0.32792365550994873
+2023-04-24 11:59:43,035 - netlog - INFO - ==>>> epoch:28, batch index: 500, loss:0.27126267552375793
+2023-04-24 11:59:51,521 - netlog - INFO - ==>>> epoch:28, batch index: 550, loss:0.04335208237171173
+2023-04-24 12:00:00,192 - netlog - INFO - ==>>> epoch:28, batch index: 600, loss:0.3418724238872528
+2023-04-24 12:00:08,658 - netlog - INFO - ==>>> epoch:28, batch index: 650, loss:0.15924280881881714
+2023-04-24 12:00:16,989 - netlog - INFO - ==>>> epoch:28, batch index: 700, loss:0.05306944251060486
+2023-04-24 12:00:25,509 - netlog - INFO - ==>>> epoch:28, batch index: 750, loss:0.1360325962305069
+2023-04-24 12:00:33,674 - netlog - INFO - ==>>> epoch:28, batch index: 800, loss:0.10433325171470642
+2023-04-24 12:00:40,715 - netlog - INFO - Start Validation
+2023-04-24 12:02:10,672 - netlog - INFO - ==>>>test seen_acc:50.941619585687384 unseen_acc:41.04938271604938
+2023-04-24 12:02:11,843 - netlog - INFO - ==>>> epoch:29, batch index: 0, loss:0.21090610325336456
+2023-04-24 12:02:21,120 - netlog - INFO - ==>>> epoch:29, batch index: 50, loss:0.15655319392681122
+2023-04-24 12:02:30,418 - netlog - INFO - ==>>> epoch:29, batch index: 100, loss:0.31760933995246887
+2023-04-24 12:02:39,476 - netlog - INFO - ==>>> epoch:29, batch index: 150, loss:0.5086722373962402
+2023-04-24 12:02:48,211 - netlog - INFO - ==>>> epoch:29, batch index: 200, loss:0.24844400584697723
+2023-04-24 12:02:57,117 - netlog - INFO - ==>>> epoch:29, batch index: 250, loss:0.19873444736003876
+2023-04-24 12:03:06,097 - netlog - INFO - ==>>> epoch:29, batch index: 300, loss:0.3095649778842926
+2023-04-24 12:03:15,293 - netlog - INFO - ==>>> epoch:29, batch index: 350, loss:0.2883794605731964
+2023-04-24 12:03:23,673 - netlog - INFO - ==>>> epoch:29, batch index: 400, loss:0.11947938799858093
+2023-04-24 12:03:32,460 - netlog - INFO - ==>>> epoch:29, batch index: 450, loss:0.2961251735687256
+2023-04-24 12:03:41,421 - netlog - INFO - ==>>> epoch:29, batch index: 500, loss:0.1867867112159729
+2023-04-24 12:03:50,097 - netlog - INFO - ==>>> epoch:29, batch index: 550, loss:0.3438994288444519
+2023-04-24 12:03:59,272 - netlog - INFO - ==>>> epoch:29, batch index: 600, loss:0.19891123473644257
+2023-04-24 12:04:08,152 - netlog - INFO - ==>>> epoch:29, batch index: 650, loss:0.3911999464035034
+2023-04-24 12:04:16,793 - netlog - INFO - ==>>> epoch:29, batch index: 700, loss:0.2750554084777832
+2023-04-24 12:04:25,490 - netlog - INFO - ==>>> epoch:29, batch index: 750, loss:0.314007043838501
+2023-04-24 12:04:33,878 - netlog - INFO - ==>>> epoch:29, batch index: 800, loss:0.026321951299905777
+2023-04-24 12:04:40,795 - netlog - INFO - Start Validation
+2023-04-24 12:06:11,772 - netlog - INFO - ==>>>test seen_acc:50.48650345260515 unseen_acc:41.56378600823045
+2023-04-24 12:06:12,959 - netlog - INFO - ==>>> epoch:30, batch index: 0, loss:0.02141188271343708
+2023-04-24 12:06:21,931 - netlog - INFO - ==>>> epoch:30, batch index: 50, loss:0.07157845795154572
+2023-04-24 12:06:31,348 - netlog - INFO - ==>>> epoch:30, batch index: 100, loss:0.10933107882738113
+2023-04-24 12:06:40,334 - netlog - INFO - ==>>> epoch:30, batch index: 150, loss:0.33028343319892883
+2023-04-24 12:06:49,075 - netlog - INFO - ==>>> epoch:30, batch index: 200, loss:0.21891772747039795
+2023-04-24 12:06:57,559 - netlog - INFO - ==>>> epoch:30, batch index: 250, loss:0.09053212404251099
+2023-04-24 12:07:06,187 - netlog - INFO - ==>>> epoch:30, batch index: 300, loss:0.21137869358062744
+2023-04-24 12:07:14,715 - netlog - INFO - ==>>> epoch:30, batch index: 350, loss:0.1873655468225479
+2023-04-24 12:07:23,623 - netlog - INFO - ==>>> epoch:30, batch index: 400, loss:0.14555248618125916
+2023-04-24 12:07:32,408 - netlog - INFO - ==>>> epoch:30, batch index: 450, loss:0.3628438711166382
+2023-04-24 12:07:41,433 - netlog - INFO - ==>>> epoch:30, batch index: 500, loss:0.3632298707962036
+2023-04-24 12:07:50,112 - netlog - INFO - ==>>> epoch:30, batch index: 550, loss:0.14746977388858795
+2023-04-24 12:07:58,876 - netlog - INFO - ==>>> epoch:30, batch index: 600, loss:0.11830151081085205
+2023-04-24 12:08:07,131 - netlog - INFO - ==>>> epoch:30, batch index: 650, loss:0.05038107931613922
+2023-04-24 12:08:15,925 - netlog - INFO - ==>>> epoch:30, batch index: 700, loss:0.4905224144458771
+2023-04-24 12:08:24,193 - netlog - INFO - ==>>> epoch:30, batch index: 750, loss:0.2116893231868744
+2023-04-24 12:08:32,833 - netlog - INFO - ==>>> epoch:30, batch index: 800, loss:0.21173034608364105
+2023-04-24 12:08:39,598 - netlog - INFO - Start Validation
+2023-04-24 12:10:10,842 - netlog - INFO - ==>>>test seen_acc:50.360954174513495 unseen_acc:38.888888888888886
+2023-04-24 12:10:12,088 - netlog - INFO - ==>>> epoch:31, batch index: 0, loss:0.06991258263587952
+2023-04-24 12:10:21,262 - netlog - INFO - ==>>> epoch:31, batch index: 50, loss:0.0793561115860939
+2023-04-24 12:10:30,607 - netlog - INFO - ==>>> epoch:31, batch index: 100, loss:0.22141429781913757
+2023-04-24 12:10:40,009 - netlog - INFO - ==>>> epoch:31, batch index: 150, loss:0.31787121295928955
+2023-04-24 12:10:49,234 - netlog - INFO - ==>>> epoch:31, batch index: 200, loss:0.03604995086789131
+2023-04-24 12:10:57,978 - netlog - INFO - ==>>> epoch:31, batch index: 250, loss:0.18793123960494995
+2023-04-24 12:11:06,436 - netlog - INFO - ==>>> epoch:31, batch index: 300, loss:0.21544721722602844
+2023-04-24 12:11:15,295 - netlog - INFO - ==>>> epoch:31, batch index: 350, loss:0.38663971424102783
+2023-04-24 12:11:23,840 - netlog - INFO - ==>>> epoch:31, batch index: 400, loss:0.2525593936443329
+2023-04-24 12:11:32,182 - netlog - INFO - ==>>> epoch:31, batch index: 450, loss:0.20581713318824768
+2023-04-24 12:11:40,551 - netlog - INFO - ==>>> epoch:31, batch index: 500, loss:0.33267778158187866
+2023-04-24 12:11:49,420 - netlog - INFO - ==>>> epoch:31, batch index: 550, loss:0.2885160744190216
+2023-04-24 12:11:58,036 - netlog - INFO - ==>>> epoch:31, batch index: 600, loss:0.10313725471496582
+2023-04-24 12:12:06,748 - netlog - INFO - ==>>> epoch:31, batch index: 650, loss:0.17122489213943481
+2023-04-24 12:12:15,508 - netlog - INFO - ==>>> epoch:31, batch index: 700, loss:0.07256408035755157
+2023-04-24 12:12:23,653 - netlog - INFO - ==>>> epoch:31, batch index: 750, loss:0.21980512142181396
+2023-04-24 12:12:32,349 - netlog - INFO - ==>>> epoch:31, batch index: 800, loss:0.3956373333930969
+2023-04-24 12:12:39,361 - netlog - INFO - Start Validation
+2023-04-24 12:14:09,724 - netlog - INFO - ==>>>test seen_acc:50.87884494664156 unseen_acc:41.04938271604938
+2023-04-24 12:14:10,880 - netlog - INFO - ==>>> epoch:32, batch index: 0, loss:0.047689288854599
+2023-04-24 12:14:19,826 - netlog - INFO - ==>>> epoch:32, batch index: 50, loss:0.2137324959039688
+2023-04-24 12:14:28,915 - netlog - INFO - ==>>> epoch:32, batch index: 100, loss:0.054615698754787445
+2023-04-24 12:14:38,423 - netlog - INFO - ==>>> epoch:32, batch index: 150, loss:0.6246439218521118
+2023-04-24 12:14:47,748 - netlog - INFO - ==>>> epoch:32, batch index: 200, loss:0.2743419408798218
+2023-04-24 12:14:56,580 - netlog - INFO - ==>>> epoch:32, batch index: 250, loss:0.27493637800216675
+2023-04-24 12:15:05,581 - netlog - INFO - ==>>> epoch:32, batch index: 300, loss:0.08391737937927246
+2023-04-24 12:15:14,150 - netlog - INFO - ==>>> epoch:32, batch index: 350, loss:0.16719654202461243
+2023-04-24 12:15:22,911 - netlog - INFO - ==>>> epoch:32, batch index: 400, loss:0.22300300002098083
+2023-04-24 12:15:31,523 - netlog - INFO - ==>>> epoch:32, batch index: 450, loss:0.04877932369709015
+2023-04-24 12:15:40,271 - netlog - INFO - ==>>> epoch:32, batch index: 500, loss:0.13115255534648895
+2023-04-24 12:15:48,626 - netlog - INFO - ==>>> epoch:32, batch index: 550, loss:0.3255797326564789
+2023-04-24 12:15:57,409 - netlog - INFO - ==>>> epoch:32, batch index: 600, loss:0.15454208850860596
+2023-04-24 12:16:05,740 - netlog - INFO - ==>>> epoch:32, batch index: 650, loss:0.12950584292411804
+2023-04-24 12:16:14,518 - netlog - INFO - ==>>> epoch:32, batch index: 700, loss:0.32052671909332275
+2023-04-24 12:16:23,159 - netlog - INFO - ==>>> epoch:32, batch index: 750, loss:0.05117601901292801
+2023-04-24 12:16:31,890 - netlog - INFO - ==>>> epoch:32, batch index: 800, loss:0.2104652374982834
+2023-04-24 12:16:38,928 - netlog - INFO - Start Validation
+2023-04-24 12:18:10,333 - netlog - INFO - ==>>>test seen_acc:51.39673571876962 unseen_acc:41.76954732510288
+2023-04-24 12:18:11,703 - netlog - INFO - ==>>> epoch:33, batch index: 0, loss:0.25209105014801025
+2023-04-24 12:18:21,122 - netlog - INFO - ==>>> epoch:33, batch index: 50, loss:0.06423091888427734
+2023-04-24 12:18:31,063 - netlog - INFO - ==>>> epoch:33, batch index: 100, loss:0.084183469414711
+2023-04-24 12:18:40,072 - netlog - INFO - ==>>> epoch:33, batch index: 150, loss:0.11130480468273163
+2023-04-24 12:18:49,227 - netlog - INFO - ==>>> epoch:33, batch index: 200, loss:0.05261876434087753
+2023-04-24 12:18:58,432 - netlog - INFO - ==>>> epoch:33, batch index: 250, loss:0.023425446823239326
+2023-04-24 12:19:06,935 - netlog - INFO - ==>>> epoch:33, batch index: 300, loss:0.06136258691549301
+2023-04-24 12:19:15,702 - netlog - INFO - ==>>> epoch:33, batch index: 350, loss:0.0653359442949295
+2023-04-24 12:19:24,222 - netlog - INFO - ==>>> epoch:33, batch index: 400, loss:0.135370135307312
+2023-04-24 12:19:33,517 - netlog - INFO - ==>>> epoch:33, batch index: 450, loss:0.19440415501594543
+2023-04-24 12:19:41,909 - netlog - INFO - ==>>> epoch:33, batch index: 500, loss:0.017419036477804184
+2023-04-24 12:19:50,842 - netlog - INFO - ==>>> epoch:33, batch index: 550, loss:0.07397589087486267
+2023-04-24 12:19:59,654 - netlog - INFO - ==>>> epoch:33, batch index: 600, loss:0.289872407913208
+2023-04-24 12:20:08,795 - netlog - INFO - ==>>> epoch:33, batch index: 650, loss:0.05070880055427551
+2023-04-24 12:20:17,650 - netlog - INFO - ==>>> epoch:33, batch index: 700, loss:0.24278128147125244
+2023-04-24 12:20:25,821 - netlog - INFO - ==>>> epoch:33, batch index: 750, loss:0.19051223993301392
+2023-04-24 12:20:34,341 - netlog - INFO - ==>>> epoch:33, batch index: 800, loss:0.10905472934246063
+2023-04-24 12:20:40,937 - netlog - INFO - Start Validation
+2023-04-24 12:22:12,048 - netlog - INFO - ==>>>test seen_acc:51.38104205900816 unseen_acc:38.37448559670782
+2023-04-24 12:22:13,364 - netlog - INFO - ==>>> epoch:34, batch index: 0, loss:0.08577151596546173
+2023-04-24 12:22:22,782 - netlog - INFO - ==>>> epoch:34, batch index: 50, loss:0.5222413539886475
+2023-04-24 12:22:32,440 - netlog - INFO - ==>>> epoch:34, batch index: 100, loss:0.3948882222175598
+2023-04-24 12:22:41,311 - netlog - INFO - ==>>> epoch:34, batch index: 150, loss:0.14796242117881775
+2023-04-24 12:22:50,020 - netlog - INFO - ==>>> epoch:34, batch index: 200, loss:0.2072925865650177
+2023-04-24 12:22:58,346 - netlog - INFO - ==>>> epoch:34, batch index: 250, loss:0.04902626574039459
+2023-04-24 12:23:07,225 - netlog - INFO - ==>>> epoch:34, batch index: 300, loss:0.0826214849948883
+2023-04-24 12:23:16,439 - netlog - INFO - ==>>> epoch:34, batch index: 350, loss:0.07107492536306381
+2023-04-24 12:23:25,200 - netlog - INFO - ==>>> epoch:34, batch index: 400, loss:0.05535297095775604
+2023-04-24 12:23:33,946 - netlog - INFO - ==>>> epoch:34, batch index: 450, loss:0.09589651226997375
+2023-04-24 12:23:42,596 - netlog - INFO - ==>>> epoch:34, batch index: 500, loss:0.04713346064090729
+2023-04-24 12:23:50,832 - netlog - INFO - ==>>> epoch:34, batch index: 550, loss:0.05026901140809059
+2023-04-24 12:23:59,334 - netlog - INFO - ==>>> epoch:34, batch index: 600, loss:0.2370309829711914
+2023-04-24 12:24:07,481 - netlog - INFO - ==>>> epoch:34, batch index: 650, loss:0.06717786192893982
+2023-04-24 12:24:16,613 - netlog - INFO - ==>>> epoch:34, batch index: 700, loss:0.31280452013015747
+2023-04-24 12:24:25,073 - netlog - INFO - ==>>> epoch:34, batch index: 750, loss:0.03698216378688812
+2023-04-24 12:24:33,649 - netlog - INFO - ==>>> epoch:34, batch index: 800, loss:0.49553537368774414
+2023-04-24 12:24:40,759 - netlog - INFO - Start Validation
+2023-04-24 12:26:11,695 - netlog - INFO - ==>>>test seen_acc:51.679221594475834 unseen_acc:40.22633744855967
+2023-04-24 12:26:12,888 - netlog - INFO - ==>>> epoch:35, batch index: 0, loss:0.16448229551315308
+2023-04-24 12:26:22,606 - netlog - INFO - ==>>> epoch:35, batch index: 50, loss:0.10290709137916565
+2023-04-24 12:26:32,094 - netlog - INFO - ==>>> epoch:35, batch index: 100, loss:0.13214313983917236
+2023-04-24 12:26:40,987 - netlog - INFO - ==>>> epoch:35, batch index: 150, loss:0.20221100747585297
+2023-04-24 12:26:49,936 - netlog - INFO - ==>>> epoch:35, batch index: 200, loss:0.10509467124938965
+2023-04-24 12:26:59,171 - netlog - INFO - ==>>> epoch:35, batch index: 250, loss:0.22048792243003845
+2023-04-24 12:27:08,364 - netlog - INFO - ==>>> epoch:35, batch index: 300, loss:0.0481618270277977
+2023-04-24 12:27:17,152 - netlog - INFO - ==>>> epoch:35, batch index: 350, loss:0.22024153172969818
+2023-04-24 12:27:26,054 - netlog - INFO - ==>>> epoch:35, batch index: 400, loss:0.27022475004196167
+2023-04-24 12:27:34,811 - netlog - INFO - ==>>> epoch:35, batch index: 450, loss:0.2685934007167816
+2023-04-24 12:27:43,632 - netlog - INFO - ==>>> epoch:35, batch index: 500, loss:0.3030779957771301
+2023-04-24 12:27:51,688 - netlog - INFO - ==>>> epoch:35, batch index: 550, loss:0.14362578094005585
+2023-04-24 12:28:00,361 - netlog - INFO - ==>>> epoch:35, batch index: 600, loss:0.04445422813296318
+2023-04-24 12:28:08,439 - netlog - INFO - ==>>> epoch:35, batch index: 650, loss:0.17505985498428345
+2023-04-24 12:28:17,740 - netlog - INFO - ==>>> epoch:35, batch index: 700, loss:0.09330800920724869
+2023-04-24 12:28:26,091 - netlog - INFO - ==>>> epoch:35, batch index: 750, loss:0.13173645734786987
+2023-04-24 12:28:34,666 - netlog - INFO - ==>>> epoch:35, batch index: 800, loss:0.4459659457206726
+2023-04-24 12:28:41,321 - netlog - INFO - Start Validation
+2023-04-24 12:30:11,988 - netlog - INFO - ==>>>test seen_acc:52.46390458254865 unseen_acc:39.09465020576132
+2023-04-24 12:30:13,334 - netlog - INFO - ==>>> epoch:36, batch index: 0, loss:0.21455346047878265
+2023-04-24 12:30:22,418 - netlog - INFO - ==>>> epoch:36, batch index: 50, loss:0.32281193137168884
+2023-04-24 12:30:31,678 - netlog - INFO - ==>>> epoch:36, batch index: 100, loss:0.36520105600357056
+2023-04-24 12:30:40,950 - netlog - INFO - ==>>> epoch:36, batch index: 150, loss:0.3710346817970276
+2023-04-24 12:30:49,428 - netlog - INFO - ==>>> epoch:36, batch index: 200, loss:0.34268492460250854
+2023-04-24 12:30:57,985 - netlog - INFO - ==>>> epoch:36, batch index: 250, loss:0.27854374051094055
+2023-04-24 12:31:06,374 - netlog - INFO - ==>>> epoch:36, batch index: 300, loss:0.018495958298444748
+2023-04-24 12:31:15,187 - netlog - INFO - ==>>> epoch:36, batch index: 350, loss:0.07467891275882721
+2023-04-24 12:31:23,466 - netlog - INFO - ==>>> epoch:36, batch index: 400, loss:0.07384954392910004
+2023-04-24 12:31:32,173 - netlog - INFO - ==>>> epoch:36, batch index: 450, loss:0.05611351877450943
+2023-04-24 12:31:40,917 - netlog - INFO - ==>>> epoch:36, batch index: 500, loss:0.2098415642976761
+2023-04-24 12:31:50,228 - netlog - INFO - ==>>> epoch:36, batch index: 550, loss:0.15135756134986877
+2023-04-24 12:31:58,616 - netlog - INFO - ==>>> epoch:36, batch index: 600, loss:0.14136946201324463
+2023-04-24 12:32:07,398 - netlog - INFO - ==>>> epoch:36, batch index: 650, loss:0.11863670498132706
+2023-04-24 12:32:15,819 - netlog - INFO - ==>>> epoch:36, batch index: 700, loss:0.21777981519699097
+2023-04-24 12:32:24,083 - netlog - INFO - ==>>> epoch:36, batch index: 750, loss:0.14126917719841003
+2023-04-24 12:32:32,574 - netlog - INFO - ==>>> epoch:36, batch index: 800, loss:0.263749897480011
+2023-04-24 12:32:39,372 - netlog - INFO - Start Validation
+2023-04-24 12:34:07,003 - netlog - INFO - ==>>>test seen_acc:51.64783427495292 unseen_acc:39.09465020576132
+2023-04-24 12:34:08,146 - netlog - INFO - ==>>> epoch:37, batch index: 0, loss:0.3141433596611023
+2023-04-24 12:34:16,993 - netlog - INFO - ==>>> epoch:37, batch index: 50, loss:0.08825375139713287
+2023-04-24 12:34:26,247 - netlog - INFO - ==>>> epoch:37, batch index: 100, loss:0.11209029704332352
+2023-04-24 12:34:34,724 - netlog - INFO - ==>>> epoch:37, batch index: 150, loss:0.06700142472982407
+2023-04-24 12:34:43,145 - netlog - INFO - ==>>> epoch:37, batch index: 200, loss:0.1279839277267456
+2023-04-24 12:34:51,548 - netlog - INFO - ==>>> epoch:37, batch index: 250, loss:0.18465182185173035
+2023-04-24 12:35:00,228 - netlog - INFO - ==>>> epoch:37, batch index: 300, loss:0.02695164829492569
+2023-04-24 12:35:08,595 - netlog - INFO - ==>>> epoch:37, batch index: 350, loss:0.2070183902978897
+2023-04-24 12:35:17,479 - netlog - INFO - ==>>> epoch:37, batch index: 400, loss:0.07353997230529785
+2023-04-24 12:35:25,751 - netlog - INFO - ==>>> epoch:37, batch index: 450, loss:0.29064667224884033
+2023-04-24 12:35:34,367 - netlog - INFO - ==>>> epoch:37, batch index: 500, loss:0.27340540289878845
+2023-04-24 12:35:43,262 - netlog - INFO - ==>>> epoch:37, batch index: 550, loss:0.0665799230337143
+2023-04-24 12:35:51,969 - netlog - INFO - ==>>> epoch:37, batch index: 600, loss:0.03227710723876953
+2023-04-24 12:36:00,548 - netlog - INFO - ==>>> epoch:37, batch index: 650, loss:0.2892841696739197
+2023-04-24 12:36:08,586 - netlog - INFO - ==>>> epoch:37, batch index: 700, loss:0.1096188873052597
+2023-04-24 12:36:17,208 - netlog - INFO - ==>>> epoch:37, batch index: 750, loss:0.12143661081790924
+2023-04-24 12:36:25,647 - netlog - INFO - ==>>> epoch:37, batch index: 800, loss:0.09039346128702164
+2023-04-24 12:36:32,460 - netlog - INFO - Start Validation
+2023-04-24 12:38:01,775 - netlog - INFO - ==>>>test seen_acc:52.495291902071564 unseen_acc:40.4320987654321
+2023-04-24 12:38:03,023 - netlog - INFO - ==>>> epoch:38, batch index: 0, loss:0.289975106716156
+2023-04-24 12:38:11,358 - netlog - INFO - ==>>> epoch:38, batch index: 50, loss:0.23828795552253723
+2023-04-24 12:38:19,859 - netlog - INFO - ==>>> epoch:38, batch index: 100, loss:0.2810899019241333
+2023-04-24 12:38:28,394 - netlog - INFO - ==>>> epoch:38, batch index: 150, loss:0.04636935144662857
+2023-04-24 12:38:37,284 - netlog - INFO - ==>>> epoch:38, batch index: 200, loss:0.16564282774925232
+2023-04-24 12:38:45,944 - netlog - INFO - ==>>> epoch:38, batch index: 250, loss:0.22436866164207458
+2023-04-24 12:38:55,081 - netlog - INFO - ==>>> epoch:38, batch index: 300, loss:0.11951514333486557
+2023-04-24 12:39:03,836 - netlog - INFO - ==>>> epoch:38, batch index: 350, loss:0.22127705812454224
+2023-04-24 12:39:12,623 - netlog - INFO - ==>>> epoch:38, batch index: 400, loss:0.3639895021915436
+2023-04-24 12:39:22,016 - netlog - INFO - ==>>> epoch:38, batch index: 450, loss:0.1342272162437439
+2023-04-24 12:39:30,809 - netlog - INFO - ==>>> epoch:38, batch index: 500, loss:0.42156267166137695
+2023-04-24 12:39:39,502 - netlog - INFO - ==>>> epoch:38, batch index: 550, loss:0.0806935653090477
+2023-04-24 12:39:48,048 - netlog - INFO - ==>>> epoch:38, batch index: 600, loss:0.021676011383533478
+2023-04-24 12:39:56,685 - netlog - INFO - ==>>> epoch:38, batch index: 650, loss:0.31436294317245483
+2023-04-24 12:40:05,101 - netlog - INFO - ==>>> epoch:38, batch index: 700, loss:0.16285265982151031
+2023-04-24 12:40:13,514 - netlog - INFO - ==>>> epoch:38, batch index: 750, loss:0.20044824481010437
+2023-04-24 12:40:21,920 - netlog - INFO - ==>>> epoch:38, batch index: 800, loss:0.05430072918534279
+2023-04-24 12:40:28,735 - netlog - INFO - Start Validation
+2023-04-24 12:41:58,166 - netlog - INFO - ==>>>test seen_acc:52.63653483992467 unseen_acc:39.50617283950617
+2023-04-24 12:41:59,289 - netlog - INFO - ==>>> epoch:39, batch index: 0, loss:0.2996771037578583
+2023-04-24 12:42:07,838 - netlog - INFO - ==>>> epoch:39, batch index: 50, loss:0.058510273694992065
+2023-04-24 12:42:17,169 - netlog - INFO - ==>>> epoch:39, batch index: 100, loss:0.0522184744477272
+2023-04-24 12:42:25,676 - netlog - INFO - ==>>> epoch:39, batch index: 150, loss:0.6219323873519897
+2023-04-24 12:42:34,365 - netlog - INFO - ==>>> epoch:39, batch index: 200, loss:0.23844626545906067
+2023-04-24 12:42:42,846 - netlog - INFO - ==>>> epoch:39, batch index: 250, loss:0.11955109238624573
+2023-04-24 12:42:51,761 - netlog - INFO - ==>>> epoch:39, batch index: 300, loss:0.1199449896812439
+2023-04-24 12:43:00,203 - netlog - INFO - ==>>> epoch:39, batch index: 350, loss:0.16543832421302795
+2023-04-24 12:43:08,668 - netlog - INFO - ==>>> epoch:39, batch index: 400, loss:0.1542709469795227
+2023-04-24 12:43:16,806 - netlog - INFO - ==>>> epoch:39, batch index: 450, loss:0.23308762907981873
+2023-04-24 12:43:25,507 - netlog - INFO - ==>>> epoch:39, batch index: 500, loss:0.0411546565592289
+2023-04-24 12:43:33,833 - netlog - INFO - ==>>> epoch:39, batch index: 550, loss:0.038902945816516876
+2023-04-24 12:43:42,502 - netlog - INFO - ==>>> epoch:39, batch index: 600, loss:0.107100710272789
+2023-04-24 12:43:51,314 - netlog - INFO - ==>>> epoch:39, batch index: 650, loss:0.2101421356201172
+2023-04-24 12:43:59,710 - netlog - INFO - ==>>> epoch:39, batch index: 700, loss:0.07990904152393341
+2023-04-24 12:44:08,459 - netlog - INFO - ==>>> epoch:39, batch index: 750, loss:0.20739835500717163
+2023-04-24 12:44:16,689 - netlog - INFO - ==>>> epoch:39, batch index: 800, loss:0.03721480816602707
+2023-04-24 12:44:23,183 - netlog - INFO - Start Validation
+2023-04-24 12:45:51,633 - netlog - INFO - ==>>>test seen_acc:52.087256748273695 unseen_acc:38.58024691358025
+2023-04-24 12:45:52,766 - netlog - INFO - ==>>> epoch:40, batch index: 0, loss:0.1088733896613121
+2023-04-24 12:46:01,886 - netlog - INFO - ==>>> epoch:40, batch index: 50, loss:0.1284652054309845
+2023-04-24 12:46:10,744 - netlog - INFO - ==>>> epoch:40, batch index: 100, loss:0.4212656021118164
+2023-04-24 12:46:19,607 - netlog - INFO - ==>>> epoch:40, batch index: 150, loss:0.13155034184455872
+2023-04-24 12:46:28,456 - netlog - INFO - ==>>> epoch:40, batch index: 200, loss:0.18358880281448364
+2023-04-24 12:46:37,252 - netlog - INFO - ==>>> epoch:40, batch index: 250, loss:0.1926269680261612
+2023-04-24 12:46:45,371 - netlog - INFO - ==>>> epoch:40, batch index: 300, loss:0.18022914230823517
+2023-04-24 12:46:53,945 - netlog - INFO - ==>>> epoch:40, batch index: 350, loss:0.2016800343990326
+2023-04-24 12:47:02,545 - netlog - INFO - ==>>> epoch:40, batch index: 400, loss:0.3952958583831787
+2023-04-24 12:47:10,554 - netlog - INFO - ==>>> epoch:40, batch index: 450, loss:0.03074207343161106
+2023-04-24 12:47:19,353 - netlog - INFO - ==>>> epoch:40, batch index: 500, loss:0.04389287158846855
+2023-04-24 12:47:27,808 - netlog - INFO - ==>>> epoch:40, batch index: 550, loss:0.2029542326927185
+2023-04-24 12:47:36,338 - netlog - INFO - ==>>> epoch:40, batch index: 600, loss:0.13408246636390686
+2023-04-24 12:47:44,762 - netlog - INFO - ==>>> epoch:40, batch index: 650, loss:0.2990507185459137
+2023-04-24 12:47:52,744 - netlog - INFO - ==>>> epoch:40, batch index: 700, loss:0.12956416606903076
+2023-04-24 12:48:01,572 - netlog - INFO - ==>>> epoch:40, batch index: 750, loss:0.11834117770195007
+2023-04-24 12:48:10,472 - netlog - INFO - ==>>> epoch:40, batch index: 800, loss:0.06767775863409042
+2023-04-24 12:48:17,400 - netlog - INFO - Start Validation
+2023-04-24 12:49:45,940 - netlog - INFO - ==>>>test seen_acc:51.42812303829253 unseen_acc:40.32921810699588
+2023-04-24 12:49:47,115 - netlog - INFO - ==>>> epoch:41, batch index: 0, loss:0.03288707882165909
+2023-04-24 12:49:56,068 - netlog - INFO - ==>>> epoch:41, batch index: 50, loss:0.05313841253519058
+2023-04-24 12:50:04,764 - netlog - INFO - ==>>> epoch:41, batch index: 100, loss:0.20221734046936035
+2023-04-24 12:50:13,479 - netlog - INFO - ==>>> epoch:41, batch index: 150, loss:0.2855091989040375
+2023-04-24 12:50:22,261 - netlog - INFO - ==>>> epoch:41, batch index: 200, loss:0.22241294384002686
+2023-04-24 12:50:30,735 - netlog - INFO - ==>>> epoch:41, batch index: 250, loss:0.10975999385118484
+2023-04-24 12:50:39,431 - netlog - INFO - ==>>> epoch:41, batch index: 300, loss:0.10320505499839783
+2023-04-24 12:50:47,995 - netlog - INFO - ==>>> epoch:41, batch index: 350, loss:0.3334868550300598
+2023-04-24 12:50:56,929 - netlog - INFO - ==>>> epoch:41, batch index: 400, loss:0.264346182346344
+2023-04-24 12:51:05,591 - netlog - INFO - ==>>> epoch:41, batch index: 450, loss:0.06771279871463776
+2023-04-24 12:51:14,051 - netlog - INFO - ==>>> epoch:41, batch index: 500, loss:0.22264611721038818
+2023-04-24 12:51:22,430 - netlog - INFO - ==>>> epoch:41, batch index: 550, loss:0.16426435112953186
+2023-04-24 12:51:31,327 - netlog - INFO - ==>>> epoch:41, batch index: 600, loss:0.05956443026661873
+2023-04-24 12:51:39,822 - netlog - INFO - ==>>> epoch:41, batch index: 650, loss:0.04633185267448425
+2023-04-24 12:51:48,752 - netlog - INFO - ==>>> epoch:41, batch index: 700, loss:0.21642303466796875
+2023-04-24 12:51:57,140 - netlog - INFO - ==>>> epoch:41, batch index: 750, loss:0.6328802108764648
+2023-04-24 12:52:05,635 - netlog - INFO - ==>>> epoch:41, batch index: 800, loss:0.17986613512039185
+2023-04-24 12:52:12,551 - netlog - INFO - Start Validation
+2023-04-24 12:53:42,286 - netlog - INFO - ==>>>test seen_acc:51.56936597614564 unseen_acc:37.13991769547325
+2023-04-24 12:53:43,403 - netlog - INFO - ==>>> epoch:42, batch index: 0, loss:0.11826661229133606
+2023-04-24 12:53:52,343 - netlog - INFO - ==>>> epoch:42, batch index: 50, loss:0.031593240797519684
+2023-04-24 12:54:01,560 - netlog - INFO - ==>>> epoch:42, batch index: 100, loss:0.09315657615661621
+2023-04-24 12:54:10,613 - netlog - INFO - ==>>> epoch:42, batch index: 150, loss:0.19619736075401306
+2023-04-24 12:54:19,255 - netlog - INFO - ==>>> epoch:42, batch index: 200, loss:0.3131510615348816
+2023-04-24 12:54:28,004 - netlog - INFO - ==>>> epoch:42, batch index: 250, loss:0.04024543613195419
+2023-04-24 12:54:36,375 - netlog - INFO - ==>>> epoch:42, batch index: 300, loss:0.22616760432720184
+2023-04-24 12:54:45,011 - netlog - INFO - ==>>> epoch:42, batch index: 350, loss:0.08187809586524963
+2023-04-24 12:54:53,652 - netlog - INFO - ==>>> epoch:42, batch index: 400, loss:0.11235205829143524
+2023-04-24 12:55:02,134 - netlog - INFO - ==>>> epoch:42, batch index: 450, loss:0.15461793541908264
+2023-04-24 12:55:11,216 - netlog - INFO - ==>>> epoch:42, batch index: 500, loss:0.11290023475885391
+2023-04-24 12:55:19,495 - netlog - INFO - ==>>> epoch:42, batch index: 550, loss:0.13402150571346283
+2023-04-24 12:55:28,509 - netlog - INFO - ==>>> epoch:42, batch index: 600, loss:0.07305905967950821
+2023-04-24 12:55:37,150 - netlog - INFO - ==>>> epoch:42, batch index: 650, loss:0.21179232001304626
+2023-04-24 12:55:45,849 - netlog - INFO - ==>>> epoch:42, batch index: 700, loss:0.13463950157165527
+2023-04-24 12:55:53,662 - netlog - INFO - ==>>> epoch:42, batch index: 750, loss:0.18517884612083435
+2023-04-24 12:56:01,981 - netlog - INFO - ==>>> epoch:42, batch index: 800, loss:0.1515304446220398
+2023-04-24 12:56:08,513 - netlog - INFO - Start Validation
+2023-04-24 12:57:38,654 - netlog - INFO - ==>>>test seen_acc:51.663527934714374 unseen_acc:36.72839506172839
+2023-04-24 12:57:39,908 - netlog - INFO - ==>>> epoch:43, batch index: 0, loss:0.03881141170859337
+2023-04-24 12:57:48,388 - netlog - INFO - ==>>> epoch:43, batch index: 50, loss:0.051470089703798294
+2023-04-24 12:57:57,006 - netlog - INFO - ==>>> epoch:43, batch index: 100, loss:0.21347175538539886
+2023-04-24 12:58:05,431 - netlog - INFO - ==>>> epoch:43, batch index: 150, loss:0.05963844433426857
+2023-04-24 12:58:13,934 - netlog - INFO - ==>>> epoch:43, batch index: 200, loss:0.17354944348335266
+2023-04-24 12:58:22,703 - netlog - INFO - ==>>> epoch:43, batch index: 250, loss:0.21886032819747925
+2023-04-24 12:58:31,133 - netlog - INFO - ==>>> epoch:43, batch index: 300, loss:0.06146058812737465
+2023-04-24 12:58:39,847 - netlog - INFO - ==>>> epoch:43, batch index: 350, loss:0.031368158757686615
+2023-04-24 12:58:48,045 - netlog - INFO - ==>>> epoch:43, batch index: 400, loss:0.20636466145515442
+2023-04-24 12:58:56,832 - netlog - INFO - ==>>> epoch:43, batch index: 450, loss:0.043633803725242615
+2023-04-24 12:59:04,795 - netlog - INFO - ==>>> epoch:43, batch index: 500, loss:0.07919525355100632
+2023-04-24 12:59:13,379 - netlog - INFO - ==>>> epoch:43, batch index: 550, loss:0.05831547826528549
+2023-04-24 12:59:21,333 - netlog - INFO - ==>>> epoch:43, batch index: 600, loss:0.0827636644244194
+2023-04-24 12:59:29,815 - netlog - INFO - ==>>> epoch:43, batch index: 650, loss:0.23124024271965027
+2023-04-24 12:59:38,077 - netlog - INFO - ==>>> epoch:43, batch index: 700, loss:0.20242607593536377
+2023-04-24 12:59:46,790 - netlog - INFO - ==>>> epoch:43, batch index: 750, loss:0.11598999798297882
+2023-04-24 12:59:55,032 - netlog - INFO - ==>>> epoch:43, batch index: 800, loss:0.017890550196170807
+2023-04-24 13:00:01,800 - netlog - INFO - Start Validation
+2023-04-24 13:01:32,219 - netlog - INFO - ==>>>test seen_acc:51.522284996861266 unseen_acc:38.27160493827161
+2023-04-24 13:01:33,394 - netlog - INFO - ==>>> epoch:44, batch index: 0, loss:0.17546963691711426
+2023-04-24 13:01:42,476 - netlog - INFO - ==>>> epoch:44, batch index: 50, loss:0.041344549506902695
+2023-04-24 13:01:51,591 - netlog - INFO - ==>>> epoch:44, batch index: 100, loss:0.12113173305988312
+2023-04-24 13:02:00,690 - netlog - INFO - ==>>> epoch:44, batch index: 150, loss:0.11639077216386795
+2023-04-24 13:02:09,249 - netlog - INFO - ==>>> epoch:44, batch index: 200, loss:0.04912567138671875
+2023-04-24 13:02:17,920 - netlog - INFO - ==>>> epoch:44, batch index: 250, loss:0.030388912186026573
+2023-04-24 13:02:26,378 - netlog - INFO - ==>>> epoch:44, batch index: 300, loss:0.08465677499771118
+2023-04-24 13:02:35,026 - netlog - INFO - ==>>> epoch:44, batch index: 350, loss:0.13288427889347076
+2023-04-24 13:02:43,278 - netlog - INFO - ==>>> epoch:44, batch index: 400, loss:0.022562488913536072
+2023-04-24 13:02:52,196 - netlog - INFO - ==>>> epoch:44, batch index: 450, loss:0.33279258012771606
+2023-04-24 13:03:00,737 - netlog - INFO - ==>>> epoch:44, batch index: 500, loss:0.21229970455169678
+2023-04-24 13:03:09,325 - netlog - INFO - ==>>> epoch:44, batch index: 550, loss:0.05142958462238312
+2023-04-24 13:03:17,481 - netlog - INFO - ==>>> epoch:44, batch index: 600, loss:0.25809764862060547
+2023-04-24 13:03:26,185 - netlog - INFO - ==>>> epoch:44, batch index: 650, loss:0.09320177137851715
+2023-04-24 13:03:34,594 - netlog - INFO - ==>>> epoch:44, batch index: 700, loss:0.026321163401007652
+2023-04-24 13:03:43,263 - netlog - INFO - ==>>> epoch:44, batch index: 750, loss:0.20050302147865295
+2023-04-24 13:03:51,642 - netlog - INFO - ==>>> epoch:44, batch index: 800, loss:0.2652284801006317
+2023-04-24 13:03:58,478 - netlog - INFO - Start Validation
+2023-04-24 13:05:29,323 - netlog - INFO - ==>>>test seen_acc:51.53797865662273 unseen_acc:38.68312757201646
+2023-04-24 13:05:30,536 - netlog - INFO - ==>>> epoch:45, batch index: 0, loss:0.23187658190727234
+2023-04-24 13:05:39,661 - netlog - INFO - ==>>> epoch:45, batch index: 50, loss:0.08328455686569214
+2023-04-24 13:05:49,006 - netlog - INFO - ==>>> epoch:45, batch index: 100, loss:0.04627421125769615
+2023-04-24 13:05:57,829 - netlog - INFO - ==>>> epoch:45, batch index: 150, loss:0.09328518807888031
+2023-04-24 13:06:06,663 - netlog - INFO - ==>>> epoch:45, batch index: 200, loss:0.1006171703338623
+2023-04-24 13:06:15,524 - netlog - INFO - ==>>> epoch:45, batch index: 250, loss:0.14289960265159607
+2023-04-24 13:06:24,795 - netlog - INFO - ==>>> epoch:45, batch index: 300, loss:0.15067455172538757
+2023-04-24 13:06:33,290 - netlog - INFO - ==>>> epoch:45, batch index: 350, loss:0.037116888910532
+2023-04-24 13:06:41,948 - netlog - INFO - ==>>> epoch:45, batch index: 400, loss:0.3758678436279297
+2023-04-24 13:06:50,204 - netlog - INFO - ==>>> epoch:45, batch index: 450, loss:0.06071263924241066
+2023-04-24 13:06:59,126 - netlog - INFO - ==>>> epoch:45, batch index: 500, loss:0.2959456741809845
+2023-04-24 13:07:07,397 - netlog - INFO - ==>>> epoch:45, batch index: 550, loss:0.37659305334091187
+2023-04-24 13:07:16,340 - netlog - INFO - ==>>> epoch:45, batch index: 600, loss:0.20515337586402893
+2023-04-24 13:07:24,140 - netlog - INFO - ==>>> epoch:45, batch index: 650, loss:0.1426476240158081
+2023-04-24 13:07:32,904 - netlog - INFO - ==>>> epoch:45, batch index: 700, loss:0.26631850004196167
+2023-04-24 13:07:41,020 - netlog - INFO - ==>>> epoch:45, batch index: 750, loss:0.024457460269331932
+2023-04-24 13:07:49,371 - netlog - INFO - ==>>> epoch:45, batch index: 800, loss:0.17813166975975037
+2023-04-24 13:07:56,410 - netlog - INFO - Start Validation
+2023-04-24 13:09:28,668 - netlog - INFO - ==>>>test seen_acc:52.55806654111739 unseen_acc:40.02057613168724
+2023-04-24 13:09:29,970 - netlog - INFO - ==>>> epoch:46, batch index: 0, loss:0.0656382143497467
+2023-04-24 13:09:38,558 - netlog - INFO - ==>>> epoch:46, batch index: 50, loss:0.44171342253685
+2023-04-24 13:09:46,888 - netlog - INFO - ==>>> epoch:46, batch index: 100, loss:0.16177508234977722
+2023-04-24 13:09:55,235 - netlog - INFO - ==>>> epoch:46, batch index: 150, loss:0.29195669293403625
+2023-04-24 13:10:03,375 - netlog - INFO - ==>>> epoch:46, batch index: 200, loss:0.049330465495586395
+2023-04-24 13:10:11,573 - netlog - INFO - ==>>> epoch:46, batch index: 250, loss:0.3269076347351074
+2023-04-24 13:10:19,991 - netlog - INFO - ==>>> epoch:46, batch index: 300, loss:0.2951315939426422
+2023-04-24 13:10:28,022 - netlog - INFO - ==>>> epoch:46, batch index: 350, loss:0.20823433995246887
+2023-04-24 13:10:36,368 - netlog - INFO - ==>>> epoch:46, batch index: 400, loss:0.19931966066360474
+2023-04-24 13:10:44,179 - netlog - INFO - ==>>> epoch:46, batch index: 450, loss:0.14299549162387848
+2023-04-24 13:10:52,207 - netlog - INFO - ==>>> epoch:46, batch index: 500, loss:0.06101137027144432
+2023-04-24 13:11:00,060 - netlog - INFO - ==>>> epoch:46, batch index: 550, loss:0.03850472718477249
+2023-04-24 13:11:08,807 - netlog - INFO - ==>>> epoch:46, batch index: 600, loss:0.10016895830631256
+2023-04-24 13:11:17,135 - netlog - INFO - ==>>> epoch:46, batch index: 650, loss:0.3202953338623047
+2023-04-24 13:11:25,813 - netlog - INFO - ==>>> epoch:46, batch index: 700, loss:0.20503754913806915
+2023-04-24 13:11:34,356 - netlog - INFO - ==>>> epoch:46, batch index: 750, loss:0.018141839653253555
+2023-04-24 13:11:42,553 - netlog - INFO - ==>>> epoch:46, batch index: 800, loss:0.10873059183359146
+2023-04-24 13:11:49,575 - netlog - INFO - Start Validation
+2023-04-24 13:13:20,569 - netlog - INFO - ==>>>test seen_acc:52.30696798493409 unseen_acc:39.40329218106996
+2023-04-24 13:13:21,722 - netlog - INFO - ==>>> epoch:47, batch index: 0, loss:0.03765645623207092
+2023-04-24 13:13:30,956 - netlog - INFO - ==>>> epoch:47, batch index: 50, loss:0.20954439043998718
+2023-04-24 13:13:40,320 - netlog - INFO - ==>>> epoch:47, batch index: 100, loss:0.0624215230345726
+2023-04-24 13:13:49,050 - netlog - INFO - ==>>> epoch:47, batch index: 150, loss:0.41714128851890564
+2023-04-24 13:13:58,029 - netlog - INFO - ==>>> epoch:47, batch index: 200, loss:0.21578997373580933
+2023-04-24 13:14:06,568 - netlog - INFO - ==>>> epoch:47, batch index: 250, loss:0.13177816569805145
+2023-04-24 13:14:15,537 - netlog - INFO - ==>>> epoch:47, batch index: 300, loss:0.549064040184021
+2023-04-24 13:14:23,918 - netlog - INFO - ==>>> epoch:47, batch index: 350, loss:0.04753897339105606
+2023-04-24 13:14:32,557 - netlog - INFO - ==>>> epoch:47, batch index: 400, loss:0.20147761702537537
+2023-04-24 13:14:41,176 - netlog - INFO - ==>>> epoch:47, batch index: 450, loss:0.11444029211997986
+2023-04-24 13:14:49,990 - netlog - INFO - ==>>> epoch:47, batch index: 500, loss:0.1919906884431839
+2023-04-24 13:14:58,391 - netlog - INFO - ==>>> epoch:47, batch index: 550, loss:0.22854241728782654
+2023-04-24 13:15:07,176 - netlog - INFO - ==>>> epoch:47, batch index: 600, loss:0.0407707504928112
+2023-04-24 13:15:15,715 - netlog - INFO - ==>>> epoch:47, batch index: 650, loss:0.02223384380340576
+2023-04-24 13:15:24,578 - netlog - INFO - ==>>> epoch:47, batch index: 700, loss:0.17455631494522095
+2023-04-24 13:15:32,858 - netlog - INFO - ==>>> epoch:47, batch index: 750, loss:0.05043371766805649
+2023-04-24 13:15:41,531 - netlog - INFO - ==>>> epoch:47, batch index: 800, loss:0.360385000705719
+2023-04-24 13:15:48,087 - netlog - INFO - Start Validation
+2023-04-24 13:17:20,144 - netlog - INFO - ==>>>test seen_acc:52.55806654111739 unseen_acc:38.16872427983539
+2023-04-24 13:17:21,322 - netlog - INFO - ==>>> epoch:48, batch index: 0, loss:0.09955492615699768
+2023-04-24 13:17:30,474 - netlog - INFO - ==>>> epoch:48, batch index: 50, loss:0.10622411966323853
+2023-04-24 13:17:39,394 - netlog - INFO - ==>>> epoch:48, batch index: 100, loss:0.09001822024583817
+2023-04-24 13:17:47,921 - netlog - INFO - ==>>> epoch:48, batch index: 150, loss:0.24683815240859985
+2023-04-24 13:17:56,866 - netlog - INFO - ==>>> epoch:48, batch index: 200, loss:0.2691061198711395
+2023-04-24 13:18:05,688 - netlog - INFO - ==>>> epoch:48, batch index: 250, loss:0.21164794266223907
+2023-04-24 13:18:14,330 - netlog - INFO - ==>>> epoch:48, batch index: 300, loss:0.047879092395305634
+2023-04-24 13:18:23,367 - netlog - INFO - ==>>> epoch:48, batch index: 350, loss:0.11435495316982269
+2023-04-24 13:18:32,029 - netlog - INFO - ==>>> epoch:48, batch index: 400, loss:0.09637969732284546
+2023-04-24 13:18:40,903 - netlog - INFO - ==>>> epoch:48, batch index: 450, loss:0.16247200965881348
+2023-04-24 13:18:49,849 - netlog - INFO - ==>>> epoch:48, batch index: 500, loss:0.23181554675102234
+2023-04-24 13:18:58,635 - netlog - INFO - ==>>> epoch:48, batch index: 550, loss:0.14242172241210938
+2023-04-24 13:19:06,642 - netlog - INFO - ==>>> epoch:48, batch index: 600, loss:0.038027673959732056
+2023-04-24 13:19:15,235 - netlog - INFO - ==>>> epoch:48, batch index: 650, loss:0.3123624920845032
+2023-04-24 13:19:23,858 - netlog - INFO - ==>>> epoch:48, batch index: 700, loss:0.2419605404138565
+2023-04-24 13:19:32,568 - netlog - INFO - ==>>> epoch:48, batch index: 750, loss:0.4770478904247284
+2023-04-24 13:19:40,984 - netlog - INFO - ==>>> epoch:48, batch index: 800, loss:0.042679548263549805
+2023-04-24 13:19:47,891 - netlog - INFO - Start Validation
+2023-04-24 13:21:19,423 - netlog - INFO - ==>>>test seen_acc:51.679221594475834 unseen_acc:41.1522633744856
+2023-04-24 13:21:20,809 - netlog - INFO - ==>>> epoch:49, batch index: 0, loss:0.10251326858997345
+2023-04-24 13:21:30,268 - netlog - INFO - ==>>> epoch:49, batch index: 50, loss:0.03363185003399849
+2023-04-24 13:21:39,396 - netlog - INFO - ==>>> epoch:49, batch index: 100, loss:0.05549435317516327
+2023-04-24 13:21:48,964 - netlog - INFO - ==>>> epoch:49, batch index: 150, loss:0.09655018895864487
+2023-04-24 13:21:57,795 - netlog - INFO - ==>>> epoch:49, batch index: 200, loss:0.026675494387745857
+2023-04-24 13:22:07,268 - netlog - INFO - ==>>> epoch:49, batch index: 250, loss:0.05017600953578949
+2023-04-24 13:22:15,414 - netlog - INFO - ==>>> epoch:49, batch index: 300, loss:0.01500169187784195
+2023-04-24 13:22:24,070 - netlog - INFO - ==>>> epoch:49, batch index: 350, loss:0.13828395307064056
+2023-04-24 13:22:32,682 - netlog - INFO - ==>>> epoch:49, batch index: 400, loss:0.08593317121267319
+2023-04-24 13:22:41,424 - netlog - INFO - ==>>> epoch:49, batch index: 450, loss:0.18300339579582214
+2023-04-24 13:22:49,744 - netlog - INFO - ==>>> epoch:49, batch index: 500, loss:0.15777702629566193
+2023-04-24 13:22:58,425 - netlog - INFO - ==>>> epoch:49, batch index: 550, loss:0.387695848941803
+2023-04-24 13:23:06,714 - netlog - INFO - ==>>> epoch:49, batch index: 600, loss:0.12268831580877304
+2023-04-24 13:23:15,335 - netlog - INFO - ==>>> epoch:49, batch index: 650, loss:0.12157581001520157
+2023-04-24 13:23:23,494 - netlog - INFO - ==>>> epoch:49, batch index: 700, loss:0.04117455706000328
+2023-04-24 13:23:31,875 - netlog - INFO - ==>>> epoch:49, batch index: 750, loss:0.35517027974128723
+2023-04-24 13:23:40,022 - netlog - INFO - ==>>> epoch:49, batch index: 800, loss:0.370286226272583
+2023-04-24 13:23:47,189 - netlog - INFO - Start Validation
+2023-04-24 13:25:18,887 - netlog - INFO - ==>>>test seen_acc:52.13433772755807 unseen_acc:41.04938271604938
+2023-04-24 13:25:20,046 - netlog - INFO - ==>>> epoch:50, batch index: 0, loss:0.1317605972290039
+2023-04-24 13:25:28,951 - netlog - INFO - ==>>> epoch:50, batch index: 50, loss:0.04703943431377411
+2023-04-24 13:25:38,261 - netlog - INFO - ==>>> epoch:50, batch index: 100, loss:0.16425108909606934
+2023-04-24 13:25:46,958 - netlog - INFO - ==>>> epoch:50, batch index: 150, loss:0.09820972383022308
+2023-04-24 13:25:55,385 - netlog - INFO - ==>>> epoch:50, batch index: 200, loss:0.14632457494735718
+2023-04-24 13:26:04,106 - netlog - INFO - ==>>> epoch:50, batch index: 250, loss:0.1299876719713211
+2023-04-24 13:26:12,354 - netlog - INFO - ==>>> epoch:50, batch index: 300, loss:0.02623000741004944
+2023-04-24 13:26:21,555 - netlog - INFO - ==>>> epoch:50, batch index: 350, loss:0.13336916267871857
+2023-04-24 13:26:30,241 - netlog - INFO - ==>>> epoch:50, batch index: 400, loss:0.18310514092445374
+2023-04-24 13:26:39,259 - netlog - INFO - ==>>> epoch:50, batch index: 450, loss:0.2661851942539215
+2023-04-24 13:26:47,508 - netlog - INFO - ==>>> epoch:50, batch index: 500, loss:0.1761803925037384
+2023-04-24 13:26:55,801 - netlog - INFO - ==>>> epoch:50, batch index: 550, loss:0.030424756929278374
+2023-04-24 13:27:03,937 - netlog - INFO - ==>>> epoch:50, batch index: 600, loss:0.0435364693403244
+2023-04-24 13:27:12,402 - netlog - INFO - ==>>> epoch:50, batch index: 650, loss:0.18510401248931885
+2023-04-24 13:27:20,902 - netlog - INFO - ==>>> epoch:50, batch index: 700, loss:0.16428866982460022
+2023-04-24 13:27:29,586 - netlog - INFO - ==>>> epoch:50, batch index: 750, loss:0.09750856459140778
+2023-04-24 13:27:38,016 - netlog - INFO - ==>>> epoch:50, batch index: 800, loss:0.1780608892440796
+2023-04-24 13:27:44,948 - netlog - INFO - Start Validation
+2023-04-24 13:29:15,435 - netlog - INFO - ==>>>test seen_acc:53.483992467043315 unseen_acc:40.02057613168724
+2023-04-24 13:29:19,727 - netlog - INFO - ==>>> epoch:51, batch index: 0, loss:0.0423363521695137
+2023-04-24 13:29:28,110 - netlog - INFO - ==>>> epoch:51, batch index: 50, loss:0.4406115710735321
+2023-04-24 13:29:37,196 - netlog - INFO - ==>>> epoch:51, batch index: 100, loss:0.1413280963897705
+2023-04-24 13:29:46,545 - netlog - INFO - ==>>> epoch:51, batch index: 150, loss:0.13590654730796814
+2023-04-24 13:29:54,939 - netlog - INFO - ==>>> epoch:51, batch index: 200, loss:0.01644754223525524
+2023-04-24 13:30:03,591 - netlog - INFO - ==>>> epoch:51, batch index: 250, loss:0.23239076137542725
+2023-04-24 13:30:12,330 - netlog - INFO - ==>>> epoch:51, batch index: 300, loss:0.18660640716552734
+2023-04-24 13:30:20,705 - netlog - INFO - ==>>> epoch:51, batch index: 350, loss:0.0731063038110733
+2023-04-24 13:30:29,599 - netlog - INFO - ==>>> epoch:51, batch index: 400, loss:0.03197971358895302
+2023-04-24 13:30:38,220 - netlog - INFO - ==>>> epoch:51, batch index: 450, loss:0.32083839178085327
+2023-04-24 13:30:46,987 - netlog - INFO - ==>>> epoch:51, batch index: 500, loss:0.17942839860916138
+2023-04-24 13:30:55,265 - netlog - INFO - ==>>> epoch:51, batch index: 550, loss:0.1254633665084839
+2023-04-24 13:31:04,385 - netlog - INFO - ==>>> epoch:51, batch index: 600, loss:0.3689855635166168
+2023-04-24 13:31:12,956 - netlog - INFO - ==>>> epoch:51, batch index: 650, loss:0.2587210237979889
+2023-04-24 13:31:21,771 - netlog - INFO - ==>>> epoch:51, batch index: 700, loss:0.08682547509670258
+2023-04-24 13:31:29,982 - netlog - INFO - ==>>> epoch:51, batch index: 750, loss:0.06275811791419983
+2023-04-24 13:31:38,626 - netlog - INFO - ==>>> epoch:51, batch index: 800, loss:0.09661325067281723
+2023-04-24 13:31:45,460 - netlog - INFO - Start Validation
+2023-04-24 13:33:22,571 - netlog - INFO - ==>>>test seen_acc:53.154425612052734 unseen_acc:41.04938271604938
+2023-04-24 13:33:24,055 - netlog - INFO - ==>>> epoch:52, batch index: 0, loss:0.04471956565976143
+2023-04-24 13:33:33,304 - netlog - INFO - ==>>> epoch:52, batch index: 50, loss:0.12759985029697418
+2023-04-24 13:33:42,627 - netlog - INFO - ==>>> epoch:52, batch index: 100, loss:0.27968084812164307
+2023-04-24 13:33:51,750 - netlog - INFO - ==>>> epoch:52, batch index: 150, loss:0.07640300691127777
+2023-04-24 13:34:00,691 - netlog - INFO - ==>>> epoch:52, batch index: 200, loss:0.03875961899757385
+2023-04-24 13:34:09,854 - netlog - INFO - ==>>> epoch:52, batch index: 250, loss:0.3737042546272278
+2023-04-24 13:34:19,030 - netlog - INFO - ==>>> epoch:52, batch index: 300, loss:0.0172862745821476
+2023-04-24 13:34:27,732 - netlog - INFO - ==>>> epoch:52, batch index: 350, loss:0.17955031991004944
+2023-04-24 13:34:36,314 - netlog - INFO - ==>>> epoch:52, batch index: 400, loss:0.22926285862922668
+2023-04-24 13:34:44,497 - netlog - INFO - ==>>> epoch:52, batch index: 450, loss:0.25249749422073364
+2023-04-24 13:34:52,828 - netlog - INFO - ==>>> epoch:52, batch index: 500, loss:0.14602962136268616
+2023-04-24 13:35:01,762 - netlog - INFO - ==>>> epoch:52, batch index: 550, loss:0.11905986815690994
+2023-04-24 13:35:10,321 - netlog - INFO - ==>>> epoch:52, batch index: 600, loss:0.18955345451831818
+2023-04-24 13:35:19,143 - netlog - INFO - ==>>> epoch:52, batch index: 650, loss:0.2794867753982544
+2023-04-24 13:35:27,531 - netlog - INFO - ==>>> epoch:52, batch index: 700, loss:0.04432596266269684
+2023-04-24 13:35:36,234 - netlog - INFO - ==>>> epoch:52, batch index: 750, loss:0.058571018278598785
+2023-04-24 13:35:44,297 - netlog - INFO - ==>>> epoch:52, batch index: 800, loss:0.014681829139590263
+2023-04-24 13:35:51,781 - netlog - INFO - Start Validation
+2023-04-24 13:37:23,254 - netlog - INFO - ==>>>test seen_acc:52.27558066541118 unseen_acc:39.19753086419753
+2023-04-24 13:37:24,499 - netlog - INFO - ==>>> epoch:53, batch index: 0, loss:0.04401389881968498
+2023-04-24 13:37:33,646 - netlog - INFO - ==>>> epoch:53, batch index: 50, loss:0.05169621855020523
+2023-04-24 13:37:43,242 - netlog - INFO - ==>>> epoch:53, batch index: 100, loss:0.0680520310997963
+2023-04-24 13:37:52,261 - netlog - INFO - ==>>> epoch:53, batch index: 150, loss:0.15537267923355103
+2023-04-24 13:38:01,754 - netlog - INFO - ==>>> epoch:53, batch index: 200, loss:0.15907450020313263
+2023-04-24 13:38:10,215 - netlog - INFO - ==>>> epoch:53, batch index: 250, loss:0.23395287990570068
+2023-04-24 13:38:19,071 - netlog - INFO - ==>>> epoch:53, batch index: 300, loss:0.027397189289331436
+2023-04-24 13:38:27,606 - netlog - INFO - ==>>> epoch:53, batch index: 350, loss:0.06379131972789764
+2023-04-24 13:38:36,339 - netlog - INFO - ==>>> epoch:53, batch index: 400, loss:0.36452627182006836
+2023-04-24 13:38:45,168 - netlog - INFO - ==>>> epoch:53, batch index: 450, loss:0.5300453305244446
+2023-04-24 13:38:53,672 - netlog - INFO - ==>>> epoch:53, batch index: 500, loss:0.1464470773935318
+2023-04-24 13:39:02,266 - netlog - INFO - ==>>> epoch:53, batch index: 550, loss:0.02897954359650612
+2023-04-24 13:39:10,609 - netlog - INFO - ==>>> epoch:53, batch index: 600, loss:0.31627175211906433
+2023-04-24 13:39:19,610 - netlog - INFO - ==>>> epoch:53, batch index: 650, loss:0.1040247231721878
+2023-04-24 13:39:28,265 - netlog - INFO - ==>>> epoch:53, batch index: 700, loss:0.14844471216201782
+2023-04-24 13:39:36,697 - netlog - INFO - ==>>> epoch:53, batch index: 750, loss:0.3111201822757721
+2023-04-24 13:39:45,305 - netlog - INFO - ==>>> epoch:53, batch index: 800, loss:0.149408757686615
+2023-04-24 13:39:52,281 - netlog - INFO - Start Validation
+2023-04-24 13:41:22,981 - netlog - INFO - ==>>>test seen_acc:52.2284996861268 unseen_acc:39.50617283950617
+2023-04-24 13:41:24,058 - netlog - INFO - ==>>> epoch:54, batch index: 0, loss:0.19910168647766113
+2023-04-24 13:41:33,129 - netlog - INFO - ==>>> epoch:54, batch index: 50, loss:0.315912663936615
+2023-04-24 13:41:42,337 - netlog - INFO - ==>>> epoch:54, batch index: 100, loss:0.3678402602672577
+2023-04-24 13:41:51,157 - netlog - INFO - ==>>> epoch:54, batch index: 150, loss:0.011708800680935383
+2023-04-24 13:42:00,013 - netlog - INFO - ==>>> epoch:54, batch index: 200, loss:0.12438447028398514
+2023-04-24 13:42:08,787 - netlog - INFO - ==>>> epoch:54, batch index: 250, loss:0.16782516241073608
+2023-04-24 13:42:16,973 - netlog - INFO - ==>>> epoch:54, batch index: 300, loss:0.03129447251558304
+2023-04-24 13:42:25,705 - netlog - INFO - ==>>> epoch:54, batch index: 350, loss:0.06677185744047165
+2023-04-24 13:42:33,980 - netlog - INFO - ==>>> epoch:54, batch index: 400, loss:0.09305325150489807
+2023-04-24 13:42:42,434 - netlog - INFO - ==>>> epoch:54, batch index: 450, loss:0.06487122178077698
+2023-04-24 13:42:50,964 - netlog - INFO - ==>>> epoch:54, batch index: 500, loss:0.10293523967266083
+2023-04-24 13:42:59,332 - netlog - INFO - ==>>> epoch:54, batch index: 550, loss:0.38224154710769653
+2023-04-24 13:43:08,269 - netlog - INFO - ==>>> epoch:54, batch index: 600, loss:0.09629317373037338
+2023-04-24 13:43:16,757 - netlog - INFO - ==>>> epoch:54, batch index: 650, loss:0.027044426649808884
+2023-04-24 13:43:25,408 - netlog - INFO - ==>>> epoch:54, batch index: 700, loss:0.4037097990512848
+2023-04-24 13:43:33,417 - netlog - INFO - ==>>> epoch:54, batch index: 750, loss:0.179985910654068
+2023-04-24 13:43:42,273 - netlog - INFO - ==>>> epoch:54, batch index: 800, loss:0.036092936992645264
+2023-04-24 13:43:48,782 - netlog - INFO - Start Validation
+2023-04-24 13:45:19,098 - netlog - INFO - ==>>>test seen_acc:52.85624607658506 unseen_acc:39.50617283950617
+2023-04-24 13:45:20,212 - netlog - INFO - ==>>> epoch:55, batch index: 0, loss:0.03161800652742386
+2023-04-24 13:45:29,408 - netlog - INFO - ==>>> epoch:55, batch index: 50, loss:0.07183875143527985
+2023-04-24 13:45:38,681 - netlog - INFO - ==>>> epoch:55, batch index: 100, loss:0.1299004703760147
+2023-04-24 13:45:47,574 - netlog - INFO - ==>>> epoch:55, batch index: 150, loss:0.3083556592464447
+2023-04-24 13:45:56,371 - netlog - INFO - ==>>> epoch:55, batch index: 200, loss:0.09607140719890594
+2023-04-24 13:46:04,674 - netlog - INFO - ==>>> epoch:55, batch index: 250, loss:0.2643755078315735
+2023-04-24 13:46:13,467 - netlog - INFO - ==>>> epoch:55, batch index: 300, loss:0.017336569726467133
+2023-04-24 13:46:22,208 - netlog - INFO - ==>>> epoch:55, batch index: 350, loss:0.07458235323429108
+2023-04-24 13:46:31,068 - netlog - INFO - ==>>> epoch:55, batch index: 400, loss:0.16389459371566772
+2023-04-24 13:46:39,317 - netlog - INFO - ==>>> epoch:55, batch index: 450, loss:0.4097205400466919
+2023-04-24 13:46:48,099 - netlog - INFO - ==>>> epoch:55, batch index: 500, loss:0.04985256493091583
+2023-04-24 13:46:57,047 - netlog - INFO - ==>>> epoch:55, batch index: 550, loss:0.3240300118923187
+2023-04-24 13:47:05,952 - netlog - INFO - ==>>> epoch:55, batch index: 600, loss:0.12400010973215103
+2023-04-24 13:47:14,490 - netlog - INFO - ==>>> epoch:55, batch index: 650, loss:0.07852746546268463
+2023-04-24 13:47:23,416 - netlog - INFO - ==>>> epoch:55, batch index: 700, loss:0.15077005326747894
+2023-04-24 13:47:32,201 - netlog - INFO - ==>>> epoch:55, batch index: 750, loss:0.06348752975463867
+2023-04-24 13:47:41,017 - netlog - INFO - ==>>> epoch:55, batch index: 800, loss:0.4041684865951538
+2023-04-24 13:47:47,998 - netlog - INFO - Start Validation
+2023-04-24 13:49:17,397 - netlog - INFO - ==>>>test seen_acc:53.468298807281855 unseen_acc:40.22633744855967
+2023-04-24 13:49:18,529 - netlog - INFO - ==>>> epoch:56, batch index: 0, loss:0.1529914289712906
+2023-04-24 13:49:28,113 - netlog - INFO - ==>>> epoch:56, batch index: 50, loss:0.20102594792842865
+2023-04-24 13:49:37,268 - netlog - INFO - ==>>> epoch:56, batch index: 100, loss:0.06100290268659592
+2023-04-24 13:49:46,346 - netlog - INFO - ==>>> epoch:56, batch index: 150, loss:0.1028529554605484
+2023-04-24 13:49:54,365 - netlog - INFO - ==>>> epoch:56, batch index: 200, loss:0.4013836085796356
+2023-04-24 13:50:03,543 - netlog - INFO - ==>>> epoch:56, batch index: 250, loss:0.1801389753818512
+2023-04-24 13:50:12,017 - netlog - INFO - ==>>> epoch:56, batch index: 300, loss:0.02715281769633293
+2023-04-24 13:50:20,574 - netlog - INFO - ==>>> epoch:56, batch index: 350, loss:0.030791765078902245
+2023-04-24 13:50:29,036 - netlog - INFO - ==>>> epoch:56, batch index: 400, loss:0.2049332559108734
+2023-04-24 13:50:38,139 - netlog - INFO - ==>>> epoch:56, batch index: 450, loss:0.14718084037303925
+2023-04-24 13:50:46,550 - netlog - INFO - ==>>> epoch:56, batch index: 500, loss:0.05410410463809967
+2023-04-24 13:50:54,834 - netlog - INFO - ==>>> epoch:56, batch index: 550, loss:0.175360307097435
+2023-04-24 13:51:03,065 - netlog - INFO - ==>>> epoch:56, batch index: 600, loss:0.08314824104309082
+2023-04-24 13:51:12,203 - netlog - INFO - ==>>> epoch:56, batch index: 650, loss:0.20727476477622986
+2023-04-24 13:51:20,615 - netlog - INFO - ==>>> epoch:56, batch index: 700, loss:0.0887078195810318
+2023-04-24 13:51:29,712 - netlog - INFO - ==>>> epoch:56, batch index: 750, loss:0.25141483545303345
+2023-04-24 13:51:38,071 - netlog - INFO - ==>>> epoch:56, batch index: 800, loss:0.027121521532535553
+2023-04-24 13:51:45,370 - netlog - INFO - Start Validation
+2023-04-24 13:53:15,282 - netlog - INFO - ==>>>test seen_acc:52.9504080351538 unseen_acc:39.300411522633745
+2023-04-24 13:53:16,413 - netlog - INFO - ==>>> epoch:57, batch index: 0, loss:0.0431075282394886
+2023-04-24 13:53:25,361 - netlog - INFO - ==>>> epoch:57, batch index: 50, loss:0.018488824367523193
+2023-04-24 13:53:34,730 - netlog - INFO - ==>>> epoch:57, batch index: 100, loss:1.10486900806427
+2023-04-24 13:53:44,124 - netlog - INFO - ==>>> epoch:57, batch index: 150, loss:0.017456190660595894
+2023-04-24 13:53:53,105 - netlog - INFO - ==>>> epoch:57, batch index: 200, loss:0.10723736137151718
+2023-04-24 13:54:01,948 - netlog - INFO - ==>>> epoch:57, batch index: 250, loss:0.14541929960250854
+2023-04-24 13:54:11,009 - netlog - INFO - ==>>> epoch:57, batch index: 300, loss:0.05923561379313469
+2023-04-24 13:54:19,416 - netlog - INFO - ==>>> epoch:57, batch index: 350, loss:0.26371651887893677
+2023-04-24 13:54:28,579 - netlog - INFO - ==>>> epoch:57, batch index: 400, loss:0.02078171819448471
+2023-04-24 13:54:37,242 - netlog - INFO - ==>>> epoch:57, batch index: 450, loss:0.08020547777414322
+2023-04-24 13:54:46,638 - netlog - INFO - ==>>> epoch:57, batch index: 500, loss:0.14285486936569214
+2023-04-24 13:54:55,693 - netlog - INFO - ==>>> epoch:57, batch index: 550, loss:0.19627869129180908
+2023-04-24 13:55:04,690 - netlog - INFO - ==>>> epoch:57, batch index: 600, loss:0.15011897683143616
+2023-04-24 13:55:13,356 - netlog - INFO - ==>>> epoch:57, batch index: 650, loss:0.23673877120018005
+2023-04-24 13:55:22,398 - netlog - INFO - ==>>> epoch:57, batch index: 700, loss:0.11237089335918427
+2023-04-24 13:55:30,926 - netlog - INFO - ==>>> epoch:57, batch index: 750, loss:0.25212931632995605
+2023-04-24 13:55:40,068 - netlog - INFO - ==>>> epoch:57, batch index: 800, loss:0.27049776911735535
+2023-04-24 13:55:46,737 - netlog - INFO - Start Validation
+2023-04-24 13:57:16,406 - netlog - INFO - ==>>>test seen_acc:54.205900816070304 unseen_acc:38.888888888888886
+2023-04-24 13:57:17,610 - netlog - INFO - ==>>> epoch:58, batch index: 0, loss:0.23256367444992065
+2023-04-24 13:57:26,931 - netlog - INFO - ==>>> epoch:58, batch index: 50, loss:0.10811936855316162
+2023-04-24 13:57:36,187 - netlog - INFO - ==>>> epoch:58, batch index: 100, loss:0.08154632151126862
+2023-04-24 13:57:45,401 - netlog - INFO - ==>>> epoch:58, batch index: 150, loss:0.06491433829069138
+2023-04-24 13:57:54,053 - netlog - INFO - ==>>> epoch:58, batch index: 200, loss:0.17688894271850586
+2023-04-24 13:58:02,749 - netlog - INFO - ==>>> epoch:58, batch index: 250, loss:0.2607467770576477
+2023-04-24 13:58:11,547 - netlog - INFO - ==>>> epoch:58, batch index: 300, loss:0.2748934030532837
+2023-04-24 13:58:20,926 - netlog - INFO - ==>>> epoch:58, batch index: 350, loss:0.05971803888678551
+2023-04-24 13:58:29,359 - netlog - INFO - ==>>> epoch:58, batch index: 400, loss:0.36428457498550415
+2023-04-24 13:58:38,229 - netlog - INFO - ==>>> epoch:58, batch index: 450, loss:0.02444968745112419
+2023-04-24 13:58:46,938 - netlog - INFO - ==>>> epoch:58, batch index: 500, loss:0.38110440969467163
+2023-04-24 13:58:55,862 - netlog - INFO - ==>>> epoch:58, batch index: 550, loss:0.13650095462799072
+2023-04-24 13:59:03,977 - netlog - INFO - ==>>> epoch:58, batch index: 600, loss:0.03205813094973564
+2023-04-24 13:59:12,478 - netlog - INFO - ==>>> epoch:58, batch index: 650, loss:0.10033261775970459
+2023-04-24 13:59:21,956 - netlog - INFO - ==>>> epoch:58, batch index: 700, loss:0.018391361460089684
+2023-04-24 13:59:30,738 - netlog - INFO - ==>>> epoch:58, batch index: 750, loss:0.15922319889068604
+2023-04-24 13:59:38,915 - netlog - INFO - ==>>> epoch:58, batch index: 800, loss:0.26452600955963135
+2023-04-24 13:59:46,101 - netlog - INFO - Start Validation
+2023-04-24 14:01:16,475 - netlog - INFO - ==>>>test seen_acc:54.53546767106089 unseen_acc:40.22633744855967
+2023-04-24 14:01:17,705 - netlog - INFO - ==>>> epoch:59, batch index: 0, loss:0.18109866976737976
+2023-04-24 14:01:26,661 - netlog - INFO - ==>>> epoch:59, batch index: 50, loss:0.11903996765613556
+2023-04-24 14:01:36,136 - netlog - INFO - ==>>> epoch:59, batch index: 100, loss:0.022941239178180695
+2023-04-24 14:01:45,737 - netlog - INFO - ==>>> epoch:59, batch index: 150, loss:0.09245137870311737
+2023-04-24 14:01:54,281 - netlog - INFO - ==>>> epoch:59, batch index: 200, loss:0.20383282005786896
+2023-04-24 14:02:03,787 - netlog - INFO - ==>>> epoch:59, batch index: 250, loss:0.1395975798368454
+2023-04-24 14:02:12,439 - netlog - INFO - ==>>> epoch:59, batch index: 300, loss:0.03302612155675888
+2023-04-24 14:02:21,323 - netlog - INFO - ==>>> epoch:59, batch index: 350, loss:0.02859322726726532
+2023-04-24 14:02:29,761 - netlog - INFO - ==>>> epoch:59, batch index: 400, loss:0.016876721754670143
+2023-04-24 14:02:38,490 - netlog - INFO - ==>>> epoch:59, batch index: 450, loss:0.15330970287322998
+2023-04-24 14:02:47,204 - netlog - INFO - ==>>> epoch:59, batch index: 500, loss:0.09328797459602356
+2023-04-24 14:02:56,802 - netlog - INFO - ==>>> epoch:59, batch index: 550, loss:0.36560285091400146
+2023-04-24 14:03:05,453 - netlog - INFO - ==>>> epoch:59, batch index: 600, loss:0.20506855845451355
+2023-04-24 14:03:14,962 - netlog - INFO - ==>>> epoch:59, batch index: 650, loss:0.20277732610702515
+2023-04-24 14:03:23,407 - netlog - INFO - ==>>> epoch:59, batch index: 700, loss:0.03172091022133827
+2023-04-24 14:03:32,231 - netlog - INFO - ==>>> epoch:59, batch index: 750, loss:0.07788889110088348
+2023-04-24 14:03:41,098 - netlog - INFO - ==>>> epoch:59, batch index: 800, loss:0.11590886116027832
+2023-04-24 14:03:47,932 - netlog - INFO - Start Validation
+2023-04-24 14:05:18,079 - netlog - INFO - ==>>>test seen_acc:54.40991839296924 unseen_acc:41.46090534979424
+2023-04-24 14:05:19,270 - netlog - INFO - ==>>> epoch:60, batch index: 0, loss:0.31827399134635925
+2023-04-24 14:05:28,376 - netlog - INFO - ==>>> epoch:60, batch index: 50, loss:0.2484818994998932
+2023-04-24 14:05:37,699 - netlog - INFO - ==>>> epoch:60, batch index: 100, loss:0.2902359664440155
+2023-04-24 14:05:46,302 - netlog - INFO - ==>>> epoch:60, batch index: 150, loss:0.09900752454996109
+2023-04-24 14:05:55,031 - netlog - INFO - ==>>> epoch:60, batch index: 200, loss:0.11864618211984634
+2023-04-24 14:06:03,488 - netlog - INFO - ==>>> epoch:60, batch index: 250, loss:0.021625157445669174
+2023-04-24 14:06:12,229 - netlog - INFO - ==>>> epoch:60, batch index: 300, loss:0.035086020827293396
+2023-04-24 14:06:21,291 - netlog - INFO - ==>>> epoch:60, batch index: 350, loss:0.08118903636932373
+2023-04-24 14:06:29,566 - netlog - INFO - ==>>> epoch:60, batch index: 400, loss:0.09336990118026733
+2023-04-24 14:06:38,040 - netlog - INFO - ==>>> epoch:60, batch index: 450, loss:0.20732396841049194
+2023-04-24 14:06:46,206 - netlog - INFO - ==>>> epoch:60, batch index: 500, loss:0.3019866347312927
+2023-04-24 14:06:55,204 - netlog - INFO - ==>>> epoch:60, batch index: 550, loss:0.2308635711669922
+2023-04-24 14:07:03,639 - netlog - INFO - ==>>> epoch:60, batch index: 600, loss:0.30695396661758423
+2023-04-24 14:07:12,053 - netlog - INFO - ==>>> epoch:60, batch index: 650, loss:0.05536013841629028
+2023-04-24 14:07:20,563 - netlog - INFO - ==>>> epoch:60, batch index: 700, loss:0.07494325190782547
+2023-04-24 14:07:29,077 - netlog - INFO - ==>>> epoch:60, batch index: 750, loss:0.4361766278743744
+2023-04-24 14:07:37,836 - netlog - INFO - ==>>> epoch:60, batch index: 800, loss:0.09059252589941025
+2023-04-24 14:07:44,856 - netlog - INFO - Start Validation
+2023-04-24 14:09:15,744 - netlog - INFO - ==>>>test seen_acc:53.7037037037037 unseen_acc:38.27160493827161
+2023-04-24 14:09:16,915 - netlog - INFO - ==>>> epoch:61, batch index: 0, loss:0.017908288165926933
+2023-04-24 14:09:26,486 - netlog - INFO - ==>>> epoch:61, batch index: 50, loss:0.1371212601661682
+2023-04-24 14:09:35,402 - netlog - INFO - ==>>> epoch:61, batch index: 100, loss:0.29555046558380127
+2023-04-24 14:09:44,560 - netlog - INFO - ==>>> epoch:61, batch index: 150, loss:0.7121065258979797
+2023-04-24 14:09:53,089 - netlog - INFO - ==>>> epoch:61, batch index: 200, loss:0.2922259569168091
+2023-04-24 14:10:01,858 - netlog - INFO - ==>>> epoch:61, batch index: 250, loss:0.07238727807998657
+2023-04-24 14:10:10,480 - netlog - INFO - ==>>> epoch:61, batch index: 300, loss:0.02603616565465927
+2023-04-24 14:10:19,112 - netlog - INFO - ==>>> epoch:61, batch index: 350, loss:0.049084968864917755
+2023-04-24 14:10:27,695 - netlog - INFO - ==>>> epoch:61, batch index: 400, loss:0.020129388198256493
+2023-04-24 14:10:35,952 - netlog - INFO - ==>>> epoch:61, batch index: 450, loss:0.01861977018415928
+2023-04-24 14:10:44,225 - netlog - INFO - ==>>> epoch:61, batch index: 500, loss:0.15664750337600708
+2023-04-24 14:10:53,062 - netlog - INFO - ==>>> epoch:61, batch index: 550, loss:0.07155303657054901
+2023-04-24 14:11:01,578 - netlog - INFO - ==>>> epoch:61, batch index: 600, loss:0.40620681643486023
+2023-04-24 14:11:09,861 - netlog - INFO - ==>>> epoch:61, batch index: 650, loss:0.016964251175522804
+2023-04-24 14:11:18,286 - netlog - INFO - ==>>> epoch:61, batch index: 700, loss:0.12603092193603516
+2023-04-24 14:11:26,646 - netlog - INFO - ==>>> epoch:61, batch index: 750, loss:0.12256542593240738
+2023-04-24 14:11:35,142 - netlog - INFO - ==>>> epoch:61, batch index: 800, loss:0.253615140914917
+2023-04-24 14:11:42,136 - netlog - INFO - Start Validation
+2023-04-24 14:13:14,655 - netlog - INFO - ==>>>test seen_acc:53.2015065913371 unseen_acc:38.78600823045267
+2023-04-24 14:13:15,772 - netlog - INFO - ==>>> epoch:62, batch index: 0, loss:0.2110392302274704
+2023-04-24 14:13:25,034 - netlog - INFO - ==>>> epoch:62, batch index: 50, loss:0.04049968346953392
+2023-04-24 14:13:34,709 - netlog - INFO - ==>>> epoch:62, batch index: 100, loss:0.041890885680913925
+2023-04-24 14:13:43,947 - netlog - INFO - ==>>> epoch:62, batch index: 150, loss:0.07256564497947693
+2023-04-24 14:13:52,970 - netlog - INFO - ==>>> epoch:62, batch index: 200, loss:0.04113311693072319
+2023-04-24 14:14:02,328 - netlog - INFO - ==>>> epoch:62, batch index: 250, loss:0.2200409173965454
+2023-04-24 14:14:11,560 - netlog - INFO - ==>>> epoch:62, batch index: 300, loss:0.1243971586227417
+2023-04-24 14:14:19,823 - netlog - INFO - ==>>> epoch:62, batch index: 350, loss:0.04502459987998009
+2023-04-24 14:14:28,386 - netlog - INFO - ==>>> epoch:62, batch index: 400, loss:0.2668522000312805
+2023-04-24 14:14:37,260 - netlog - INFO - ==>>> epoch:62, batch index: 450, loss:0.04224918410181999
+2023-04-24 14:14:45,709 - netlog - INFO - ==>>> epoch:62, batch index: 500, loss:0.1790006011724472
+2023-04-24 14:14:54,326 - netlog - INFO - ==>>> epoch:62, batch index: 550, loss:0.24166403710842133
+2023-04-24 14:15:02,861 - netlog - INFO - ==>>> epoch:62, batch index: 600, loss:0.07921629399061203
+2023-04-24 14:15:11,421 - netlog - INFO - ==>>> epoch:62, batch index: 650, loss:0.0965418890118599
+2023-04-24 14:15:19,791 - netlog - INFO - ==>>> epoch:62, batch index: 700, loss:0.17874544858932495
+2023-04-24 14:15:29,098 - netlog - INFO - ==>>> epoch:62, batch index: 750, loss:0.18814603984355927
+2023-04-24 14:15:37,472 - netlog - INFO - ==>>> epoch:62, batch index: 800, loss:0.13164964318275452
+2023-04-24 14:15:44,087 - netlog - INFO - Start Validation
+2023-04-24 14:17:16,363 - netlog - INFO - ==>>>test seen_acc:52.43251726302574 unseen_acc:37.34567901234568
+2023-04-24 14:17:17,596 - netlog - INFO - ==>>> epoch:63, batch index: 0, loss:0.04007263481616974
+2023-04-24 14:17:26,404 - netlog - INFO - ==>>> epoch:63, batch index: 50, loss:0.08664646744728088
+2023-04-24 14:17:35,465 - netlog - INFO - ==>>> epoch:63, batch index: 100, loss:0.13288401067256927
+2023-04-24 14:17:44,189 - netlog - INFO - ==>>> epoch:63, batch index: 150, loss:0.10323145240545273
+2023-04-24 14:17:53,254 - netlog - INFO - ==>>> epoch:63, batch index: 200, loss:0.1084735095500946
+2023-04-24 14:18:01,961 - netlog - INFO - ==>>> epoch:63, batch index: 250, loss:0.08468973636627197
+2023-04-24 14:18:10,830 - netlog - INFO - ==>>> epoch:63, batch index: 300, loss:0.050887562334537506
+2023-04-24 14:18:19,909 - netlog - INFO - ==>>> epoch:63, batch index: 350, loss:0.019312221556901932
+2023-04-24 14:18:28,685 - netlog - INFO - ==>>> epoch:63, batch index: 400, loss:0.20596067607402802
+2023-04-24 14:18:37,085 - netlog - INFO - ==>>> epoch:63, batch index: 450, loss:0.04688496142625809
+2023-04-24 14:18:45,693 - netlog - INFO - ==>>> epoch:63, batch index: 500, loss:0.2769612967967987
+2023-04-24 14:18:54,103 - netlog - INFO - ==>>> epoch:63, batch index: 550, loss:0.0725598931312561
+2023-04-24 14:19:02,724 - netlog - INFO - ==>>> epoch:63, batch index: 600, loss:0.04855939745903015
+2023-04-24 14:19:11,414 - netlog - INFO - ==>>> epoch:63, batch index: 650, loss:0.02966701053082943
+2023-04-24 14:19:19,888 - netlog - INFO - ==>>> epoch:63, batch index: 700, loss:0.34029436111450195
+2023-04-24 14:19:28,992 - netlog - INFO - ==>>> epoch:63, batch index: 750, loss:0.10632231831550598
+2023-04-24 14:19:37,365 - netlog - INFO - ==>>> epoch:63, batch index: 800, loss:0.1914956271648407
+2023-04-24 14:19:44,317 - netlog - INFO - Start Validation
+2023-04-24 14:21:15,215 - netlog - INFO - ==>>>test seen_acc:54.0646578782172 unseen_acc:38.58024691358025
+2023-04-24 14:21:16,473 - netlog - INFO - ==>>> epoch:64, batch index: 0, loss:0.2929536700248718
+2023-04-24 14:21:25,883 - netlog - INFO - ==>>> epoch:64, batch index: 50, loss:0.2982836067676544
+2023-04-24 14:21:35,201 - netlog - INFO - ==>>> epoch:64, batch index: 100, loss:0.20952752232551575
+2023-04-24 14:21:44,048 - netlog - INFO - ==>>> epoch:64, batch index: 150, loss:0.1385568380355835
+2023-04-24 14:21:53,188 - netlog - INFO - ==>>> epoch:64, batch index: 200, loss:0.09397739171981812
+2023-04-24 14:22:01,806 - netlog - INFO - ==>>> epoch:64, batch index: 250, loss:0.12017546594142914
+2023-04-24 14:22:10,834 - netlog - INFO - ==>>> epoch:64, batch index: 300, loss:0.19070197641849518
+2023-04-24 14:22:19,749 - netlog - INFO - ==>>> epoch:64, batch index: 350, loss:0.08520728349685669
+2023-04-24 14:22:28,549 - netlog - INFO - ==>>> epoch:64, batch index: 400, loss:0.1852140724658966
+2023-04-24 14:22:37,600 - netlog - INFO - ==>>> epoch:64, batch index: 450, loss:0.13426513969898224
+2023-04-24 14:22:46,896 - netlog - INFO - ==>>> epoch:64, batch index: 500, loss:0.1911393105983734
+2023-04-24 14:22:55,964 - netlog - INFO - ==>>> epoch:64, batch index: 550, loss:0.11668522655963898
+2023-04-24 14:23:04,556 - netlog - INFO - ==>>> epoch:64, batch index: 600, loss:0.04251142591238022
+2023-04-24 14:23:13,162 - netlog - INFO - ==>>> epoch:64, batch index: 650, loss:0.03105650097131729
+2023-04-24 14:23:22,198 - netlog - INFO - ==>>> epoch:64, batch index: 700, loss:0.06954389810562134
+2023-04-24 14:23:30,767 - netlog - INFO - ==>>> epoch:64, batch index: 750, loss:0.03294651210308075
+2023-04-24 14:23:39,041 - netlog - INFO - ==>>> epoch:64, batch index: 800, loss:0.1866753250360489
+2023-04-24 14:23:45,954 - netlog - INFO - Start Validation
+2023-04-24 14:25:17,060 - netlog - INFO - ==>>>test seen_acc:53.12303829252982 unseen_acc:39.91769547325103
+2023-04-24 14:25:18,310 - netlog - INFO - ==>>> epoch:65, batch index: 0, loss:0.15068241953849792
+2023-04-24 14:25:27,510 - netlog - INFO - ==>>> epoch:65, batch index: 50, loss:0.2957504689693451
+2023-04-24 14:25:36,711 - netlog - INFO - ==>>> epoch:65, batch index: 100, loss:0.048395417630672455
+2023-04-24 14:25:45,637 - netlog - INFO - ==>>> epoch:65, batch index: 150, loss:0.01885455846786499
+2023-04-24 14:25:54,354 - netlog - INFO - ==>>> epoch:65, batch index: 200, loss:0.3500326871871948
+2023-04-24 14:26:03,325 - netlog - INFO - ==>>> epoch:65, batch index: 250, loss:0.03840197995305061
+2023-04-24 14:26:12,150 - netlog - INFO - ==>>> epoch:65, batch index: 300, loss:0.07162557542324066
+2023-04-24 14:26:20,885 - netlog - INFO - ==>>> epoch:65, batch index: 350, loss:0.03012900799512863
+2023-04-24 14:26:29,736 - netlog - INFO - ==>>> epoch:65, batch index: 400, loss:0.017682932317256927
+2023-04-24 14:26:38,492 - netlog - INFO - ==>>> epoch:65, batch index: 450, loss:0.12083728611469269
+2023-04-24 14:26:47,374 - netlog - INFO - ==>>> epoch:65, batch index: 500, loss:0.16746675968170166
+2023-04-24 14:26:56,025 - netlog - INFO - ==>>> epoch:65, batch index: 550, loss:0.13648250699043274
+2023-04-24 14:27:04,668 - netlog - INFO - ==>>> epoch:65, batch index: 600, loss:0.19866815209388733
+2023-04-24 14:27:12,982 - netlog - INFO - ==>>> epoch:65, batch index: 650, loss:0.05487874895334244
+2023-04-24 14:27:21,654 - netlog - INFO - ==>>> epoch:65, batch index: 700, loss:0.18968692421913147
+2023-04-24 14:27:30,129 - netlog - INFO - ==>>> epoch:65, batch index: 750, loss:0.47210684418678284
+2023-04-24 14:27:38,869 - netlog - INFO - ==>>> epoch:65, batch index: 800, loss:0.09644092619419098
+2023-04-24 14:27:45,668 - netlog - INFO - Start Validation
+2023-04-24 14:29:17,247 - netlog - INFO - ==>>>test seen_acc:54.03327055869429 unseen_acc:42.592592592592595
+2023-04-24 14:29:19,136 - netlog - INFO - ==>>> epoch:66, batch index: 0, loss:0.13736335933208466
+2023-04-24 14:29:28,175 - netlog - INFO - ==>>> epoch:66, batch index: 50, loss:0.139086052775383
+2023-04-24 14:29:37,489 - netlog - INFO - ==>>> epoch:66, batch index: 100, loss:0.09717239439487457
+2023-04-24 14:29:46,625 - netlog - INFO - ==>>> epoch:66, batch index: 150, loss:0.07805729657411575
+2023-04-24 14:29:55,377 - netlog - INFO - ==>>> epoch:66, batch index: 200, loss:0.3024143576622009
+2023-04-24 14:30:04,471 - netlog - INFO - ==>>> epoch:66, batch index: 250, loss:0.17287355661392212
+2023-04-24 14:30:13,151 - netlog - INFO - ==>>> epoch:66, batch index: 300, loss:0.07447867840528488
+2023-04-24 14:30:21,804 - netlog - INFO - ==>>> epoch:66, batch index: 350, loss:0.01789003051817417
+2023-04-24 14:30:30,047 - netlog - INFO - ==>>> epoch:66, batch index: 400, loss:0.1290263682603836
+2023-04-24 14:30:38,723 - netlog - INFO - ==>>> epoch:66, batch index: 450, loss:0.07565412670373917
+2023-04-24 14:30:47,628 - netlog - INFO - ==>>> epoch:66, batch index: 500, loss:0.30137360095977783
+2023-04-24 14:30:55,793 - netlog - INFO - ==>>> epoch:66, batch index: 550, loss:0.03435954451560974
+2023-04-24 14:31:04,514 - netlog - INFO - ==>>> epoch:66, batch index: 600, loss:0.10845625400543213
+2023-04-24 14:31:12,571 - netlog - INFO - ==>>> epoch:66, batch index: 650, loss:0.1034582331776619
+2023-04-24 14:31:21,461 - netlog - INFO - ==>>> epoch:66, batch index: 700, loss:0.1154000461101532
+2023-04-24 14:31:29,746 - netlog - INFO - ==>>> epoch:66, batch index: 750, loss:0.023957816883921623
+2023-04-24 14:31:38,286 - netlog - INFO - ==>>> epoch:66, batch index: 800, loss:0.03082042559981346
+2023-04-24 14:31:45,567 - netlog - INFO - Start Validation
+2023-04-24 14:33:19,068 - netlog - INFO - ==>>>test seen_acc:52.840552416823606 unseen_acc:40.946502057613166
+2023-04-24 14:33:20,350 - netlog - INFO - ==>>> epoch:67, batch index: 0, loss:0.05981476977467537
+2023-04-24 14:33:29,413 - netlog - INFO - ==>>> epoch:67, batch index: 50, loss:0.11113947629928589
+2023-04-24 14:33:38,678 - netlog - INFO - ==>>> epoch:67, batch index: 100, loss:0.09733317792415619
+2023-04-24 14:33:47,465 - netlog - INFO - ==>>> epoch:67, batch index: 150, loss:0.04942426458001137
+2023-04-24 14:33:56,704 - netlog - INFO - ==>>> epoch:67, batch index: 200, loss:0.20939111709594727
+2023-04-24 14:34:05,641 - netlog - INFO - ==>>> epoch:67, batch index: 250, loss:0.06763078272342682
+2023-04-24 14:34:14,428 - netlog - INFO - ==>>> epoch:67, batch index: 300, loss:0.020057164132595062
+2023-04-24 14:34:23,409 - netlog - INFO - ==>>> epoch:67, batch index: 350, loss:0.03808867558836937
+2023-04-24 14:34:31,703 - netlog - INFO - ==>>> epoch:67, batch index: 400, loss:0.14672362804412842
+2023-04-24 14:34:40,169 - netlog - INFO - ==>>> epoch:67, batch index: 450, loss:0.04124878719449043
+2023-04-24 14:34:48,562 - netlog - INFO - ==>>> epoch:67, batch index: 500, loss:0.10561908781528473
+2023-04-24 14:34:57,266 - netlog - INFO - ==>>> epoch:67, batch index: 550, loss:0.11919698864221573
+2023-04-24 14:35:05,995 - netlog - INFO - ==>>> epoch:67, batch index: 600, loss:0.09450961649417877
+2023-04-24 14:35:14,582 - netlog - INFO - ==>>> epoch:67, batch index: 650, loss:0.07404326647520065
+2023-04-24 14:35:22,971 - netlog - INFO - ==>>> epoch:67, batch index: 700, loss:0.04198937863111496
+2023-04-24 14:35:31,733 - netlog - INFO - ==>>> epoch:67, batch index: 750, loss:0.19646579027175903
+2023-04-24 14:35:40,327 - netlog - INFO - ==>>> epoch:67, batch index: 800, loss:0.15138153731822968
+2023-04-24 14:35:47,301 - netlog - INFO - Start Validation
+2023-04-24 14:37:18,744 - netlog - INFO - ==>>>test seen_acc:53.013182674199626 unseen_acc:38.888888888888886
+2023-04-24 14:37:20,020 - netlog - INFO - ==>>> epoch:68, batch index: 0, loss:0.024466432631015778
+2023-04-24 14:37:29,413 - netlog - INFO - ==>>> epoch:68, batch index: 50, loss:0.12583528459072113
+2023-04-24 14:37:38,857 - netlog - INFO - ==>>> epoch:68, batch index: 100, loss:0.12796734273433685
+2023-04-24 14:37:47,865 - netlog - INFO - ==>>> epoch:68, batch index: 150, loss:0.31495943665504456
+2023-04-24 14:37:56,954 - netlog - INFO - ==>>> epoch:68, batch index: 200, loss:0.02045135572552681
+2023-04-24 14:38:06,163 - netlog - INFO - ==>>> epoch:68, batch index: 250, loss:0.01712489128112793
+2023-04-24 14:38:14,963 - netlog - INFO - ==>>> epoch:68, batch index: 300, loss:0.15274377167224884
+2023-04-24 14:38:23,745 - netlog - INFO - ==>>> epoch:68, batch index: 350, loss:0.13688740134239197
+2023-04-24 14:38:32,845 - netlog - INFO - ==>>> epoch:68, batch index: 400, loss:0.15130046010017395
+2023-04-24 14:38:41,845 - netlog - INFO - ==>>> epoch:68, batch index: 450, loss:0.16223718225955963
+2023-04-24 14:38:50,804 - netlog - INFO - ==>>> epoch:68, batch index: 500, loss:0.041857197880744934
+2023-04-24 14:38:58,937 - netlog - INFO - ==>>> epoch:68, batch index: 550, loss:0.4226575791835785
+2023-04-24 14:39:07,318 - netlog - INFO - ==>>> epoch:68, batch index: 600, loss:0.19513316452503204
+2023-04-24 14:39:15,977 - netlog - INFO - ==>>> epoch:68, batch index: 650, loss:0.19477686285972595
+2023-04-24 14:39:24,571 - netlog - INFO - ==>>> epoch:68, batch index: 700, loss:0.12283481657505035
+2023-04-24 14:39:33,318 - netlog - INFO - ==>>> epoch:68, batch index: 750, loss:0.07765096426010132
+2023-04-24 14:39:41,951 - netlog - INFO - ==>>> epoch:68, batch index: 800, loss:0.12938442826271057
+2023-04-24 14:39:49,166 - netlog - INFO - Start Validation
+2023-04-24 14:41:21,064 - netlog - INFO - ==>>>test seen_acc:53.29566854990584 unseen_acc:40.123456790123456
+2023-04-24 14:41:22,274 - netlog - INFO - ==>>> epoch:69, batch index: 0, loss:0.012303518131375313
+2023-04-24 14:41:31,582 - netlog - INFO - ==>>> epoch:69, batch index: 50, loss:0.017632894217967987
+2023-04-24 14:41:40,850 - netlog - INFO - ==>>> epoch:69, batch index: 100, loss:0.012478739023208618
+2023-04-24 14:41:49,991 - netlog - INFO - ==>>> epoch:69, batch index: 150, loss:0.15753212571144104
+2023-04-24 14:41:58,861 - netlog - INFO - ==>>> epoch:69, batch index: 200, loss:0.6756390333175659
+2023-04-24 14:42:07,390 - netlog - INFO - ==>>> epoch:69, batch index: 250, loss:0.02669975906610489
+2023-04-24 14:42:16,102 - netlog - INFO - ==>>> epoch:69, batch index: 300, loss:0.15501868724822998
+2023-04-24 14:42:24,563 - netlog - INFO - ==>>> epoch:69, batch index: 350, loss:0.0957232415676117
+2023-04-24 14:42:33,251 - netlog - INFO - ==>>> epoch:69, batch index: 400, loss:0.4085081219673157
+2023-04-24 14:42:42,419 - netlog - INFO - ==>>> epoch:69, batch index: 450, loss:0.024807240813970566
+2023-04-24 14:42:51,230 - netlog - INFO - ==>>> epoch:69, batch index: 500, loss:0.040689945220947266
+2023-04-24 14:43:00,468 - netlog - INFO - ==>>> epoch:69, batch index: 550, loss:0.18956051766872406
+2023-04-24 14:43:09,401 - netlog - INFO - ==>>> epoch:69, batch index: 600, loss:0.03782619163393974
+2023-04-24 14:43:18,581 - netlog - INFO - ==>>> epoch:69, batch index: 650, loss:0.11700335144996643
+2023-04-24 14:43:26,874 - netlog - INFO - ==>>> epoch:69, batch index: 700, loss:0.017601894214749336
+2023-04-24 14:43:36,449 - netlog - INFO - ==>>> epoch:69, batch index: 750, loss:0.1642272025346756
+2023-04-24 14:43:45,318 - netlog - INFO - ==>>> epoch:69, batch index: 800, loss:0.12370601296424866
+2023-04-24 14:43:52,245 - netlog - INFO - Start Validation
+2023-04-24 14:45:26,400 - netlog - INFO - ==>>>test seen_acc:53.075957313245446 unseen_acc:40.946502057613166
+2023-04-24 14:45:27,707 - netlog - INFO - ==>>> epoch:70, batch index: 0, loss:0.07525105774402618
+2023-04-24 14:45:36,887 - netlog - INFO - ==>>> epoch:70, batch index: 50, loss:0.09592075645923615
+2023-04-24 14:45:46,399 - netlog - INFO - ==>>> epoch:70, batch index: 100, loss:0.29764336347579956
+2023-04-24 14:45:55,370 - netlog - INFO - ==>>> epoch:70, batch index: 150, loss:0.034678418189287186
+2023-04-24 14:46:04,566 - netlog - INFO - ==>>> epoch:70, batch index: 200, loss:0.17881181836128235
+2023-04-24 14:46:13,672 - netlog - INFO - ==>>> epoch:70, batch index: 250, loss:0.023741615936160088
+2023-04-24 14:46:22,383 - netlog - INFO - ==>>> epoch:70, batch index: 300, loss:0.025425851345062256
+2023-04-24 14:46:31,355 - netlog - INFO - ==>>> epoch:70, batch index: 350, loss:0.1449601799249649
+2023-04-24 14:46:40,263 - netlog - INFO - ==>>> epoch:70, batch index: 400, loss:0.15831096470355988
+2023-04-24 14:46:49,509 - netlog - INFO - ==>>> epoch:70, batch index: 450, loss:0.13272155821323395
+2023-04-24 14:46:57,910 - netlog - INFO - ==>>> epoch:70, batch index: 500, loss:0.13749633729457855
+2023-04-24 14:47:06,766 - netlog - INFO - ==>>> epoch:70, batch index: 550, loss:0.24893279373645782
+2023-04-24 14:47:15,758 - netlog - INFO - ==>>> epoch:70, batch index: 600, loss:0.015050840564072132
+2023-04-24 14:47:24,562 - netlog - INFO - ==>>> epoch:70, batch index: 650, loss:0.16861407458782196
+2023-04-24 14:47:33,044 - netlog - INFO - ==>>> epoch:70, batch index: 700, loss:0.055035725235939026
+2023-04-24 14:47:41,795 - netlog - INFO - ==>>> epoch:70, batch index: 750, loss:0.10416023433208466
+2023-04-24 14:47:50,072 - netlog - INFO - ==>>> epoch:70, batch index: 800, loss:0.09469382464885712
+2023-04-24 14:47:57,058 - netlog - INFO - Start Validation
+2023-04-24 14:49:29,845 - netlog - INFO - ==>>>test seen_acc:52.573760200878844 unseen_acc:41.56378600823045
+2023-04-24 14:49:31,001 - netlog - INFO - ==>>> epoch:71, batch index: 0, loss:0.030536726117134094
+2023-04-24 14:49:40,467 - netlog - INFO - ==>>> epoch:71, batch index: 50, loss:0.12379477918148041
+2023-04-24 14:49:49,617 - netlog - INFO - ==>>> epoch:71, batch index: 100, loss:0.028192389756441116
+2023-04-24 14:49:58,390 - netlog - INFO - ==>>> epoch:71, batch index: 150, loss:0.018991617485880852
+2023-04-24 14:50:08,047 - netlog - INFO - ==>>> epoch:71, batch index: 200, loss:0.11900386959314346
+2023-04-24 14:50:16,828 - netlog - INFO - ==>>> epoch:71, batch index: 250, loss:0.32364189624786377
+2023-04-24 14:50:25,243 - netlog - INFO - ==>>> epoch:71, batch index: 300, loss:0.04705960303544998
+2023-04-24 14:50:34,412 - netlog - INFO - ==>>> epoch:71, batch index: 350, loss:0.17821773886680603
+2023-04-24 14:50:42,560 - netlog - INFO - ==>>> epoch:71, batch index: 400, loss:0.2293662130832672
+2023-04-24 14:50:51,172 - netlog - INFO - ==>>> epoch:71, batch index: 450, loss:0.04922617971897125
+2023-04-24 14:50:59,845 - netlog - INFO - ==>>> epoch:71, batch index: 500, loss:0.03163933753967285
+2023-04-24 14:51:08,780 - netlog - INFO - ==>>> epoch:71, batch index: 550, loss:0.03321973606944084
+2023-04-24 14:51:17,324 - netlog - INFO - ==>>> epoch:71, batch index: 600, loss:0.1501573771238327
+2023-04-24 14:51:25,597 - netlog - INFO - ==>>> epoch:71, batch index: 650, loss:0.21909308433532715
+2023-04-24 14:51:34,074 - netlog - INFO - ==>>> epoch:71, batch index: 700, loss:0.1422053426504135
+2023-04-24 14:51:42,422 - netlog - INFO - ==>>> epoch:71, batch index: 750, loss:0.12069188058376312
+2023-04-24 14:51:51,145 - netlog - INFO - ==>>> epoch:71, batch index: 800, loss:0.014084501191973686
+2023-04-24 14:51:57,777 - netlog - INFO - Start Validation
+2023-04-24 14:53:24,846 - netlog - INFO - ==>>>test seen_acc:52.6993094789705 unseen_acc:41.25514403292181
+2023-04-24 14:53:25,886 - netlog - INFO - ==>>> epoch:72, batch index: 0, loss:0.18405450880527496
+2023-04-24 14:53:34,681 - netlog - INFO - ==>>> epoch:72, batch index: 50, loss:0.017455192282795906
+2023-04-24 14:53:43,743 - netlog - INFO - ==>>> epoch:72, batch index: 100, loss:0.09353575855493546
+2023-04-24 14:53:52,416 - netlog - INFO - ==>>> epoch:72, batch index: 150, loss:0.12993179261684418
+2023-04-24 14:54:01,072 - netlog - INFO - ==>>> epoch:72, batch index: 200, loss:0.13047361373901367
+2023-04-24 14:54:09,821 - netlog - INFO - ==>>> epoch:72, batch index: 250, loss:0.14338481426239014
+2023-04-24 14:54:18,653 - netlog - INFO - ==>>> epoch:72, batch index: 300, loss:0.05539173632860184
+2023-04-24 14:54:27,517 - netlog - INFO - ==>>> epoch:72, batch index: 350, loss:0.07255750149488449
+2023-04-24 14:54:36,246 - netlog - INFO - ==>>> epoch:72, batch index: 400, loss:0.015750274062156677
+2023-04-24 14:54:45,204 - netlog - INFO - ==>>> epoch:72, batch index: 450, loss:0.1615319401025772
+2023-04-24 14:54:54,267 - netlog - INFO - ==>>> epoch:72, batch index: 500, loss:0.013772670179605484
+2023-04-24 14:55:02,852 - netlog - INFO - ==>>> epoch:72, batch index: 550, loss:0.012149558402597904
+2023-04-24 14:55:11,943 - netlog - INFO - ==>>> epoch:72, batch index: 600, loss:0.1182190328836441
+2023-04-24 14:55:20,418 - netlog - INFO - ==>>> epoch:72, batch index: 650, loss:0.12809868156909943
+2023-04-24 14:55:29,522 - netlog - INFO - ==>>> epoch:72, batch index: 700, loss:0.03287943825125694
+2023-04-24 14:55:37,928 - netlog - INFO - ==>>> epoch:72, batch index: 750, loss:0.2781434953212738
+2023-04-24 14:55:46,600 - netlog - INFO - ==>>> epoch:72, batch index: 800, loss:0.3632495403289795
+2023-04-24 14:55:53,602 - netlog - INFO - Start Validation
+2023-04-24 14:57:22,229 - netlog - INFO - ==>>>test seen_acc:53.483992467043315 unseen_acc:38.68312757201646
+2023-04-24 14:57:23,361 - netlog - INFO - ==>>> epoch:73, batch index: 0, loss:0.415164053440094
+2023-04-24 14:57:32,459 - netlog - INFO - ==>>> epoch:73, batch index: 50, loss:0.023098833858966827
+2023-04-24 14:57:41,564 - netlog - INFO - ==>>> epoch:73, batch index: 100, loss:0.26557308435440063
+2023-04-24 14:57:50,378 - netlog - INFO - ==>>> epoch:73, batch index: 150, loss:0.015473849140107632
+2023-04-24 14:57:59,312 - netlog - INFO - ==>>> epoch:73, batch index: 200, loss:0.08158812671899796
+2023-04-24 14:58:07,687 - netlog - INFO - ==>>> epoch:73, batch index: 250, loss:0.017419565469026566
+2023-04-24 14:58:16,542 - netlog - INFO - ==>>> epoch:73, batch index: 300, loss:0.05990839749574661
+2023-04-24 14:58:25,241 - netlog - INFO - ==>>> epoch:73, batch index: 350, loss:0.05598217621445656
+2023-04-24 14:58:34,393 - netlog - INFO - ==>>> epoch:73, batch index: 400, loss:0.3068370521068573
+2023-04-24 14:58:42,682 - netlog - INFO - ==>>> epoch:73, batch index: 450, loss:0.19887524843215942
+2023-04-24 14:58:51,495 - netlog - INFO - ==>>> epoch:73, batch index: 500, loss:0.1537056416273117
+2023-04-24 14:59:00,076 - netlog - INFO - ==>>> epoch:73, batch index: 550, loss:0.05551469326019287
+2023-04-24 14:59:08,525 - netlog - INFO - ==>>> epoch:73, batch index: 600, loss:0.1810259222984314
+2023-04-24 14:59:16,988 - netlog - INFO - ==>>> epoch:73, batch index: 650, loss:0.11694234609603882
+2023-04-24 14:59:25,661 - netlog - INFO - ==>>> epoch:73, batch index: 700, loss:0.08375425636768341
+2023-04-24 14:59:33,841 - netlog - INFO - ==>>> epoch:73, batch index: 750, loss:0.09351444244384766
+2023-04-24 14:59:42,613 - netlog - INFO - ==>>> epoch:73, batch index: 800, loss:0.026042215526103973
+2023-04-24 14:59:48,988 - netlog - INFO - Start Validation
+2023-04-24 15:01:18,095 - netlog - INFO - ==>>>test seen_acc:52.76208411801632 unseen_acc:39.09465020576132
+2023-04-24 15:01:19,237 - netlog - INFO - ==>>> epoch:74, batch index: 0, loss:0.06080564856529236
+2023-04-24 15:01:28,449 - netlog - INFO - ==>>> epoch:74, batch index: 50, loss:0.04757754132151604
+2023-04-24 15:01:37,491 - netlog - INFO - ==>>> epoch:74, batch index: 100, loss:0.19676901400089264
+2023-04-24 15:01:46,428 - netlog - INFO - ==>>> epoch:74, batch index: 150, loss:0.08623138815164566
+2023-04-24 15:01:54,925 - netlog - INFO - ==>>> epoch:74, batch index: 200, loss:0.02527572587132454
+2023-04-24 15:02:03,474 - netlog - INFO - ==>>> epoch:74, batch index: 250, loss:0.021389171481132507
+2023-04-24 15:02:12,105 - netlog - INFO - ==>>> epoch:74, batch index: 300, loss:0.017600905150175095
+2023-04-24 15:02:21,000 - netlog - INFO - ==>>> epoch:74, batch index: 350, loss:0.10877916216850281
+2023-04-24 15:02:29,205 - netlog - INFO - ==>>> epoch:74, batch index: 400, loss:0.04240380972623825
+2023-04-24 15:02:37,779 - netlog - INFO - ==>>> epoch:74, batch index: 450, loss:0.07448601722717285
+2023-04-24 15:02:45,941 - netlog - INFO - ==>>> epoch:74, batch index: 500, loss:0.09249944239854813
+2023-04-24 15:02:54,580 - netlog - INFO - ==>>> epoch:74, batch index: 550, loss:0.4916161000728607
+2023-04-24 15:03:02,890 - netlog - INFO - ==>>> epoch:74, batch index: 600, loss:0.09505748003721237
+2023-04-24 15:03:11,620 - netlog - INFO - ==>>> epoch:74, batch index: 650, loss:0.022742196917533875
+2023-04-24 15:03:19,841 - netlog - INFO - ==>>> epoch:74, batch index: 700, loss:0.2980189919471741
+2023-04-24 15:03:28,137 - netlog - INFO - ==>>> epoch:74, batch index: 750, loss:0.11831410229206085
+2023-04-24 15:03:36,126 - netlog - INFO - ==>>> epoch:74, batch index: 800, loss:0.01219528540968895
+2023-04-24 15:03:42,843 - netlog - INFO - Start Validation
+2023-04-24 15:05:11,344 - netlog - INFO - ==>>>test seen_acc:53.02887633396108 unseen_acc:38.065843621399175
+2023-04-24 15:05:12,648 - netlog - INFO - ==>>> epoch:75, batch index: 0, loss:0.008007600903511047
+2023-04-24 15:05:21,835 - netlog - INFO - ==>>> epoch:75, batch index: 50, loss:0.36854785680770874
+2023-04-24 15:05:31,023 - netlog - INFO - ==>>> epoch:75, batch index: 100, loss:0.30622732639312744
+2023-04-24 15:05:39,643 - netlog - INFO - ==>>> epoch:75, batch index: 150, loss:0.059181585907936096
+2023-04-24 15:05:48,121 - netlog - INFO - ==>>> epoch:75, batch index: 200, loss:0.07728545367717743
+2023-04-24 15:05:57,035 - netlog - INFO - ==>>> epoch:75, batch index: 250, loss:0.11751959472894669
+2023-04-24 15:06:05,672 - netlog - INFO - ==>>> epoch:75, batch index: 300, loss:0.015546314418315887
+2023-04-24 15:06:14,422 - netlog - INFO - ==>>> epoch:75, batch index: 350, loss:0.07940308749675751
+2023-04-24 15:06:23,378 - netlog - INFO - ==>>> epoch:75, batch index: 400, loss:0.02460232749581337
+2023-04-24 15:06:31,720 - netlog - INFO - ==>>> epoch:75, batch index: 450, loss:0.06857611238956451
+2023-04-24 15:06:40,221 - netlog - INFO - ==>>> epoch:75, batch index: 500, loss:0.014004992321133614
+2023-04-24 15:06:48,519 - netlog - INFO - ==>>> epoch:75, batch index: 550, loss:0.25975722074508667
+2023-04-24 15:06:57,204 - netlog - INFO - ==>>> epoch:75, batch index: 600, loss:0.05749957263469696
+2023-04-24 15:07:05,514 - netlog - INFO - ==>>> epoch:75, batch index: 650, loss:0.02001919224858284
+2023-04-24 15:07:13,924 - netlog - INFO - ==>>> epoch:75, batch index: 700, loss:0.38022953271865845
+2023-04-24 15:07:22,159 - netlog - INFO - ==>>> epoch:75, batch index: 750, loss:0.1052689254283905
+2023-04-24 15:07:30,523 - netlog - INFO - ==>>> epoch:75, batch index: 800, loss:0.09607455134391785
+2023-04-24 15:07:36,939 - netlog - INFO - Start Validation
+2023-04-24 15:09:05,145 - netlog - INFO - ==>>>test seen_acc:53.54676710608914 unseen_acc:38.78600823045267
+2023-04-24 15:09:06,321 - netlog - INFO - ==>>> epoch:76, batch index: 0, loss:0.028360318392515182
+2023-04-24 15:09:15,471 - netlog - INFO - ==>>> epoch:76, batch index: 50, loss:0.012923546135425568
+2023-04-24 15:09:24,679 - netlog - INFO - ==>>> epoch:76, batch index: 100, loss:0.08617038279771805
+2023-04-24 15:09:33,658 - netlog - INFO - ==>>> epoch:76, batch index: 150, loss:0.036433424800634384
+2023-04-24 15:09:42,126 - netlog - INFO - ==>>> epoch:76, batch index: 200, loss:0.14989961683750153
+2023-04-24 15:09:50,737 - netlog - INFO - ==>>> epoch:76, batch index: 250, loss:0.15064802765846252
+2023-04-24 15:09:59,312 - netlog - INFO - ==>>> epoch:76, batch index: 300, loss:0.051142700016498566
+2023-04-24 15:10:07,839 - netlog - INFO - ==>>> epoch:76, batch index: 350, loss:0.20212028920650482
+2023-04-24 15:10:15,917 - netlog - INFO - ==>>> epoch:76, batch index: 400, loss:0.01747805066406727
+2023-04-24 15:10:24,617 - netlog - INFO - ==>>> epoch:76, batch index: 450, loss:0.0232350192964077
+2023-04-24 15:10:33,308 - netlog - INFO - ==>>> epoch:76, batch index: 500, loss:0.2800689935684204
+2023-04-24 15:10:41,726 - netlog - INFO - ==>>> epoch:76, batch index: 550, loss:0.050818562507629395
+2023-04-24 15:10:49,868 - netlog - INFO - ==>>> epoch:76, batch index: 600, loss:0.07039418816566467
+2023-04-24 15:10:58,238 - netlog - INFO - ==>>> epoch:76, batch index: 650, loss:0.300578773021698
+2023-04-24 15:11:06,423 - netlog - INFO - ==>>> epoch:76, batch index: 700, loss:0.03218138962984085
+2023-04-24 15:11:14,781 - netlog - INFO - ==>>> epoch:76, batch index: 750, loss:0.20096080005168915
+2023-04-24 15:11:22,471 - netlog - INFO - ==>>> epoch:76, batch index: 800, loss:0.1618308573961258
+2023-04-24 15:11:28,681 - netlog - INFO - Start Validation
+2023-04-24 15:12:57,279 - netlog - INFO - ==>>>test seen_acc:53.232893910860014 unseen_acc:38.991769547325106
+2023-04-24 15:12:58,662 - netlog - INFO - ==>>> epoch:77, batch index: 0, loss:0.008238368667662144
+2023-04-24 15:13:08,136 - netlog - INFO - ==>>> epoch:77, batch index: 50, loss:0.13359618186950684
+2023-04-24 15:13:17,755 - netlog - INFO - ==>>> epoch:77, batch index: 100, loss:0.21382197737693787
+2023-04-24 15:13:26,244 - netlog - INFO - ==>>> epoch:77, batch index: 150, loss:0.1161787211894989
+2023-04-24 15:13:34,977 - netlog - INFO - ==>>> epoch:77, batch index: 200, loss:0.31015706062316895
+2023-04-24 15:13:43,600 - netlog - INFO - ==>>> epoch:77, batch index: 250, loss:0.32711195945739746
+2023-04-24 15:13:52,264 - netlog - INFO - ==>>> epoch:77, batch index: 300, loss:0.04404198378324509
+2023-04-24 15:14:00,764 - netlog - INFO - ==>>> epoch:77, batch index: 350, loss:0.026518981903791428
+2023-04-24 15:14:09,665 - netlog - INFO - ==>>> epoch:77, batch index: 400, loss:0.18423359096050262
+2023-04-24 15:14:18,123 - netlog - INFO - ==>>> epoch:77, batch index: 450, loss:0.0901547521352768
+2023-04-24 15:14:26,546 - netlog - INFO - ==>>> epoch:77, batch index: 500, loss:0.0742606371641159
+2023-04-24 15:14:34,814 - netlog - INFO - ==>>> epoch:77, batch index: 550, loss:0.16019189357757568
+2023-04-24 15:14:43,577 - netlog - INFO - ==>>> epoch:77, batch index: 600, loss:0.026980195194482803
+2023-04-24 15:14:51,561 - netlog - INFO - ==>>> epoch:77, batch index: 650, loss:0.09607528895139694
+2023-04-24 15:15:00,014 - netlog - INFO - ==>>> epoch:77, batch index: 700, loss:0.2026635706424713
+2023-04-24 15:15:08,548 - netlog - INFO - ==>>> epoch:77, batch index: 750, loss:0.1774510145187378
+2023-04-24 15:15:17,020 - netlog - INFO - ==>>> epoch:77, batch index: 800, loss:0.17944937944412231
+2023-04-24 15:15:23,733 - netlog - INFO - Start Validation
+2023-04-24 15:16:53,315 - netlog - INFO - ==>>>test seen_acc:52.27558066541118 unseen_acc:39.50617283950617
+2023-04-24 15:16:54,567 - netlog - INFO - ==>>> epoch:78, batch index: 0, loss:0.029983438551425934
+2023-04-24 15:17:03,483 - netlog - INFO - ==>>> epoch:78, batch index: 50, loss:0.012299690395593643
+2023-04-24 15:17:12,425 - netlog - INFO - ==>>> epoch:78, batch index: 100, loss:0.09739740192890167
+2023-04-24 15:17:21,079 - netlog - INFO - ==>>> epoch:78, batch index: 150, loss:0.054423216730356216
+2023-04-24 15:17:29,802 - netlog - INFO - ==>>> epoch:78, batch index: 200, loss:0.058716364204883575
+2023-04-24 15:17:38,268 - netlog - INFO - ==>>> epoch:78, batch index: 250, loss:0.17196346819400787
+2023-04-24 15:17:47,256 - netlog - INFO - ==>>> epoch:78, batch index: 300, loss:0.39800286293029785
+2023-04-24 15:17:55,386 - netlog - INFO - ==>>> epoch:78, batch index: 350, loss:0.49408820271492004
+2023-04-24 15:18:04,052 - netlog - INFO - ==>>> epoch:78, batch index: 400, loss:0.13344082236289978
+2023-04-24 15:18:12,554 - netlog - INFO - ==>>> epoch:78, batch index: 450, loss:0.07767204195261002
+2023-04-24 15:18:21,586 - netlog - INFO - ==>>> epoch:78, batch index: 500, loss:0.03006192483007908
+2023-04-24 15:18:29,990 - netlog - INFO - ==>>> epoch:78, batch index: 550, loss:0.02132200263440609
+2023-04-24 15:18:38,900 - netlog - INFO - ==>>> epoch:78, batch index: 600, loss:0.04150931537151337
+2023-04-24 15:18:47,327 - netlog - INFO - ==>>> epoch:78, batch index: 650, loss:0.2868925929069519
+2023-04-24 15:18:55,887 - netlog - INFO - ==>>> epoch:78, batch index: 700, loss:0.0527370348572731
+2023-04-24 15:19:04,109 - netlog - INFO - ==>>> epoch:78, batch index: 750, loss:0.033580344170331955
+2023-04-24 15:19:12,775 - netlog - INFO - ==>>> epoch:78, batch index: 800, loss:0.04900676757097244
+2023-04-24 15:19:19,697 - netlog - INFO - Start Validation
+2023-04-24 15:20:50,128 - netlog - INFO - ==>>>test seen_acc:53.232893910860014 unseen_acc:37.03703703703704
+2023-04-24 15:20:51,408 - netlog - INFO - ==>>> epoch:79, batch index: 0, loss:0.12599608302116394
+2023-04-24 15:21:00,181 - netlog - INFO - ==>>> epoch:79, batch index: 50, loss:0.13170138001441956
+2023-04-24 15:21:09,710 - netlog - INFO - ==>>> epoch:79, batch index: 100, loss:0.03608641028404236
+2023-04-24 15:21:18,303 - netlog - INFO - ==>>> epoch:79, batch index: 150, loss:0.17114973068237305
+2023-04-24 15:21:26,881 - netlog - INFO - ==>>> epoch:79, batch index: 200, loss:0.04835227504372597
+2023-04-24 15:21:35,241 - netlog - INFO - ==>>> epoch:79, batch index: 250, loss:0.04868891462683678
+2023-04-24 15:21:43,798 - netlog - INFO - ==>>> epoch:79, batch index: 300, loss:0.08007319271564484
+2023-04-24 15:21:52,108 - netlog - INFO - ==>>> epoch:79, batch index: 350, loss:0.3377735912799835
+2023-04-24 15:22:00,790 - netlog - INFO - ==>>> epoch:79, batch index: 400, loss:0.2692452669143677
+2023-04-24 15:22:08,769 - netlog - INFO - ==>>> epoch:79, batch index: 450, loss:0.015415940433740616
+2023-04-24 15:22:17,577 - netlog - INFO - ==>>> epoch:79, batch index: 500, loss:0.020117975771427155
+2023-04-24 15:22:25,836 - netlog - INFO - ==>>> epoch:79, batch index: 550, loss:0.2168586552143097
+2023-04-24 15:22:34,051 - netlog - INFO - ==>>> epoch:79, batch index: 600, loss:0.07329170405864716
+2023-04-24 15:22:42,293 - netlog - INFO - ==>>> epoch:79, batch index: 650, loss:0.07890111207962036
+2023-04-24 15:22:50,944 - netlog - INFO - ==>>> epoch:79, batch index: 700, loss:0.1635352075099945
+2023-04-24 15:22:59,220 - netlog - INFO - ==>>> epoch:79, batch index: 750, loss:0.18717238306999207
+2023-04-24 15:23:07,819 - netlog - INFO - ==>>> epoch:79, batch index: 800, loss:0.03123016655445099
+2023-04-24 15:23:14,899 - netlog - INFO - Start Validation
+2023-04-24 15:24:46,462 - netlog - INFO - ==>>>test seen_acc:53.013182674199626 unseen_acc:39.19753086419753
+2023-04-24 15:24:47,825 - netlog - INFO - ==>>> epoch:80, batch index: 0, loss:0.08813480287790298
+2023-04-24 15:24:56,792 - netlog - INFO - ==>>> epoch:80, batch index: 50, loss:0.06776416301727295
+2023-04-24 15:25:06,148 - netlog - INFO - ==>>> epoch:80, batch index: 100, loss:0.17272868752479553
+2023-04-24 15:25:14,854 - netlog - INFO - ==>>> epoch:80, batch index: 150, loss:0.20730501413345337
+2023-04-24 15:25:23,949 - netlog - INFO - ==>>> epoch:80, batch index: 200, loss:0.06661628931760788
+2023-04-24 15:25:33,103 - netlog - INFO - ==>>> epoch:80, batch index: 250, loss:0.25654810667037964
+2023-04-24 15:25:41,942 - netlog - INFO - ==>>> epoch:80, batch index: 300, loss:0.14001153409481049
+2023-04-24 15:25:50,441 - netlog - INFO - ==>>> epoch:80, batch index: 350, loss:0.04510930925607681
+2023-04-24 15:25:59,244 - netlog - INFO - ==>>> epoch:80, batch index: 400, loss:0.06269513070583344
+2023-04-24 15:26:08,009 - netlog - INFO - ==>>> epoch:80, batch index: 450, loss:0.1642109751701355
+2023-04-24 15:26:16,170 - netlog - INFO - ==>>> epoch:80, batch index: 500, loss:0.23506733775138855
+2023-04-24 15:26:24,775 - netlog - INFO - ==>>> epoch:80, batch index: 550, loss:0.19122689962387085
+2023-04-24 15:26:33,173 - netlog - INFO - ==>>> epoch:80, batch index: 600, loss:0.07622256875038147
+2023-04-24 15:26:41,691 - netlog - INFO - ==>>> epoch:80, batch index: 650, loss:0.12364166229963303
+2023-04-24 15:26:49,933 - netlog - INFO - ==>>> epoch:80, batch index: 700, loss:0.09235380589962006
+2023-04-24 15:26:58,566 - netlog - INFO - ==>>> epoch:80, batch index: 750, loss:0.2583625316619873
+2023-04-24 15:27:06,878 - netlog - INFO - ==>>> epoch:80, batch index: 800, loss:0.046158887445926666
+2023-04-24 15:27:13,832 - netlog - INFO - Start Validation
+2023-04-24 15:28:44,643 - netlog - INFO - ==>>>test seen_acc:53.32705586942875 unseen_acc:39.711934156378604
+2023-04-24 15:28:45,948 - netlog - INFO - ==>>> epoch:81, batch index: 0, loss:0.16842101514339447
+2023-04-24 15:28:54,984 - netlog - INFO - ==>>> epoch:81, batch index: 50, loss:0.028420204296708107
+2023-04-24 15:29:04,213 - netlog - INFO - ==>>> epoch:81, batch index: 100, loss:0.2553600072860718
+2023-04-24 15:29:12,559 - netlog - INFO - ==>>> epoch:81, batch index: 150, loss:0.02482832409441471
+2023-04-24 15:29:21,031 - netlog - INFO - ==>>> epoch:81, batch index: 200, loss:0.03277343511581421
+2023-04-24 15:29:29,665 - netlog - INFO - ==>>> epoch:81, batch index: 250, loss:0.11873587965965271
+2023-04-24 15:29:37,772 - netlog - INFO - ==>>> epoch:81, batch index: 300, loss:0.09109123051166534
+2023-04-24 15:29:45,565 - netlog - INFO - ==>>> epoch:81, batch index: 350, loss:0.1413390040397644
+2023-04-24 15:29:53,120 - netlog - INFO - ==>>> epoch:81, batch index: 400, loss:0.14879074692726135
+2023-04-24 15:30:01,938 - netlog - INFO - ==>>> epoch:81, batch index: 450, loss:0.018171336501836777
+2023-04-24 15:30:10,107 - netlog - INFO - ==>>> epoch:81, batch index: 500, loss:0.13198056817054749
+2023-04-24 15:30:18,181 - netlog - INFO - ==>>> epoch:81, batch index: 550, loss:0.17565712332725525
+2023-04-24 15:30:26,085 - netlog - INFO - ==>>> epoch:81, batch index: 600, loss:0.035319700837135315
+2023-04-24 15:30:34,429 - netlog - INFO - ==>>> epoch:81, batch index: 650, loss:0.4084404706954956
+2023-04-24 15:30:42,947 - netlog - INFO - ==>>> epoch:81, batch index: 700, loss:0.13663095235824585
+2023-04-24 15:30:51,316 - netlog - INFO - ==>>> epoch:81, batch index: 750, loss:0.13430073857307434
+2023-04-24 15:30:59,495 - netlog - INFO - ==>>> epoch:81, batch index: 800, loss:0.10004588216543198
+2023-04-24 15:31:06,369 - netlog - INFO - Start Validation
+2023-04-24 15:32:36,982 - netlog - INFO - ==>>>test seen_acc:54.865034526051474 unseen_acc:38.27160493827161
+2023-04-24 15:32:38,174 - netlog - INFO - ==>>> epoch:82, batch index: 0, loss:0.38332822918891907
+2023-04-24 15:32:47,278 - netlog - INFO - ==>>> epoch:82, batch index: 50, loss:0.04075001925230026
+2023-04-24 15:32:56,224 - netlog - INFO - ==>>> epoch:82, batch index: 100, loss:0.1534203290939331
+2023-04-24 15:33:05,277 - netlog - INFO - ==>>> epoch:82, batch index: 150, loss:0.05468950420618057
+2023-04-24 15:33:13,544 - netlog - INFO - ==>>> epoch:82, batch index: 200, loss:0.256081759929657
+2023-04-24 15:33:22,254 - netlog - INFO - ==>>> epoch:82, batch index: 250, loss:0.14906078577041626
+2023-04-24 15:33:30,989 - netlog - INFO - ==>>> epoch:82, batch index: 300, loss:0.16878782212734222
+2023-04-24 15:33:39,642 - netlog - INFO - ==>>> epoch:82, batch index: 350, loss:0.20917287468910217
+2023-04-24 15:33:48,083 - netlog - INFO - ==>>> epoch:82, batch index: 400, loss:0.10969486087560654
+2023-04-24 15:33:56,871 - netlog - INFO - ==>>> epoch:82, batch index: 450, loss:0.024366723373532295
+2023-04-24 15:34:05,147 - netlog - INFO - ==>>> epoch:82, batch index: 500, loss:0.0981951504945755
+2023-04-24 15:34:13,641 - netlog - INFO - ==>>> epoch:82, batch index: 550, loss:0.20461560785770416
+2023-04-24 15:34:22,134 - netlog - INFO - ==>>> epoch:82, batch index: 600, loss:0.27889910340309143
+2023-04-24 15:34:30,809 - netlog - INFO - ==>>> epoch:82, batch index: 650, loss:0.07172423601150513
+2023-04-24 15:34:39,083 - netlog - INFO - ==>>> epoch:82, batch index: 700, loss:0.11648806184530258
+2023-04-24 15:34:47,785 - netlog - INFO - ==>>> epoch:82, batch index: 750, loss:0.1896287351846695
+2023-04-24 15:34:55,865 - netlog - INFO - ==>>> epoch:82, batch index: 800, loss:0.030513014644384384
+2023-04-24 15:35:02,769 - netlog - INFO - Start Validation
+2023-04-24 15:36:33,570 - netlog - INFO - ==>>>test seen_acc:54.11173885750157 unseen_acc:41.04938271604938
+2023-04-24 15:36:34,766 - netlog - INFO - ==>>> epoch:83, batch index: 0, loss:0.025989152491092682
+2023-04-24 15:36:44,110 - netlog - INFO - ==>>> epoch:83, batch index: 50, loss:0.1682192087173462
+2023-04-24 15:36:53,223 - netlog - INFO - ==>>> epoch:83, batch index: 100, loss:0.0389125719666481
+2023-04-24 15:37:02,246 - netlog - INFO - ==>>> epoch:83, batch index: 150, loss:0.011523261666297913
+2023-04-24 15:37:11,340 - netlog - INFO - ==>>> epoch:83, batch index: 200, loss:0.5114941000938416
+2023-04-24 15:37:19,979 - netlog - INFO - ==>>> epoch:83, batch index: 250, loss:0.49734222888946533
+2023-04-24 15:37:28,607 - netlog - INFO - ==>>> epoch:83, batch index: 300, loss:0.46143200993537903
+2023-04-24 15:37:37,320 - netlog - INFO - ==>>> epoch:83, batch index: 350, loss:0.0930788591504097
+2023-04-24 15:37:46,101 - netlog - INFO - ==>>> epoch:83, batch index: 400, loss:0.08086128532886505
+2023-04-24 15:37:54,974 - netlog - INFO - ==>>> epoch:83, batch index: 450, loss:0.03741907328367233
+2023-04-24 15:38:03,708 - netlog - INFO - ==>>> epoch:83, batch index: 500, loss:0.012818273156881332
+2023-04-24 15:38:12,455 - netlog - INFO - ==>>> epoch:83, batch index: 550, loss:0.26578158140182495
+2023-04-24 15:38:20,900 - netlog - INFO - ==>>> epoch:83, batch index: 600, loss:0.03979858383536339
+2023-04-24 15:38:29,937 - netlog - INFO - ==>>> epoch:83, batch index: 650, loss:0.10487417876720428
+2023-04-24 15:38:38,729 - netlog - INFO - ==>>> epoch:83, batch index: 700, loss:0.10654237121343613
+2023-04-24 15:38:47,632 - netlog - INFO - ==>>> epoch:83, batch index: 750, loss:0.05015600845217705
+2023-04-24 15:38:56,166 - netlog - INFO - ==>>> epoch:83, batch index: 800, loss:0.1534065157175064
+2023-04-24 15:39:02,902 - netlog - INFO - Start Validation
+2023-04-24 15:40:34,133 - netlog - INFO - ==>>>test seen_acc:53.68801004394225 unseen_acc:37.86008230452675
+2023-04-24 15:40:35,425 - netlog - INFO - ==>>> epoch:84, batch index: 0, loss:0.6173461079597473
+2023-04-24 15:40:43,698 - netlog - INFO - ==>>> epoch:84, batch index: 50, loss:0.14145275950431824
+2023-04-24 15:40:52,910 - netlog - INFO - ==>>> epoch:84, batch index: 100, loss:0.34201639890670776
+2023-04-24 15:41:01,447 - netlog - INFO - ==>>> epoch:84, batch index: 150, loss:0.2540666162967682
+2023-04-24 15:41:10,074 - netlog - INFO - ==>>> epoch:84, batch index: 200, loss:0.08650731295347214
+2023-04-24 15:41:18,472 - netlog - INFO - ==>>> epoch:84, batch index: 250, loss:0.10051597654819489
+2023-04-24 15:41:27,458 - netlog - INFO - ==>>> epoch:84, batch index: 300, loss:0.07456467300653458
+2023-04-24 15:41:35,711 - netlog - INFO - ==>>> epoch:84, batch index: 350, loss:0.08548252284526825
+2023-04-24 15:41:44,703 - netlog - INFO - ==>>> epoch:84, batch index: 400, loss:0.4317570924758911
+2023-04-24 15:41:53,225 - netlog - INFO - ==>>> epoch:84, batch index: 450, loss:0.1548636108636856
+2023-04-24 15:42:02,021 - netlog - INFO - ==>>> epoch:84, batch index: 500, loss:0.07599740475416183
+2023-04-24 15:42:10,303 - netlog - INFO - ==>>> epoch:84, batch index: 550, loss:0.02682945318520069
+2023-04-24 15:42:18,845 - netlog - INFO - ==>>> epoch:84, batch index: 600, loss:0.0643504336476326
+2023-04-24 15:42:26,965 - netlog - INFO - ==>>> epoch:84, batch index: 650, loss:0.039242830127477646
+2023-04-24 15:42:35,557 - netlog - INFO - ==>>> epoch:84, batch index: 700, loss:0.1960892677307129
+2023-04-24 15:42:43,901 - netlog - INFO - ==>>> epoch:84, batch index: 750, loss:0.01665431261062622
+2023-04-24 15:42:52,216 - netlog - INFO - ==>>> epoch:84, batch index: 800, loss:0.1407167911529541
+2023-04-24 15:42:59,023 - netlog - INFO - Start Validation
+2023-04-24 15:44:29,385 - netlog - INFO - ==>>>test seen_acc:54.205900816070304 unseen_acc:37.34567901234568
+2023-04-24 15:44:30,592 - netlog - INFO - ==>>> epoch:85, batch index: 0, loss:0.134964719414711
+2023-04-24 15:44:39,257 - netlog - INFO - ==>>> epoch:85, batch index: 50, loss:0.029870636761188507
+2023-04-24 15:44:48,112 - netlog - INFO - ==>>> epoch:85, batch index: 100, loss:0.06816445291042328
+2023-04-24 15:44:56,637 - netlog - INFO - ==>>> epoch:85, batch index: 150, loss:0.3808143138885498
+2023-04-24 15:45:05,363 - netlog - INFO - ==>>> epoch:85, batch index: 200, loss:0.30574217438697815
+2023-04-24 15:45:13,023 - netlog - INFO - ==>>> epoch:85, batch index: 250, loss:0.07430236786603928
+2023-04-24 15:45:21,195 - netlog - INFO - ==>>> epoch:85, batch index: 300, loss:0.18637193739414215
+2023-04-24 15:45:29,080 - netlog - INFO - ==>>> epoch:85, batch index: 350, loss:0.13015116751194
+2023-04-24 15:45:36,900 - netlog - INFO - ==>>> epoch:85, batch index: 400, loss:0.013191627338528633
+2023-04-24 15:45:45,494 - netlog - INFO - ==>>> epoch:85, batch index: 450, loss:0.03916390985250473
+2023-04-24 15:45:53,387 - netlog - INFO - ==>>> epoch:85, batch index: 500, loss:0.0934985876083374
+2023-04-24 15:46:01,722 - netlog - INFO - ==>>> epoch:85, batch index: 550, loss:0.0443294495344162
+2023-04-24 15:46:10,387 - netlog - INFO - ==>>> epoch:85, batch index: 600, loss:0.01498723030090332
+2023-04-24 15:46:18,627 - netlog - INFO - ==>>> epoch:85, batch index: 650, loss:0.060176167637109756
+2023-04-24 15:46:26,817 - netlog - INFO - ==>>> epoch:85, batch index: 700, loss:0.17612269520759583
+2023-04-24 15:46:35,112 - netlog - INFO - ==>>> epoch:85, batch index: 750, loss:0.03278464823961258
+2023-04-24 15:46:43,425 - netlog - INFO - ==>>> epoch:85, batch index: 800, loss:0.04504215717315674
+2023-04-24 15:46:49,963 - netlog - INFO - Start Validation
+2023-04-24 15:48:20,647 - netlog - INFO - ==>>>test seen_acc:53.813559322033896 unseen_acc:38.78600823045267
+2023-04-24 15:48:21,776 - netlog - INFO - ==>>> epoch:86, batch index: 0, loss:0.16038352251052856
+2023-04-24 15:48:31,688 - netlog - INFO - ==>>> epoch:86, batch index: 50, loss:0.08703002333641052
+2023-04-24 15:48:40,825 - netlog - INFO - ==>>> epoch:86, batch index: 100, loss:0.1506062000989914
+2023-04-24 15:48:49,635 - netlog - INFO - ==>>> epoch:86, batch index: 150, loss:0.26271581649780273
+2023-04-24 15:48:58,443 - netlog - INFO - ==>>> epoch:86, batch index: 200, loss:0.28612467646598816
+2023-04-24 15:49:07,062 - netlog - INFO - ==>>> epoch:86, batch index: 250, loss:0.08543981611728668
+2023-04-24 15:49:15,678 - netlog - INFO - ==>>> epoch:86, batch index: 300, loss:0.048307131975889206
+2023-04-24 15:49:23,913 - netlog - INFO - ==>>> epoch:86, batch index: 350, loss:0.014893530867993832
+2023-04-24 15:49:32,663 - netlog - INFO - ==>>> epoch:86, batch index: 400, loss:0.04625830054283142
+2023-04-24 15:49:41,814 - netlog - INFO - ==>>> epoch:86, batch index: 450, loss:0.027135731652379036
+2023-04-24 15:49:50,216 - netlog - INFO - ==>>> epoch:86, batch index: 500, loss:0.26177188754081726
+2023-04-24 15:49:58,620 - netlog - INFO - ==>>> epoch:86, batch index: 550, loss:0.013626362197101116
+2023-04-24 15:50:07,121 - netlog - INFO - ==>>> epoch:86, batch index: 600, loss:0.011705772951245308
+2023-04-24 15:50:16,352 - netlog - INFO - ==>>> epoch:86, batch index: 650, loss:0.2165159285068512
+2023-04-24 15:50:24,758 - netlog - INFO - ==>>> epoch:86, batch index: 700, loss:0.047526970505714417
+2023-04-24 15:50:33,550 - netlog - INFO - ==>>> epoch:86, batch index: 750, loss:0.1393783837556839
+2023-04-24 15:50:41,842 - netlog - INFO - ==>>> epoch:86, batch index: 800, loss:0.0909799113869667
+2023-04-24 15:50:48,785 - netlog - INFO - Start Validation
+2023-04-24 15:52:19,442 - netlog - INFO - ==>>>test seen_acc:53.656622724419336 unseen_acc:39.50617283950617
+2023-04-24 15:52:20,672 - netlog - INFO - ==>>> epoch:87, batch index: 0, loss:0.2811804711818695
+2023-04-24 15:52:29,694 - netlog - INFO - ==>>> epoch:87, batch index: 50, loss:0.11201811581850052
+2023-04-24 15:52:39,146 - netlog - INFO - ==>>> epoch:87, batch index: 100, loss:0.1604057103395462
+2023-04-24 15:52:48,140 - netlog - INFO - ==>>> epoch:87, batch index: 150, loss:0.10922534018754959
+2023-04-24 15:52:57,409 - netlog - INFO - ==>>> epoch:87, batch index: 200, loss:0.034884579479694366
+2023-04-24 15:53:05,927 - netlog - INFO - ==>>> epoch:87, batch index: 250, loss:0.02325768768787384
+2023-04-24 15:53:14,993 - netlog - INFO - ==>>> epoch:87, batch index: 300, loss:0.48363804817199707
+2023-04-24 15:53:23,352 - netlog - INFO - ==>>> epoch:87, batch index: 350, loss:0.12014786154031754
+2023-04-24 15:53:32,086 - netlog - INFO - ==>>> epoch:87, batch index: 400, loss:0.14933548867702484
+2023-04-24 15:53:40,945 - netlog - INFO - ==>>> epoch:87, batch index: 450, loss:0.2617972791194916
+2023-04-24 15:53:49,263 - netlog - INFO - ==>>> epoch:87, batch index: 500, loss:0.021582145243883133
+2023-04-24 15:53:58,241 - netlog - INFO - ==>>> epoch:87, batch index: 550, loss:0.008512336760759354
+2023-04-24 15:54:06,818 - netlog - INFO - ==>>> epoch:87, batch index: 600, loss:0.06220933049917221
+2023-04-24 15:54:15,400 - netlog - INFO - ==>>> epoch:87, batch index: 650, loss:0.09007075428962708
+2023-04-24 15:54:24,039 - netlog - INFO - ==>>> epoch:87, batch index: 700, loss:0.35125020146369934
+2023-04-24 15:54:32,256 - netlog - INFO - ==>>> epoch:87, batch index: 750, loss:0.10067235678434372
+2023-04-24 15:54:41,364 - netlog - INFO - ==>>> epoch:87, batch index: 800, loss:0.05933740735054016
+2023-04-24 15:54:48,076 - netlog - INFO - Start Validation
+2023-04-24 15:56:19,806 - netlog - INFO - ==>>>test seen_acc:54.58254865034526 unseen_acc:39.09465020576132
+2023-04-24 15:56:21,032 - netlog - INFO - ==>>> epoch:88, batch index: 0, loss:0.15646392107009888
+2023-04-24 15:56:29,718 - netlog - INFO - ==>>> epoch:88, batch index: 50, loss:0.011190619319677353
+2023-04-24 15:56:38,120 - netlog - INFO - ==>>> epoch:88, batch index: 100, loss:0.019902873784303665
+2023-04-24 15:56:47,003 - netlog - INFO - ==>>> epoch:88, batch index: 150, loss:0.28280916810035706
+2023-04-24 15:56:55,414 - netlog - INFO - ==>>> epoch:88, batch index: 200, loss:0.16710184514522552
+2023-04-24 15:57:04,053 - netlog - INFO - ==>>> epoch:88, batch index: 250, loss:0.05292163044214249
+2023-04-24 15:57:12,439 - netlog - INFO - ==>>> epoch:88, batch index: 300, loss:0.5561385154724121
+2023-04-24 15:57:21,181 - netlog - INFO - ==>>> epoch:88, batch index: 350, loss:0.11910276114940643
+2023-04-24 15:57:29,539 - netlog - INFO - ==>>> epoch:88, batch index: 400, loss:0.044199083000421524
+2023-04-24 15:57:37,890 - netlog - INFO - ==>>> epoch:88, batch index: 450, loss:0.07882509380578995
+2023-04-24 15:57:45,910 - netlog - INFO - ==>>> epoch:88, batch index: 500, loss:0.020840706303715706
+2023-04-24 15:57:54,645 - netlog - INFO - ==>>> epoch:88, batch index: 550, loss:0.013716364279389381
+2023-04-24 15:58:03,276 - netlog - INFO - ==>>> epoch:88, batch index: 600, loss:0.26623666286468506
+2023-04-24 15:58:11,820 - netlog - INFO - ==>>> epoch:88, batch index: 650, loss:0.07349402457475662
+2023-04-24 15:58:19,994 - netlog - INFO - ==>>> epoch:88, batch index: 700, loss:0.1357242465019226
+2023-04-24 15:58:28,637 - netlog - INFO - ==>>> epoch:88, batch index: 750, loss:0.3114203214645386
+2023-04-24 15:58:36,884 - netlog - INFO - ==>>> epoch:88, batch index: 800, loss:0.09700408577919006
+2023-04-24 15:58:43,710 - netlog - INFO - Start Validation
+2023-04-24 16:00:15,236 - netlog - INFO - ==>>>test seen_acc:54.69240426867545 unseen_acc:38.78600823045267
+2023-04-24 16:00:16,359 - netlog - INFO - ==>>> epoch:89, batch index: 0, loss:0.10779592394828796
+2023-04-24 16:00:25,931 - netlog - INFO - ==>>> epoch:89, batch index: 50, loss:0.16987784206867218
+2023-04-24 16:00:35,251 - netlog - INFO - ==>>> epoch:89, batch index: 100, loss:0.012473735958337784
+2023-04-24 16:00:43,935 - netlog - INFO - ==>>> epoch:89, batch index: 150, loss:0.02550208941102028
+2023-04-24 16:00:52,673 - netlog - INFO - ==>>> epoch:89, batch index: 200, loss:0.011849360540509224
+2023-04-24 16:01:01,326 - netlog - INFO - ==>>> epoch:89, batch index: 250, loss:0.17373895645141602
+2023-04-24 16:01:09,719 - netlog - INFO - ==>>> epoch:89, batch index: 300, loss:0.20773640275001526
+2023-04-24 16:01:18,402 - netlog - INFO - ==>>> epoch:89, batch index: 350, loss:0.0541032999753952
+2023-04-24 16:01:26,782 - netlog - INFO - ==>>> epoch:89, batch index: 400, loss:0.04465946927666664
+2023-04-24 16:01:35,136 - netlog - INFO - ==>>> epoch:89, batch index: 450, loss:0.31200236082077026
+2023-04-24 16:01:43,400 - netlog - INFO - ==>>> epoch:89, batch index: 500, loss:0.12312299013137817
+2023-04-24 16:01:52,086 - netlog - INFO - ==>>> epoch:89, batch index: 550, loss:0.012128695845603943
+2023-04-24 16:02:00,218 - netlog - INFO - ==>>> epoch:89, batch index: 600, loss:0.11872369050979614
+2023-04-24 16:02:09,018 - netlog - INFO - ==>>> epoch:89, batch index: 650, loss:0.006806862540543079
+2023-04-24 16:02:17,433 - netlog - INFO - ==>>> epoch:89, batch index: 700, loss:0.06313065439462662
+2023-04-24 16:02:25,849 - netlog - INFO - ==>>> epoch:89, batch index: 750, loss:0.07050687819719315
+2023-04-24 16:02:34,360 - netlog - INFO - ==>>> epoch:89, batch index: 800, loss:0.12041683495044708
+2023-04-24 16:02:40,957 - netlog - INFO - Start Validation
+2023-04-24 16:04:08,389 - netlog - INFO - ==>>>test seen_acc:53.06026365348399 unseen_acc:39.300411522633745
+2023-04-24 16:04:09,519 - netlog - INFO - ==>>> epoch:90, batch index: 0, loss:0.2419380396604538
+2023-04-24 16:04:18,225 - netlog - INFO - ==>>> epoch:90, batch index: 50, loss:0.09332776069641113
+2023-04-24 16:04:27,405 - netlog - INFO - ==>>> epoch:90, batch index: 100, loss:0.11830376833677292
+2023-04-24 16:04:35,967 - netlog - INFO - ==>>> epoch:90, batch index: 150, loss:0.04769738018512726
+2023-04-24 16:04:44,768 - netlog - INFO - ==>>> epoch:90, batch index: 200, loss:0.02606889419257641
+2023-04-24 16:04:53,581 - netlog - INFO - ==>>> epoch:90, batch index: 250, loss:0.16574719548225403
+2023-04-24 16:05:02,421 - netlog - INFO - ==>>> epoch:90, batch index: 300, loss:0.35881608724594116
+2023-04-24 16:05:11,039 - netlog - INFO - ==>>> epoch:90, batch index: 350, loss:0.04589375481009483
+2023-04-24 16:05:19,610 - netlog - INFO - ==>>> epoch:90, batch index: 400, loss:0.09010337293148041
+2023-04-24 16:05:28,291 - netlog - INFO - ==>>> epoch:90, batch index: 450, loss:0.013855159282684326
+2023-04-24 16:05:36,940 - netlog - INFO - ==>>> epoch:90, batch index: 500, loss:0.30156317353248596
+2023-04-24 16:05:45,385 - netlog - INFO - ==>>> epoch:90, batch index: 550, loss:0.22523221373558044
+2023-04-24 16:05:54,008 - netlog - INFO - ==>>> epoch:90, batch index: 600, loss:0.29076600074768066
+2023-04-24 16:06:02,674 - netlog - INFO - ==>>> epoch:90, batch index: 650, loss:0.11041808128356934
+2023-04-24 16:06:11,709 - netlog - INFO - ==>>> epoch:90, batch index: 700, loss:0.018109552562236786
+2023-04-24 16:06:20,645 - netlog - INFO - ==>>> epoch:90, batch index: 750, loss:0.2296743541955948
+2023-04-24 16:06:28,731 - netlog - INFO - ==>>> epoch:90, batch index: 800, loss:0.10084652155637741
+2023-04-24 16:06:35,646 - netlog - INFO - Start Validation
+2023-04-24 16:08:04,819 - netlog - INFO - ==>>>test seen_acc:54.143126177024484 unseen_acc:39.609053497942384
+2023-04-24 16:08:06,045 - netlog - INFO - ==>>> epoch:91, batch index: 0, loss:0.01530272513628006
+2023-04-24 16:08:15,000 - netlog - INFO - ==>>> epoch:91, batch index: 50, loss:0.08577229827642441
+2023-04-24 16:08:24,234 - netlog - INFO - ==>>> epoch:91, batch index: 100, loss:0.29731518030166626
+2023-04-24 16:08:33,163 - netlog - INFO - ==>>> epoch:91, batch index: 150, loss:0.028387269005179405
+2023-04-24 16:08:42,027 - netlog - INFO - ==>>> epoch:91, batch index: 200, loss:0.30105578899383545
+2023-04-24 16:08:50,448 - netlog - INFO - ==>>> epoch:91, batch index: 250, loss:0.033226821571588516
+2023-04-24 16:08:59,125 - netlog - INFO - ==>>> epoch:91, batch index: 300, loss:0.20872174203395844
+2023-04-24 16:09:08,009 - netlog - INFO - ==>>> epoch:91, batch index: 350, loss:0.11377687752246857
+2023-04-24 16:09:16,895 - netlog - INFO - ==>>> epoch:91, batch index: 400, loss:0.20005780458450317
+2023-04-24 16:09:25,542 - netlog - INFO - ==>>> epoch:91, batch index: 450, loss:0.13270434737205505
+2023-04-24 16:09:33,550 - netlog - INFO - ==>>> epoch:91, batch index: 500, loss:0.24399153888225555
+2023-04-24 16:09:42,154 - netlog - INFO - ==>>> epoch:91, batch index: 550, loss:0.0798080712556839
+2023-04-24 16:09:50,545 - netlog - INFO - ==>>> epoch:91, batch index: 600, loss:0.1376875340938568
+2023-04-24 16:09:59,407 - netlog - INFO - ==>>> epoch:91, batch index: 650, loss:0.07431565225124359
+2023-04-24 16:10:08,470 - netlog - INFO - ==>>> epoch:91, batch index: 700, loss:0.15752319991588593
+2023-04-24 16:10:17,123 - netlog - INFO - ==>>> epoch:91, batch index: 750, loss:0.1773768961429596
+2023-04-24 16:10:25,754 - netlog - INFO - ==>>> epoch:91, batch index: 800, loss:0.020019209012389183
+2023-04-24 16:10:32,376 - netlog - INFO - Start Validation
+2023-04-24 16:12:01,399 - netlog - INFO - ==>>>test seen_acc:53.02887633396108 unseen_acc:41.04938271604938
+2023-04-24 16:12:02,713 - netlog - INFO - ==>>> epoch:92, batch index: 0, loss:0.1983141303062439
+2023-04-24 16:12:12,003 - netlog - INFO - ==>>> epoch:92, batch index: 50, loss:0.22725576162338257
+2023-04-24 16:12:21,261 - netlog - INFO - ==>>> epoch:92, batch index: 100, loss:0.01670561544597149
+2023-04-24 16:12:30,380 - netlog - INFO - ==>>> epoch:92, batch index: 150, loss:0.033643417060375214
+2023-04-24 16:12:39,727 - netlog - INFO - ==>>> epoch:92, batch index: 200, loss:0.01707332953810692
+2023-04-24 16:12:48,488 - netlog - INFO - ==>>> epoch:92, batch index: 250, loss:0.08646020293235779
+2023-04-24 16:12:57,234 - netlog - INFO - ==>>> epoch:92, batch index: 300, loss:0.06433086097240448
+2023-04-24 16:13:05,916 - netlog - INFO - ==>>> epoch:92, batch index: 350, loss:0.2211296558380127
+2023-04-24 16:13:14,228 - netlog - INFO - ==>>> epoch:92, batch index: 400, loss:0.2500808537006378
+2023-04-24 16:13:22,631 - netlog - INFO - ==>>> epoch:92, batch index: 450, loss:0.12221847474575043
+2023-04-24 16:13:30,796 - netlog - INFO - ==>>> epoch:92, batch index: 500, loss:0.07197058200836182
+2023-04-24 16:13:39,694 - netlog - INFO - ==>>> epoch:92, batch index: 550, loss:0.2912306785583496
+2023-04-24 16:13:48,225 - netlog - INFO - ==>>> epoch:92, batch index: 600, loss:0.03603065386414528
+2023-04-24 16:13:56,766 - netlog - INFO - ==>>> epoch:92, batch index: 650, loss:0.01588907092809677
+2023-04-24 16:14:05,609 - netlog - INFO - ==>>> epoch:92, batch index: 700, loss:0.02833886258304119
+2023-04-24 16:14:14,186 - netlog - INFO - ==>>> epoch:92, batch index: 750, loss:0.0705237090587616
+2023-04-24 16:14:22,715 - netlog - INFO - ==>>> epoch:92, batch index: 800, loss:0.24201259016990662
+2023-04-24 16:14:29,427 - netlog - INFO - Start Validation
+2023-04-24 16:16:05,766 - netlog - INFO - ==>>>test seen_acc:54.127432517263024 unseen_acc:39.711934156378604
+2023-04-24 16:16:07,180 - netlog - INFO - ==>>> epoch:93, batch index: 0, loss:0.141025573015213
+2023-04-24 16:16:15,765 - netlog - INFO - ==>>> epoch:93, batch index: 50, loss:0.03890099748969078
+2023-04-24 16:16:25,356 - netlog - INFO - ==>>> epoch:93, batch index: 100, loss:0.17596662044525146
+2023-04-24 16:16:34,249 - netlog - INFO - ==>>> epoch:93, batch index: 150, loss:0.12148882448673248
+2023-04-24 16:16:42,830 - netlog - INFO - ==>>> epoch:93, batch index: 200, loss:0.011444265022873878
+2023-04-24 16:16:51,627 - netlog - INFO - ==>>> epoch:93, batch index: 250, loss:0.2124081552028656
+2023-04-24 16:17:00,107 - netlog - INFO - ==>>> epoch:93, batch index: 300, loss:0.03353266045451164
+2023-04-24 16:17:08,917 - netlog - INFO - ==>>> epoch:93, batch index: 350, loss:0.05039476603269577
+2023-04-24 16:17:17,192 - netlog - INFO - ==>>> epoch:93, batch index: 400, loss:0.007631732150912285
+2023-04-24 16:17:25,948 - netlog - INFO - ==>>> epoch:93, batch index: 450, loss:0.1534089595079422
+2023-04-24 16:17:34,324 - netlog - INFO - ==>>> epoch:93, batch index: 500, loss:0.2571616768836975
+2023-04-24 16:17:42,964 - netlog - INFO - ==>>> epoch:93, batch index: 550, loss:0.10183980315923691
+2023-04-24 16:17:50,956 - netlog - INFO - ==>>> epoch:93, batch index: 600, loss:0.19489450752735138
+2023-04-24 16:17:59,373 - netlog - INFO - ==>>> epoch:93, batch index: 650, loss:0.01902935467660427
+2023-04-24 16:18:07,530 - netlog - INFO - ==>>> epoch:93, batch index: 700, loss:0.12395414710044861
+2023-04-24 16:18:16,117 - netlog - INFO - ==>>> epoch:93, batch index: 750, loss:0.03171679377555847
+2023-04-24 16:18:24,326 - netlog - INFO - ==>>> epoch:93, batch index: 800, loss:0.11352059245109558
+2023-04-24 16:18:30,941 - netlog - INFO - Start Validation
+2023-04-24 16:20:00,007 - netlog - INFO - ==>>>test seen_acc:53.7037037037037 unseen_acc:39.81481481481482
+2023-04-24 16:20:01,217 - netlog - INFO - ==>>> epoch:94, batch index: 0, loss:0.015136467292904854
+2023-04-24 16:20:10,670 - netlog - INFO - ==>>> epoch:94, batch index: 50, loss:0.02300289086997509
+2023-04-24 16:20:20,213 - netlog - INFO - ==>>> epoch:94, batch index: 100, loss:0.1418437361717224
+2023-04-24 16:20:29,244 - netlog - INFO - ==>>> epoch:94, batch index: 150, loss:0.025242790579795837
+2023-04-24 16:20:37,991 - netlog - INFO - ==>>> epoch:94, batch index: 200, loss:0.03114669770002365
+2023-04-24 16:20:46,611 - netlog - INFO - ==>>> epoch:94, batch index: 250, loss:0.015122768469154835
+2023-04-24 16:20:55,227 - netlog - INFO - ==>>> epoch:94, batch index: 300, loss:0.009046411141753197
+2023-04-24 16:21:04,101 - netlog - INFO - ==>>> epoch:94, batch index: 350, loss:0.07277937978506088
+2023-04-24 16:21:12,435 - netlog - INFO - ==>>> epoch:94, batch index: 400, loss:0.29947662353515625
+2023-04-24 16:21:21,246 - netlog - INFO - ==>>> epoch:94, batch index: 450, loss:0.02831001579761505
+2023-04-24 16:21:29,663 - netlog - INFO - ==>>> epoch:94, batch index: 500, loss:0.023889660835266113
+2023-04-24 16:21:38,403 - netlog - INFO - ==>>> epoch:94, batch index: 550, loss:0.1318543404340744
+2023-04-24 16:21:46,877 - netlog - INFO - ==>>> epoch:94, batch index: 600, loss:0.36350196599960327
+2023-04-24 16:21:55,720 - netlog - INFO - ==>>> epoch:94, batch index: 650, loss:0.15376654267311096
+2023-04-24 16:22:03,896 - netlog - INFO - ==>>> epoch:94, batch index: 700, loss:0.15386660397052765
+2023-04-24 16:22:12,569 - netlog - INFO - ==>>> epoch:94, batch index: 750, loss:0.4271833300590515
+2023-04-24 16:22:21,036 - netlog - INFO - ==>>> epoch:94, batch index: 800, loss:0.32036522030830383
+2023-04-24 16:22:27,815 - netlog - INFO - Start Validation
+2023-04-24 16:23:57,008 - netlog - INFO - ==>>>test seen_acc:53.075957313245446 unseen_acc:39.19753086419753
+2023-04-24 16:23:58,144 - netlog - INFO - ==>>> epoch:95, batch index: 0, loss:0.03633308783173561
+2023-04-24 16:24:07,423 - netlog - INFO - ==>>> epoch:95, batch index: 50, loss:0.22193637490272522
+2023-04-24 16:24:16,678 - netlog - INFO - ==>>> epoch:95, batch index: 100, loss:0.014096429571509361
+2023-04-24 16:24:25,530 - netlog - INFO - ==>>> epoch:95, batch index: 150, loss:0.01702013425529003
+2023-04-24 16:24:33,868 - netlog - INFO - ==>>> epoch:95, batch index: 200, loss:0.03905683010816574
+2023-04-24 16:24:42,340 - netlog - INFO - ==>>> epoch:95, batch index: 250, loss:0.31338876485824585
+2023-04-24 16:24:50,970 - netlog - INFO - ==>>> epoch:95, batch index: 300, loss:0.04131902754306793
+2023-04-24 16:24:59,639 - netlog - INFO - ==>>> epoch:95, batch index: 350, loss:0.09221917390823364
+2023-04-24 16:25:07,734 - netlog - INFO - ==>>> epoch:95, batch index: 400, loss:0.24938783049583435
+2023-04-24 16:25:16,268 - netlog - INFO - ==>>> epoch:95, batch index: 450, loss:0.0228229109197855
+2023-04-24 16:25:24,757 - netlog - INFO - ==>>> epoch:95, batch index: 500, loss:0.1103789210319519
+2023-04-24 16:25:33,041 - netlog - INFO - ==>>> epoch:95, batch index: 550, loss:0.022248994559049606
+2023-04-24 16:25:41,174 - netlog - INFO - ==>>> epoch:95, batch index: 600, loss:0.1446341574192047
+2023-04-24 16:25:49,673 - netlog - INFO - ==>>> epoch:95, batch index: 650, loss:0.10037119686603546
+2023-04-24 16:25:57,888 - netlog - INFO - ==>>> epoch:95, batch index: 700, loss:0.12358095496892929
+2023-04-24 16:26:06,232 - netlog - INFO - ==>>> epoch:95, batch index: 750, loss:0.1538836658000946
+2023-04-24 16:26:14,357 - netlog - INFO - ==>>> epoch:95, batch index: 800, loss:0.03307091444730759
+2023-04-24 16:26:20,786 - netlog - INFO - Start Validation
+2023-04-24 16:27:49,757 - netlog - INFO - ==>>>test seen_acc:54.61393596986817 unseen_acc:40.4320987654321
+2023-04-24 16:27:50,961 - netlog - INFO - ==>>> epoch:96, batch index: 0, loss:0.019901778548955917
+2023-04-24 16:27:59,661 - netlog - INFO - ==>>> epoch:96, batch index: 50, loss:0.05434924364089966
+2023-04-24 16:28:08,497 - netlog - INFO - ==>>> epoch:96, batch index: 100, loss:0.09581348299980164
+2023-04-24 16:28:17,172 - netlog - INFO - ==>>> epoch:96, batch index: 150, loss:0.2684357762336731
+2023-04-24 16:28:25,799 - netlog - INFO - ==>>> epoch:96, batch index: 200, loss:0.10121139883995056
+2023-04-24 16:28:34,174 - netlog - INFO - ==>>> epoch:96, batch index: 250, loss:0.059164859354496
+2023-04-24 16:28:42,593 - netlog - INFO - ==>>> epoch:96, batch index: 300, loss:0.2799437344074249
+2023-04-24 16:28:50,856 - netlog - INFO - ==>>> epoch:96, batch index: 350, loss:0.12246961146593094
+2023-04-24 16:28:59,383 - netlog - INFO - ==>>> epoch:96, batch index: 400, loss:0.02946648560464382
+2023-04-24 16:29:07,667 - netlog - INFO - ==>>> epoch:96, batch index: 450, loss:0.05847647041082382
+2023-04-24 16:29:16,133 - netlog - INFO - ==>>> epoch:96, batch index: 500, loss:0.010646533221006393
+2023-04-24 16:29:24,379 - netlog - INFO - ==>>> epoch:96, batch index: 550, loss:0.03596803545951843
+2023-04-24 16:29:33,013 - netlog - INFO - ==>>> epoch:96, batch index: 600, loss:0.03929920494556427
+2023-04-24 16:29:41,076 - netlog - INFO - ==>>> epoch:96, batch index: 650, loss:0.17107616364955902
+2023-04-24 16:29:49,641 - netlog - INFO - ==>>> epoch:96, batch index: 700, loss:0.16946697235107422
+2023-04-24 16:29:58,032 - netlog - INFO - ==>>> epoch:96, batch index: 750, loss:0.3599987030029297
+2023-04-24 16:30:06,877 - netlog - INFO - ==>>> epoch:96, batch index: 800, loss:0.17139503359794617
+2023-04-24 16:30:13,196 - netlog - INFO - Start Validation
+2023-04-24 16:31:42,576 - netlog - INFO - ==>>>test seen_acc:53.37413684871312 unseen_acc:37.96296296296296
+2023-04-24 16:31:43,839 - netlog - INFO - ==>>> epoch:97, batch index: 0, loss:0.19182956218719482
+2023-04-24 16:31:53,170 - netlog - INFO - ==>>> epoch:97, batch index: 50, loss:0.31082683801651
+2023-04-24 16:32:01,593 - netlog - INFO - ==>>> epoch:97, batch index: 100, loss:0.25859594345092773
+2023-04-24 16:32:10,260 - netlog - INFO - ==>>> epoch:97, batch index: 150, loss:0.007938592694699764
+2023-04-24 16:32:18,669 - netlog - INFO - ==>>> epoch:97, batch index: 200, loss:0.15971803665161133
+2023-04-24 16:32:27,467 - netlog - INFO - ==>>> epoch:97, batch index: 250, loss:0.28485989570617676
+2023-04-24 16:32:36,251 - netlog - INFO - ==>>> epoch:97, batch index: 300, loss:0.06091679632663727
+2023-04-24 16:32:44,949 - netlog - INFO - ==>>> epoch:97, batch index: 350, loss:0.11685433983802795
+2023-04-24 16:32:53,153 - netlog - INFO - ==>>> epoch:97, batch index: 400, loss:0.0428963229060173
+2023-04-24 16:33:01,949 - netlog - INFO - ==>>> epoch:97, batch index: 450, loss:0.01913098618388176
+2023-04-24 16:33:09,976 - netlog - INFO - ==>>> epoch:97, batch index: 500, loss:0.115223228931427
+2023-04-24 16:33:18,454 - netlog - INFO - ==>>> epoch:97, batch index: 550, loss:0.01475069671869278
+2023-04-24 16:33:26,691 - netlog - INFO - ==>>> epoch:97, batch index: 600, loss:0.09171386808156967
+2023-04-24 16:33:35,040 - netlog - INFO - ==>>> epoch:97, batch index: 650, loss:0.07569065690040588
+2023-04-24 16:33:43,202 - netlog - INFO - ==>>> epoch:97, batch index: 700, loss:0.09233833849430084
+2023-04-24 16:33:51,639 - netlog - INFO - ==>>> epoch:97, batch index: 750, loss:0.025635331869125366
+2023-04-24 16:33:59,899 - netlog - INFO - ==>>> epoch:97, batch index: 800, loss:0.013080861419439316
+2023-04-24 16:34:06,438 - netlog - INFO - Start Validation
+2023-04-24 16:35:35,707 - netlog - INFO - ==>>>test seen_acc:53.468298807281855 unseen_acc:41.25514403292181
+2023-04-24 16:35:37,031 - netlog - INFO - ==>>> epoch:98, batch index: 0, loss:0.13058780133724213
+2023-04-24 16:35:45,632 - netlog - INFO - ==>>> epoch:98, batch index: 50, loss:0.2890568673610687
+2023-04-24 16:35:54,782 - netlog - INFO - ==>>> epoch:98, batch index: 100, loss:0.1261076182126999
+2023-04-24 16:36:03,680 - netlog - INFO - ==>>> epoch:98, batch index: 150, loss:0.08541661500930786
+2023-04-24 16:36:12,219 - netlog - INFO - ==>>> epoch:98, batch index: 200, loss:0.13152867555618286
+2023-04-24 16:36:20,370 - netlog - INFO - ==>>> epoch:98, batch index: 250, loss:0.06685558706521988
+2023-04-24 16:36:28,630 - netlog - INFO - ==>>> epoch:98, batch index: 300, loss:0.25903692841529846
+2023-04-24 16:36:37,130 - netlog - INFO - ==>>> epoch:98, batch index: 350, loss:0.3566288948059082
+2023-04-24 16:36:45,376 - netlog - INFO - ==>>> epoch:98, batch index: 400, loss:0.08728522807359695
+2023-04-24 16:36:53,800 - netlog - INFO - ==>>> epoch:98, batch index: 450, loss:0.009198601357638836
+2023-04-24 16:37:01,686 - netlog - INFO - ==>>> epoch:98, batch index: 500, loss:0.02398787811398506
+2023-04-24 16:37:09,843 - netlog - INFO - ==>>> epoch:98, batch index: 550, loss:0.17641715705394745
+2023-04-24 16:37:18,114 - netlog - INFO - ==>>> epoch:98, batch index: 600, loss:0.1369708627462387
+2023-04-24 16:37:25,834 - netlog - INFO - ==>>> epoch:98, batch index: 650, loss:0.12269151210784912
+2023-04-24 16:37:33,788 - netlog - INFO - ==>>> epoch:98, batch index: 700, loss:0.036872707307338715
+2023-04-24 16:37:41,362 - netlog - INFO - ==>>> epoch:98, batch index: 750, loss:0.0515923872590065
+2023-04-24 16:37:49,478 - netlog - INFO - ==>>> epoch:98, batch index: 800, loss:0.09555083513259888
+2023-04-24 16:37:56,369 - netlog - INFO - Start Validation
+2023-04-24 16:39:27,333 - netlog - INFO - ==>>>test seen_acc:53.71939736346516 unseen_acc:39.40329218106996
+2023-04-24 16:39:28,418 - netlog - INFO - ==>>> epoch:99, batch index: 0, loss:0.12037154287099838
+2023-04-24 16:39:37,902 - netlog - INFO - ==>>> epoch:99, batch index: 50, loss:0.01531396433711052
+2023-04-24 16:39:46,819 - netlog - INFO - ==>>> epoch:99, batch index: 100, loss:0.15848992764949799
+2023-04-24 16:39:55,087 - netlog - INFO - ==>>> epoch:99, batch index: 150, loss:0.030066613107919693
+2023-04-24 16:40:03,774 - netlog - INFO - ==>>> epoch:99, batch index: 200, loss:0.11071974039077759
+2023-04-24 16:40:11,721 - netlog - INFO - ==>>> epoch:99, batch index: 250, loss:0.07090155780315399
+2023-04-24 16:40:19,824 - netlog - INFO - ==>>> epoch:99, batch index: 300, loss:0.151133731007576
+2023-04-24 16:40:27,564 - netlog - INFO - ==>>> epoch:99, batch index: 350, loss:0.24522429704666138
+2023-04-24 16:40:36,076 - netlog - INFO - ==>>> epoch:99, batch index: 400, loss:0.03619970381259918
+2023-04-24 16:40:44,563 - netlog - INFO - ==>>> epoch:99, batch index: 450, loss:0.07910190522670746
+2023-04-24 16:40:52,717 - netlog - INFO - ==>>> epoch:99, batch index: 500, loss:0.08532049506902695
+2023-04-24 16:41:01,322 - netlog - INFO - ==>>> epoch:99, batch index: 550, loss:0.06186091527342796
+2023-04-24 16:41:09,362 - netlog - INFO - ==>>> epoch:99, batch index: 600, loss:0.03762571141123772
+2023-04-24 16:41:17,915 - netlog - INFO - ==>>> epoch:99, batch index: 650, loss:0.040507424622774124
+2023-04-24 16:41:26,656 - netlog - INFO - ==>>> epoch:99, batch index: 700, loss:0.05701424181461334
+2023-04-24 16:41:35,350 - netlog - INFO - ==>>> epoch:99, batch index: 750, loss:0.08347432315349579
+2023-04-24 16:41:43,891 - netlog - INFO - ==>>> epoch:99, batch index: 800, loss:0.06965791434049606
+2023-04-24 16:41:50,757 - netlog - INFO - Start Validation
+2023-04-24 16:43:20,430 - netlog - INFO - ==>>>test seen_acc:54.19020715630885 unseen_acc:38.68312757201646
+2023-04-24 16:43:20,477 - netlog - INFO - Saved model checkpoint at epoch 100 to model/model_mcb_a_1_epoch100.pt
+2023-04-24 16:44:56,278 - netlog - INFO - ==>>>test seen_acc:54.865034526051474 unseen_acc:38.27160493827161
